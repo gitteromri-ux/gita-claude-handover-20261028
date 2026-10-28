@@ -2,6 +2,12 @@
 
 Updated 28 October 2026. This is the first document the receiving Claude should read, followed by the complete handover parts. Omri is transferring operations immediately for a tool RFP; do not ask him to repeat the history or refer him back to the previous assistant.
 
+## Mandatory: independently retrieve the past month of Meta history
+
+**This handover does NOT include a complete one-month Meta Ads history. Claude must retrieve and check it directly before making campaign decisions or changes.** The existing record contains partial dated snapshots and recovered instructions, not a complete Meta activity/change log or daily performance export.
+
+Cover 28 September–28 October 2026 for French Atelier Capsules in its recorded operating account and for Longevity's masterclass and Blueprint campaigns. Check campaign/ad-set/ad changes, budget and status changes, targeting, creatives, destination URLs and daily performance. Record the account timezone, exact date boundaries and attribution settings; reconcile the results against this handover. Missing entries are not evidence that nothing changed. If authorization or retention prevents a complete check, report the precise gap and do not claim full-month verification.
+
 ## What transfers and what does not
 
 The linked files contain the recovered operational knowledge, historical decisions, account and project identities, source map, connection procedures, email handoffs and known failure boundaries. They do not contain secret credentials, inherit connector permissions, or magically repair invalid authentication. A receiving agent must use its own available connected session/vault grants.
@@ -345,16 +351,4 @@ The October 10 handover states that the eTeacher work mailbox `[email redacted f
 The October 18 original session also explicitly says the actual message to Chris could not be found in Gmail; its suggestion that it might have been sent via WhatsApp was speculation, not delivery evidence. Original October 18 correspondence record (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
 
 #### Sent-status ledger
-
-| Item | Evidence found | Safe status |
-|---|---|---|
-| Sandra package-approval message | September 24 original audit says **do not send** the proposed message and supplies a replacement hold message | Draft / proposed correspondence; not sent evidence. Original Sandra audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`) |
-| Chris final launch file, JM-U1–U4 | October 27 original session inspected a file called “Launch email for Chris”; Omri described it as the final file sent to Chris | Historical final handoff content established; direct email delivery receipt absent. Original final-file inspection (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`) |
-| October 18 12:18 UTC Chris launch-corrections message | Complete copy-paste message in original transcript | Prepared for Omri to send; not a sent Gmail receipt. Original Chris corrections (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) |
-| October 18 14:03 UTC Chris IIBS v4 message after speaking with Elaine | Complete final revised message in original transcript | Prepared copy-paste handoff, with import confirmation requested; no confirmed AC import/send. Original final Chris copy (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) |
-| October 22 16:00:16 UTC “Re: Updated board deck” to Keren | Gmail message `1a164577ad8481e0`, thread `1a164577ad8481e0`, `SENT` label, recipient `[email redacted for public handover]` | **Confirmed sent** in current Gmail read; included to distinguish genuine sent evidence from Chris drafts, not as a Chris handoff. Evidence: current Gmail receipt. |
-
-### Chronology: what changed and what remains unproven
-
-#### Baseline entering September 28: September 23–24 audit
 

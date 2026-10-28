@@ -1,3 +1,15 @@
+| Item | Evidence found | Safe status |
+|---|---|---|
+| Sandra package-approval message | September 24 original audit says **do not send** the proposed message and supplies a replacement hold message | Draft / proposed correspondence; not sent evidence. Original Sandra audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`) |
+| Chris final launch file, JM-U1–U4 | October 27 original session inspected a file called “Launch email for Chris”; Omri described it as the final file sent to Chris | Historical final handoff content established; direct email delivery receipt absent. Original final-file inspection (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`) |
+| October 18 12:18 UTC Chris launch-corrections message | Complete copy-paste message in original transcript | Prepared for Omri to send; not a sent Gmail receipt. Original Chris corrections (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) |
+| October 18 14:03 UTC Chris IIBS v4 message after speaking with Elaine | Complete final revised message in original transcript | Prepared copy-paste handoff, with import confirmation requested; no confirmed AC import/send. Original final Chris copy (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) |
+| October 22 16:00:16 UTC “Re: Updated board deck” to Keren | Gmail message `1a164577ad8481e0`, thread `1a164577ad8481e0`, `SENT` label, recipient `[email redacted for public handover]` | **Confirmed sent** in current Gmail read; included to distinguish genuine sent evidence from Chris drafts, not as a Chris handoff. Evidence: current Gmail receipt. |
+
+### Chronology: what changed and what remains unproven
+
+#### Baseline entering September 28: September 23–24 audit
+
 The original Sandra audit found 36 emails across two scenarios, Regular $49 and VIP $79—not a 60-email, three-scenario package—and found the Blueprint purchaser branch removed from that package. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
 
 All three checkout-recovery groups returned to the generic Julie `#pricing` section rather than restoring the selected package, session date, stage or existing order; the audit specifically flagged “Choose My Session Date,” “Finish My Booking,” and “Complete My Order” as promises the links did not fulfill. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
@@ -277,15 +289,4 @@ The task's **Julie paused** premise and **Blueprint restart intent today, 2026-1
 Historical business mapping: eTeacher Group business `1545475089051742`; French ecommerce dataset/pixel `4075596186030950`, NOT the separate “FA” dataset `4400286150281912`; LLA pixel `1440305917310328`. Do not cross-wire brands or infer business ownership from a similar display name. [French account/pixel inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/french-atelier-ecommerce-handover-2026-10-20.md), [LLA inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/HANDOVER-JULIE-BLUEPRINT-20260930.md)
 
 ### Campaign registry: known exact identifiers versus unresolved fields
-
-| Product/campaign | Meta campaign ID | Exact name / recovered campaign label | Last evidence; current status |
-|---|---|---|---|
-| Julie masterclass | `52668266203628` | `LGV_EN_PPC_ecomm-02_2026-09-02_#118149` | Exact name/ID in historical JSON; October 27 original report confirms activity in its sets. Current campaign status unknown. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json), October 27 (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`) |
-| Blueprint | `52663511211628` | `LGV_EN_PPC_ecomm-01_2026-09-02_#118148` | Exact name/ID recovered. Historical campaign ACTIVE is not restart permission or current state. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json) |
-| Capsules EN | Full Meta campaign ID not recovered | CRM campaign `#116980`; report display label `EN · CA 50+` | One main buyer-acquisition set `#108761`. Full canonical Meta campaign name unavailable, so the shortened report label is NOT represented as an exact name. Original launch (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`), October 26 report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) |
-| Capsules FR | Full Meta campaign ID not recovered | CRM campaign `#116939`; report display label `FR · US 50+` | Sets `#108758`, `#108757`, excluded `#108756`. Full canonical name unavailable. Original configuration (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`), October 26 report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) |
-
-**CRM suffixes are not Meta IDs.** Never pass `116980`, `116939`, `108761`, etc. as Graph entity IDs merely because the interface shows a hash label. Reconnect and list the v2 campaigns to recover canonical names and numeric Meta IDs before any subsequent operation.
-
-Historical campaign API timestamps: Julie created `2026-09-24T06:03:57+0000`, updated `2026-09-27T20:00:24+0000`; Blueprint created `2026-09-03T06:13:16+0000`, updated `2026-09-16T08:00:31+0000`. Both snapshot objectives were `OUTCOME_SALES`; neither selected campaign record supplies a campaign-level daily budget. These timestamps are source-object values, NOT fresh verification timestamps. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json)
 

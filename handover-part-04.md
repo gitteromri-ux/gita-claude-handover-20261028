@@ -1,3 +1,13 @@
+- **Repository:** [gitteromri-ux/club-italia](https://github.com/gitteromri-ux/club-italia); public/visibility not independently specified.
+- **Purpose:** Club Italia by eTeacher: live-online Italian language school (structural parity with FrenchAtelierLive)
+- **Branches inspected:** `main`, `master`, `v17-redesign`.
+- **Inventory:** 902 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `9c8f4201e92c7de4e2bfcc96a8ccd33d29135435`; 2026-09-10T10:15:11Z; Club Italia v1: full FrenchAtelierLive-parity site (24 core + 11 courses + 11 blog + 11 syllabus PDFs).
+- **Pages configuration:** https://gitteromri-ux.github.io/club-italia/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.nojekyll`, `.nudge`, `AGENT_B_REPORT.md`, `AGENT_SECONDARY_REPORT.md`, `BIAGIO_BUILD_REPORT.md`, `FA_PORT_REPORT.md`, `README.md`, `REAL_ASSETS_REPORT.md`, `V4_REBUILD_REPORT.md`, `__pycache__`, `_brand.py`, `_build_biagio_v2.py`, `_build_home.py`, `_build_new_pages.py`, `_build_secondary.py`, `_ci_build.py`, `_ci_build2.py`, `_ci_build3.py`, `_fa_port_build.py`, `_home17_build.py`, `_page_deepen.py`, `_page_events.py`, `_page_map.py`, `_page_rest.py`, `_partials`, `_sales_build.py`, `_v17_build.py`, `_v18_build.py`, `_v18_pages.py`, `_v18_reskin.py`, `_v19_build.py`, `_v19_legacy.py`, `_v20_build.py`, `_v21_course.py`, `_v21_fix.py`, `_v21_home.py`, `_v21_map.py`, `_v3_build.py`, `_v3_tier2.py`, `_v4`, `_v8_build.py`, `about.html`, `assets`, `biagio.html`, `blog.html`, `build.py`, `build2.py`, `build3.py`, `build_agent_c.py`, `build_agent_c2.py`, `build_agent_c3.py`, `build_fa.py`, `build_fa_courses.py`, `build_fa_indexes.py`, `build_svgs.py`, `build_tools`, `build_zoom_luxury.py`, `capsules.html`, `certifications.html`, `community.html`, `contact.html`, `courses.html`, `css`, `culture.html`, `curriculum.html`, `eteacher.html`, `events.html`, `fa`, `faq.html`, `gen_placeholders.py`, `how-it-works.html`, `index.html`, `js`, `map.html`, `method.html`, `pages`, `pdf`, `pricing.html`, `privacy.html`, `rasterize.py`, `research`, `sample-class.html`, `teachers.html`, `terms.html`, `tts_scripts`, `zoom-luxury-findings.md`.
+
+### gitteromri-ux/club-italia-preview
+
 - **Repository:** [gitteromri-ux/club-italia-preview](https://github.com/gitteromri-ux/club-italia-preview); public/visibility not independently specified.
 - **Purpose:** No repository description; use paths and project register.
 - **Branches inspected:** `main`.
@@ -387,14 +397,4 @@
 - **Top-level contents:** `.nojekyll`, `.vercel`, `129`, `checkout.html`, `compare`, `index.html`, `options`, `privacy.html`, `relaunch.css`, `relaunch.js`.
 
 ### gitteromri-ux/lla-course-checkout
-
-- **Repository:** [gitteromri-ux/lla-course-checkout](https://github.com/gitteromri-ux/lla-course-checkout); private.
-- **Purpose:** Longevity Life Academy e-commerce landing page + 3-step self-service checkout
-- **Branches inspected:** `add-agency-credit-footer`, `backup/20260927-1232-hero-wallet`, `backup/20260927-before-video`, `backup/20260927-blueprint-tracking`, `backup/20260928-attribution-before`, `backup/master-stale-base-2026-09-09`, `design/luxury-transform-v1`, `fbc-fix-20260924`, `fix/blueprint-attribution-20260928`, `fix/blueprint-receipts-20260928`, `fix/dates-and-emq`, `fix/hero-wallet-20260927`, `fix/mobile-sheet-20260923`, `fix/support-20261007`, `main`, `master`, `r1-mobile-fix`, `v58-offer-pillars-logo-syllabus`.
-- **Inventory:** 17,646 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `6c27b2fff1d9bcaeeb8fb8687470ecc87b9b2de0`; 2026-10-27T22:37:39Z; Show Pacific time on mobile enrollment class cards.
-- **Pages configuration:** Not returned in collected evidence; hosting may be elsewhere.
-- **Top-level contents:** `.gitignore`, `.well-known`, `ECOM_RESTRUCTURE_V3_NOTES.md`, `FUNNEL_BRIEF.md`, `HANDOVER.md`, `LIGHT_REDESIGN_V2_NOTES.md`, `PDP_REBUILD_REPORT.md`, `ROUND14_CHECKLIST.md`, `_check_institution.mjs`, `_check_kicker.mjs`, `_check_nav.mjs`, `_check_overflow.py`, `_dbg.py`, `_dtfull.py`, `_ecom_restructure.py`, `_edit_content.py`, `_edit_graphics.py`, `_facshot.py`, `_find_svg.py`, `_fl.py`, `_gap.py`, `_h.py`, `_h2.py`, `_headers`, `_hero_shot.mjs`, `_heroshot.py`, `_mob.py`, `_mobfull.py`, `_ref.py`, `_sec.py`, `_shoot5.py`, `_shoot_checkpoint.py`, `_shoot_mobile.py`, `_shoot_nav.py`, `_shot_early.mjs`, `_shot_hero_check.py`, `_shot_leadgen.py`, `_shot_learn2.py`, `_shot_learn3.py`, `_shot_mech.py`, `_shot_mobile_hero.py`, `_shot_qa.mjs`, `_shot_section.py`, `_v13.py`, `assets`, `capi-relay`, `checkout.html`, `dist`, `hero-wallet-20260927`, `index.html`, `index.html.bak-v10`, `index.html.bak-v11`, `index.html.bak-v12`, `index.html.bak-v13`, `index.html.bak-v5`, `index.html.bak-v8`, `privacy.html`, `robots.txt`, `sedQBzbHm`, `sedk1N5uX`, `shots-checkout`, `shots-d`, `shots-ecom`, `shots-light`, `shots-m`, `shots-mobile`, `shots-nav`, `shots-pdp`, `shots-redesign`, `shots-v4`, `shots-v5`, `shots-v6`, `shots-v7`, `sitemap.xml`, `tools`, `tracking-receipts-20260928`, `tracking-recovery-20260927`, `v08041829.html`, `v08042158.html`, `v08042313.html`, `v08042315.html`, `v08042335.html`, `v08042347.html`, `v08050020.html`, `v08050033.html`, `v08050056.html`, `v08101020.html`, `video-repair-20260927`, `worker`, `wrangler.static.toml`.
-
-### gitteromri-ux/lla-gal-september-2026
 

@@ -2,6 +2,12 @@
 
 Updated 28 October 2026. This is the first document the receiving Claude should read, followed by the complete handover parts. Omri is transferring operations immediately for a tool RFP; do not ask him to repeat the history or refer him back to the previous assistant.
 
+## Mandatory: independently retrieve the past month of Meta history
+
+**This handover does NOT include a complete one-month Meta Ads history. Claude must retrieve and check it directly before making campaign decisions or changes.** The existing record contains partial dated snapshots and recovered instructions, not a complete Meta activity/change log or daily performance export.
+
+Cover 28 September–28 October 2026 for French Atelier Capsules in its recorded operating account and for Longevity's masterclass and Blueprint campaigns. Check campaign/ad-set/ad changes, budget and status changes, targeting, creatives, destination URLs and daily performance. Record the account timezone, exact date boundaries and attribution settings; reconcile the results against this handover. Missing entries are not evidence that nothing changed. If authorization or retention prevents a complete check, report the precise gap and do not claim full-month verification.
+
 ## What transfers and what does not
 
 The linked files contain the recovered operational knowledge, historical decisions, account and project identities, source map, connection procedures, email handoffs and known failure boundaries. They do not contain secret credentials, inherit connector permissions, or magically repair invalid authentication. A receiving agent must use its own available connected session/vault grants.

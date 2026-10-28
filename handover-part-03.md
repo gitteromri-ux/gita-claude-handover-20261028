@@ -1,3 +1,14 @@
+| Product/campaign | Meta campaign ID | Exact name / recovered campaign label | Last evidence; current status |
+|---|---|---|---|
+| Julie masterclass | `52668266203628` | `LGV_EN_PPC_ecomm-02_2026-09-02_#118149` | Exact name/ID in historical JSON; October 27 original report confirms activity in its sets. Current campaign status unknown. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json), October 27 (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`) |
+| Blueprint | `52663511211628` | `LGV_EN_PPC_ecomm-01_2026-09-02_#118148` | Exact name/ID recovered. Historical campaign ACTIVE is not restart permission or current state. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json) |
+| Capsules EN | Full Meta campaign ID not recovered | CRM campaign `#116980`; report display label `EN · CA 50+` | One main buyer-acquisition set `#108761`. Full canonical Meta campaign name unavailable, so the shortened report label is NOT represented as an exact name. Original launch (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`), October 26 report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) |
+| Capsules FR | Full Meta campaign ID not recovered | CRM campaign `#116939`; report display label `FR · US 50+` | Sets `#108758`, `#108757`, excluded `#108756`. Full canonical name unavailable. Original configuration (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`), October 26 report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) |
+
+**CRM suffixes are not Meta IDs.** Never pass `116980`, `116939`, `108761`, etc. as Graph entity IDs merely because the interface shows a hash label. Reconnect and list the v2 campaigns to recover canonical names and numeric Meta IDs before any subsequent operation.
+
+Historical campaign API timestamps: Julie created `2026-09-24T06:03:57+0000`, updated `2026-09-27T20:00:24+0000`; Blueprint created `2026-09-03T06:13:16+0000`, updated `2026-09-16T08:00:31+0000`. Both snapshot objectives were `OUTCOME_SALES`; neither selected campaign record supplies a campaign-level daily budget. These timestamps are source-object values, NOT fresh verification timestamps. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json)
+
 ### Last evidenced configurations: USD, not today's verified state
 
 #### Capsules
@@ -257,14 +268,4 @@ File counts include multiple inspected branches where present. A Git tree listin
 - **Top-level contents:** `assets`, `index.html`, `privacy.html`, `support`.
 
 ### gitteromri-ux/club-italia
-
-- **Repository:** [gitteromri-ux/club-italia](https://github.com/gitteromri-ux/club-italia); public/visibility not independently specified.
-- **Purpose:** Club Italia by eTeacher: live-online Italian language school (structural parity with FrenchAtelierLive)
-- **Branches inspected:** `main`, `master`, `v17-redesign`.
-- **Inventory:** 902 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `9c8f4201e92c7de4e2bfcc96a8ccd33d29135435`; 2026-09-10T10:15:11Z; Club Italia v1: full FrenchAtelierLive-parity site (24 core + 11 courses + 11 blog + 11 syllabus PDFs).
-- **Pages configuration:** https://gitteromri-ux.github.io/club-italia/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `.nudge`, `AGENT_B_REPORT.md`, `AGENT_SECONDARY_REPORT.md`, `BIAGIO_BUILD_REPORT.md`, `FA_PORT_REPORT.md`, `README.md`, `REAL_ASSETS_REPORT.md`, `V4_REBUILD_REPORT.md`, `__pycache__`, `_brand.py`, `_build_biagio_v2.py`, `_build_home.py`, `_build_new_pages.py`, `_build_secondary.py`, `_ci_build.py`, `_ci_build2.py`, `_ci_build3.py`, `_fa_port_build.py`, `_home17_build.py`, `_page_deepen.py`, `_page_events.py`, `_page_map.py`, `_page_rest.py`, `_partials`, `_sales_build.py`, `_v17_build.py`, `_v18_build.py`, `_v18_pages.py`, `_v18_reskin.py`, `_v19_build.py`, `_v19_legacy.py`, `_v20_build.py`, `_v21_course.py`, `_v21_fix.py`, `_v21_home.py`, `_v21_map.py`, `_v3_build.py`, `_v3_tier2.py`, `_v4`, `_v8_build.py`, `about.html`, `assets`, `biagio.html`, `blog.html`, `build.py`, `build2.py`, `build3.py`, `build_agent_c.py`, `build_agent_c2.py`, `build_agent_c3.py`, `build_fa.py`, `build_fa_courses.py`, `build_fa_indexes.py`, `build_svgs.py`, `build_tools`, `build_zoom_luxury.py`, `capsules.html`, `certifications.html`, `community.html`, `contact.html`, `courses.html`, `css`, `culture.html`, `curriculum.html`, `eteacher.html`, `events.html`, `fa`, `faq.html`, `gen_placeholders.py`, `how-it-works.html`, `index.html`, `js`, `map.html`, `method.html`, `pages`, `pdf`, `pricing.html`, `privacy.html`, `rasterize.py`, `research`, `sample-class.html`, `teachers.html`, `terms.html`, `tts_scripts`, `zoom-luxury-findings.md`.
-
-### gitteromri-ux/club-italia-preview
 
