@@ -1,3 +1,93 @@
+- **Repository:** [gitteromri-ux/club-italia-preview](https://github.com/gitteromri-ux/club-italia-preview); public/visibility not independently specified.
+- **Purpose:** No repository description; use paths and project register.
+- **Branches inspected:** `main`.
+- **Inventory:** 410 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `e1b9a8bb8bf0bf7c446ddc03815a68bd5fde8248`; 2026-10-11T21:11:43Z; v26.
+- **Pages configuration:** https://gitteromri-ux.github.io/club-italia-preview/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.nojekyll`, `.nudge`, `AGENT_B_REPORT.md`, `AGENT_SECONDARY_REPORT.md`, `BIAGIO_BUILD_REPORT.md`, `FA_PORT_REPORT.md`, `README.md`, `REAL_ASSETS_REPORT.md`, `V4_REBUILD_REPORT.md`, `__pycache__`, `_brand.py`, `_build_biagio_v2.py`, `_build_home.py`, `_build_new_pages.py`, `_build_secondary.py`, `_ci_build.py`, `_ci_build2.py`, `_ci_build3.py`, `_fa_port_build.py`, `_home17_build.py`, `_page_deepen.py`, `_page_events.py`, `_page_map.py`, `_page_rest.py`, `_partials`, `_sales_build.py`, `_v17_build.py`, `_v18_build.py`, `_v18_pages.py`, `_v18_reskin.py`, `_v19_build.py`, `_v19_legacy.py`, `_v20_build.py`, `_v21_course.py`, `_v21_fix.py`, `_v21_home.py`, `_v21_map.py`, `_v3_build.py`, `_v3_tier2.py`, `_v4`, `_v8_build.py`, `about.html`, `assets`, `biagio.html`, `blog.html`, `build.py`, `build2.py`, `build3.py`, `build_agent_c.py`, `build_agent_c2.py`, `build_agent_c3.py`, `build_fa.py`, `build_fa_courses.py`, `build_fa_indexes.py`, `build_svgs.py`, `build_tools`, `build_zoom_luxury.py`, `capsules.html`, `certifications.html`, `community.html`, `contact.html`, `courses.html`, `css`, `culture.html`, `curriculum.html`, `eteacher.html`, `events.html`, `fa`, `faq.html`, `gen_placeholders.py`, `how-it-works.html`, `index.html`, `js`, `map.html`, `method.html`, `pages`, `pdf`, `pricing.html`, `privacy.html`, `rasterize.py`, `research`, `sample-class.html`, `teachers.html`, `terms.html`, `tts_scripts`, `zoom-luxury-findings.md`.
+
+### gitteromri-ux/cultural-capsules-pack3
+
+- **Repository:** [gitteromri-ux/cultural-capsules-pack3](https://github.com/gitteromri-ux/cultural-capsules-pack3); public/visibility not independently specified.
+- **Purpose:** French Atelier: Cultural Capsules Pack 3: Cinema & Music (10 decks)
+- **Branches inspected:** `main`.
+- **Inventory:** 294 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `3636e7fbbc4e9e783f93a679cbb1fb276a24ca0a`; 2026-10-08T10:06:35Z; Audit pass: abbreviation-safe sentence cuts, 8 hand-written short blocks, hook captions clear of illustration; 262 slides checked.
+- **Pages configuration:** https://gitteromri-ux.github.io/cultural-capsules-pack3/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.nojekyll`, `Cultural_Capsules_Visual_Canvas_His_vs_Ours.pdf`, `README.md`, `decks`, `index.html`, `preview`.
+
+### gitteromri-ux/fa-capsules-launch
+
+- **Repository:** [gitteromri-ux/fa-capsules-launch](https://github.com/gitteromri-ux/fa-capsules-launch); public/visibility not independently specified.
+- **Purpose:** No repository description; use paths and project register.
+- **Branches inspected:** `bridge`, `main`.
+- **Inventory:** 1,361 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `708a86f3be5754d475291d5665022d53be09a329`; 2026-10-22T08:02:37Z; Video kit: New to upload, 22 October section with the three new UGC cuts.
+- **Pages configuration:** https://gitteromri-ux.github.io/fa-capsules-launch/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.github`, `.nojekyll`, `README.md`, `ad-board`, `app.js`, `banners`, `bridge`, `catalog.json`, `downloads`, `emails`, `index.html`, `media`, `meta-banners`, `styles.css`, `video-kit`, `website`.
+
+### gitteromri-ux/fa-capsules-review-public
+
+- **Repository:** [gitteromri-ux/fa-capsules-review-public](https://github.com/gitteromri-ux/fa-capsules-review-public); public/visibility not independently specified.
+- **Purpose:** No repository description; use paths and project register.
+- **Branches inspected:** `main`.
+- **Inventory:** 352 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `39451a8b1d51745c9d8b1af3502739b3738eedd2`; 2026-10-19T08:44:25Z; Publish Culture Capsules review with visible programmes and revised design.
+- **Pages configuration:** https://gitteromri-ux.github.io/fa-capsules-review-public/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.gitignore`, `.nojekyll`, `.vercelignore`, `_ext`, `about.html`, `acadomia.html`, `assets`, `blog`, `blog.html`, `capsules.html`, `cdn-cgi`, `contact.html`, `courses`, `courses.html`, `css`, `culture.html`, `downloads`, `faq.html`, `how-it-works.html`, `index.html`, `js`, `juliane.html`, `map.html`, `method.html`, `pricing.html`, `privacy.html`, `teachers.html`, `terms.html`, `vercel.json`.
+
+### gitteromri-ux/final-versions
+
+- **Repository:** [gitteromri-ux/final-versions](https://github.com/gitteromri-ux/final-versions); public/visibility not independently specified.
+- **Purpose:** Julie Masterclass UGC Ads · FINAL VERSIONS
+- **Branches inspected:** `claude/audits-2026-10-01`, `claude/ugc-fixes`, `main`.
+- **Inventory:** 529 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `7b93fa71165ab690486476fb31c517ceb28b50a9`; 2026-10-01T13:24:16Z; deploy 2026-10-01T13:24Z: 2 videos.
+- **Pages configuration:** https://gitteromri-ux.github.io/final-versions/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.gitignore`, `.nojekyll`, `AUDIT.md`, `BRIEF.md`, `HANDOVER-TO-CLAUDE.md`, `META-UPLOAD-SPEC.md`, `NOTE-formats-caption-highlight-bug.md`, `PRESS-SOURCES.md`, `REPORT-durations.md`, `REPORT-formats.md`, `REPORT-site.md`, `RESPONSE-v10.md`, `RESPONSE-v11.md`, `RESPONSE-v12.md`, `_shot_index_desktop.jpg`, `_shot_index_mobile.jpg`, `_shot_video_mobile.jpg`, `ad1-man42__16x9__60.html`, `ad1-man42__1x1__60.html`, `ad1-man42__4x5__60.html`, `ad1-man42__9x16__45.html`, `ad1-man42__9x16__60.html`, `ad1-man42__9x16__75.html`, `ad2-woman42__16x9__60.html`, `ad2-woman42__1x1__60.html`, `ad2-woman42__4x5__60.html`, `ad2-woman42__9x16__45.html`, `ad2-woman42__9x16__60.html`, `ad2-woman42__9x16__75.html`, `ad3-woman51__16x9__60.html`, `ad3-woman51__1x1__60.html`, `ad3-woman51__4x5__60.html`, `ad3-woman51__9x16__45.html`, `ad3-woman51__9x16__60.html`, `ad3-woman51__9x16__75.html`, `ad5-woman46__1x1__75.html`, `ad5-woman46__9x16__75.html`, `audit`, `audit_frames`, `audits`, `build_site.py`, `claude-fixes`, `claude_audit_docx.txt`, `deploy.sh`, `index.html`, `manifest.json`, `posters`, `site-audit`, `videos`.
+
+### gitteromri-ux/french-atelier
+
+- **Repository:** [gitteromri-ux/french-atelier](https://github.com/gitteromri-ux/french-atelier); public/visibility not independently specified.
+- **Purpose:** The French Atelier by Acadomia: world-class French e-learning website
+- **Branches inspected:** `main`, `review/teachers-7-grid`, `staging-capsules-light`, `staging-checkout`, `staging-checkout-ecom-dark`.
+- **Inventory:** 2,504 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `e4b79e052b3960d65b79720a96df197b47305ff8`; 2026-10-26T10:11:50Z; Student reuse keyed on the same verified buyer identity as the order signature.
+- **Pages configuration:** https://www.frenchatelierlive.com/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.gitignore`, `.nojekyll`, `.vercelignore`, `CNAME`, `_apply_nav.py`, `_audit_assets.py`, `_nav_fix.py`, `_nav_fix2.py`, `_nav_transform.py`, `_nocache.py`, `_partials`, `_restructure.py`, `about.html`, `acadomia.html`, `assets`, `blog`, `blog.html`, `capsules.html`, `checkout.html`, `contact.html`, `courses`, `courses.html`, `crush_assets.sh`, `crush_images.py`, `css`, `culture-capsules-enroll.html`, `culture-capsules.html`, `culture.html`, `data`, `docs`, `downloads`, `enroll-checkout.html`, `faq.html`, `french-course-enroll.html`, `how-it-works.html`, `index.html`, `js`, `juliane.html`, `map.html`, `method.html`, `pricing.html`, `privacy.html`, `qa_clusters.js`, `qa_rail.js`, `recompress_hq.py`, `robots.txt`, `sitemap.xml`, `teachers.html`, `terms.html`, `vercel.json`.
+
+### gitteromri-ux/french-atelier-acq-drip
+
+- **Repository:** [gitteromri-ux/french-atelier-acq-drip](https://github.com/gitteromri-ux/french-atelier-acq-drip); public/visibility not independently specified.
+- **Purpose:** French Atelier - ACQ Drip Series Stage 3: 12 emails, 12 landing pages, quiz, promo claim page, 36 exact-size images
+- **Branches inspected:** `main`.
+- **Inventory:** 72 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `2828c47615a0fea96291ae069a69b8064a976c79`; 2026-08-05T14:34:48Z; Match email chrome to last-delivery onboarding spec: 700px main, 768px breakpoint, dual hero imgs, ref CTA wrapper.
+- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-acq-drip/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `assets`, `emails`, `index.html`, `landing-pages`, `promo`, `quiz`.
+
+### gitteromri-ux/french-atelier-capsules
+
+- **Repository:** [gitteromri-ux/french-atelier-capsules](https://github.com/gitteromri-ux/french-atelier-capsules); public/visibility not independently specified.
+- **Purpose:** No repository description; use paths and project register.
+- **Branches inspected:** `main`.
+- **Inventory:** 128 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `24fe6c02d6cdacb291159d72afd5d62bd1cab952`; 2026-10-23T01:40:42Z; Preview: reword comment in slider JS.
+- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-capsules/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.nojekyll`, `assets`, `culture-capsules-mobile-preview-20261023`, `index.html`.
+
+### gitteromri-ux/french-atelier-jv-deck
+
+- **Repository:** [gitteromri-ux/french-atelier-jv-deck](https://github.com/gitteromri-ux/french-atelier-jv-deck); public/visibility not independently specified.
+- **Purpose:** No repository description; use paths and project register.
+- **Branches inspected:** `main`.
+- **Inventory:** 73 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `67a0c2921c283ae3fe17e2a39e586bf888935487`; 2026-10-07T08:10:12Z; Capsule labels readable; 3 large readable emails.
+- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-jv-deck/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `.nojekyll`, `French-Atelier-Initiatives-Oct-2026.pptx`, `README.md`, `img`, `index.html`, `media`.
+
+### gitteromri-ux/french-atelier-lifecycle-emails
+
 - **Repository:** [gitteromri-ux/french-atelier-lifecycle-emails](https://github.com/gitteromri-ux/french-atelier-lifecycle-emails); public/visibility not independently specified.
 - **Purpose:** No repository description; use paths and project register.
 - **Branches inspected:** `master`.
@@ -307,114 +397,4 @@
 - **Top-level contents:** `.gitignore`, `.well-known`, `ECOM_RESTRUCTURE_V3_NOTES.md`, `FUNNEL_BRIEF.md`, `HANDOVER.md`, `LIGHT_REDESIGN_V2_NOTES.md`, `PDP_REBUILD_REPORT.md`, `ROUND14_CHECKLIST.md`, `_check_institution.mjs`, `_check_kicker.mjs`, `_check_nav.mjs`, `_check_overflow.py`, `_dbg.py`, `_dtfull.py`, `_ecom_restructure.py`, `_edit_content.py`, `_edit_graphics.py`, `_facshot.py`, `_find_svg.py`, `_fl.py`, `_gap.py`, `_h.py`, `_h2.py`, `_headers`, `_hero_shot.mjs`, `_heroshot.py`, `_mob.py`, `_mobfull.py`, `_ref.py`, `_sec.py`, `_shoot5.py`, `_shoot_checkpoint.py`, `_shoot_mobile.py`, `_shoot_nav.py`, `_shot_early.mjs`, `_shot_hero_check.py`, `_shot_leadgen.py`, `_shot_learn2.py`, `_shot_learn3.py`, `_shot_mech.py`, `_shot_mobile_hero.py`, `_shot_qa.mjs`, `_shot_section.py`, `_v13.py`, `assets`, `capi-relay`, `checkout.html`, `dist`, `hero-wallet-20260927`, `index.html`, `index.html.bak-v10`, `index.html.bak-v11`, `index.html.bak-v12`, `index.html.bak-v13`, `index.html.bak-v5`, `index.html.bak-v8`, `privacy.html`, `robots.txt`, `sedQBzbHm`, `sedk1N5uX`, `shots-checkout`, `shots-d`, `shots-ecom`, `shots-light`, `shots-m`, `shots-mobile`, `shots-nav`, `shots-pdp`, `shots-redesign`, `shots-v4`, `shots-v5`, `shots-v6`, `shots-v7`, `sitemap.xml`, `tools`, `tracking-receipts-20260928`, `tracking-recovery-20260927`, `v08041829.html`, `v08042158.html`, `v08042313.html`, `v08042315.html`, `v08042335.html`, `v08042347.html`, `v08050020.html`, `v08050033.html`, `v08050056.html`, `v08101020.html`, `video-repair-20260927`, `worker`, `wrangler.static.toml`.
 
 ### gitteromri-ux/lla-gal-september-2026
-
-- **Repository:** [gitteromri-ux/lla-gal-september-2026](https://github.com/gitteromri-ux/lla-gal-september-2026); public/visibility not independently specified.
-- **Purpose:** LLA GAL board report September 2026 (Excel + PDF + sources)
-- **Branches inspected:** `main`.
-- **Inventory:** 10 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `4461984edb9b29931712dec7d6c207f77500c913`; 2026-10-12T09:33:30Z; Restore three-effort view (Leads camp · LLA/ATC camp · Blueprint e-comm) with spend split and results, as in 3f29b1e.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-gal-september-2026/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `Longevity-GAL-September-2026.pdf`, `Longevity-GAL-September-2026.xlsx`, `README.md`, `build_gal.py`, `index.html`, `make_html.py`, `sources`.
-
-### gitteromri-ux/lla-growth-engine
-
-- **Repository:** [gitteromri-ux/lla-growth-engine](https://github.com/gitteromri-ux/lla-growth-engine); public/visibility not independently specified.
-- **Purpose:** LLA Growth Engine: full-funnel ecommerce marketing system for The Longevity Blueprint
-- **Branches inspected:** `main`.
-- **Inventory:** 46 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `34ad31fc0227b6a95a84406edbe3ef90a00e3a3a`; 2026-08-04T21:57:07Z; Logo legibility on dark grounds.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-growth-engine/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `.nojekyll`, `app.js`, `assets`, `build`, `index.html`, `styles.css`.
-
-### gitteromri-ux/lla-handoff-pack
-
-- **Repository:** [gitteromri-ux/lla-handoff-pack](https://github.com/gitteromri-ux/lla-handoff-pack); public/visibility not independently specified.
-- **Purpose:** Longevity Life Academy - ecommerce and Meta media handoff pack
-- **Branches inspected:** `master`.
-- **Inventory:** 2 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `abbae0ed1467c402c5f77d1f4068c05ac42af3c5`; 2026-09-02T05:38:44Z; Type sizing: no text below 15px on mobile.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-handoff-pack/; build type `legacy`; source `{'branch': 'master', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `index.html`.
-
-### gitteromri-ux/lla-julie-masterclass
-
-- **Repository:** [gitteromri-ux/lla-julie-masterclass](https://github.com/gitteromri-ux/lla-julie-masterclass); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 74 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `a32c435e94dab8778e330b9d6fbfd209f15e5dff`; 2026-09-02T11:01:14Z; Remove reveal fade from Julie and Press sheads/slider.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-julie-masterclass/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `assets`, `index.html`.
-
-### gitteromri-ux/lla-julie-ugc-ads
-
-- **Repository:** [gitteromri-ux/lla-julie-ugc-ads](https://github.com/gitteromri-ux/lla-julie-ugc-ads); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `bridge`, `master`.
-- **Inventory:** 420 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `e65bc5eddb88fab30c2bc3a099e6e213a9c8d086`; 2026-10-19T09:39:26Z; Blueprint UGC: two presenters, 9:16 and 1:1, kit page.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-julie-ugc-ads/; build type `legacy`; source `{'branch': 'master', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.github`, `ad1-man42.html`, `ad2-woman42.html`, `ads.json`, `blueprint`, `bridge`, `build_site.py`, `claude-fixes`, `ending`, `film-full-masterclass-edit.html`, `gen`, `hookbuild`, `index.html`, `lla-logo.png`, `posters`, `v34`, `videos`.
-
-### gitteromri-ux/lla-marketing-dashboard
-
-- **Repository:** [gitteromri-ux/lla-marketing-dashboard](https://github.com/gitteromri-ux/lla-marketing-dashboard); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 116 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `19bce8be45b499a63b02e4d0c3545fcd97b31052`; 2026-10-07T04:28:12Z; slides: full-sentence UGC hooks + current Meta status (7 Oct).
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-marketing-dashboard/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `ad_thumb_urls.json`, `adsets.html`, `app.js`, `assets`, `campaign.js`, `campaign_live.json`, `creatives_live.json`, `data.js`, `index.html`, `julie-banners`, `masterclass-adsets.html`, `styles.css`.
-
-### gitteromri-ux/lla-masterclass-assets
-
-- **Repository:** [gitteromri-ux/lla-masterclass-assets](https://github.com/gitteromri-ux/lla-masterclass-assets); public/visibility not independently specified.
-- **Purpose:** Longevity Life Academy Masterclass: final creative assets
-- **Branches inspected:** `main`.
-- **Inventory:** 172 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `ff002be9e921bad44c0ecfe6bb73bcef0c8ed8af`; 2026-10-27T09:59:37Z; final hierarchy, tonight only, 3 bullets, tag list.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-masterclass-assets/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `README.md`, `boards`, `extracted`, `full-film-v3`, `index.html`, `julie-film-masterclass-edit.html`, `julie-film-v4`, `masterclass-fold-mockup-final.png`, `originals-fold-mockup.jpg`, `originals-phones-mockup.jpg`, `parts`, `phones-mockup-final.png`, `previous-mockups`, `sizes`, `social-share`, `video`, `zoom-40-ppl-logos.jpg`, `zoom-meeting-ui-chat.jpg`.
-
-### gitteromri-ux/lla-masterclass-attendees
-
-- **Repository:** [gitteromri-ux/lla-masterclass-attendees](https://github.com/gitteromri-ux/lla-masterclass-attendees); public/visibility not independently specified.
-- **Purpose:** Longevity Blueprint offer page for Julie Masterclass attendees (link-only, noindex). Clone of pages.dev funnel; production untouched.
-- **Branches inspected:** `main`.
-- **Inventory:** 251 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `5717b29896387d8ba3227f6178b4fec55c8f62cf`; 2026-10-27T05:50:22Z; Version source assets so returning attendees receive the final design.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-masterclass-attendees/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.well-known`, `attendee-form.js`, `attendee-layout.css`, `blueprint`, `exact-attendee-copy.js`, `exact-source-design.css`, `index.html`, `learning-first.css`, `learning-first.js`, `lp`, `robots.txt`.
-
-### gitteromri-ux/lla-masterclass-emails
-
-- **Repository:** [gitteromri-ux/lla-masterclass-emails](https://github.com/gitteromri-ux/lla-masterclass-emails); public/visibility not independently specified.
-- **Purpose:** LLA Julie Masterclass lifecycle emails
-- **Branches inspected:** `main`.
-- **Inventory:** 47 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `18b89c487feac5389fb2d07a48844a2c4103cffd`; 2026-10-22T12:45:53Z; No-show: remove all no-replay claims (X1, X3).
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-masterclass-emails/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `assets`, `emails`, `index.html`, `preview.html`.
-
-### gitteromri-ux/lla-masterclass-emails-3tier
-
-- **Repository:** [gitteromri-ux/lla-masterclass-emails-3tier](https://github.com/gitteromri-ux/lla-masterclass-emails-3tier); public/visibility not independently specified.
-- **Purpose:** LLA Julie Masterclass lifecycle emails, 3-tier edition (Standard 9 / VIP 9 / Full Course + VIP free)
-- **Branches inspected:** `main`.
-- **Inventory:** 109 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `098fbb448ee3233d9ab60f619989889cd7d9003a`; 2026-09-24T13:25:51Z; journeys: segment highlight offset uses sticky bar height.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `FACTS.md`, `assets`, `emails`, `index.html`, `journeys.html`, `launch-email-for-chris`.
-
-### gitteromri-ux/lla-masterclass-syllabus
-
-- **Repository:** [gitteromri-ux/lla-masterclass-syllabus](https://github.com/gitteromri-ux/lla-masterclass-syllabus); public/visibility not independently specified.
-- **Purpose:** The Longevity Masterclass one-hour syllabus, prepared for Julie Gibson Clark
-- **Branches inspected:** `main`.
-- **Inventory:** 1,995 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `ae91763f703e1edd012826af40f276046f0c272e`; 2026-10-27T22:42:31Z; n25 fork: headlines re-composited opaque last, real asphalt texture, clock brighter; z20/y33.
-- **Pages configuration:** https://gitteromri-ux.github.io/lla-masterclass-syllabus/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `backup-deck`, `deck`, `deck-review`, `deck2`, `index.html`, `masterclass-deck`, `refs`, `script`, `slide-canvas`.
-
-### gitteromri-ux/lla-s09-s10-downloads
 

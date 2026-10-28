@@ -1,3 +1,142 @@
+# Immediate operator takeover: connections, infrastructure and acceptance
+
+Updated 28 October 2026. This is the first document the receiving Claude should read, followed by the complete handover parts. Omri is transferring operations immediately for a tool RFP; do not ask him to repeat the history or refer him back to the previous assistant.
+
+## What transfers and what does not
+
+The linked files contain the recovered operational knowledge, historical decisions, account and project identities, source map, connection procedures, email handoffs and known failure boundaries. They do not contain secret credentials, inherit connector permissions, or magically repair invalid authentication. A receiving agent must use its own available connected session/vault grants.
+
+Live-access failure is a documented state to take over, not a reason to discard the handover. Historical API snapshots remain dated. Do not call the transfer an exhaustive original-transcript export or every live service verified: neither was achieved.
+
+## Receiving Claude's first actions
+
+1. Read this addendum and `handover-part-01.md`, then all remaining handover parts in sequence. Use the index's raw text links; opening the index alone is not ingestion of its linked content.
+2. Discover available tools for GitHub, Meta, ActiveCampaign, Gmail, Drive, Cloudflare and Vercel. The source IDs and commands below are the recorded entry points, not guaranteed schemas in a new session.
+3. Run read-only account/source checks using existing grants. Do not create production contacts/orders, activate campaigns, upload customer audiences, change deployments or send messages.
+4. Report operational readiness per service as connected and read-verified, authorization blocked, configuration failed, or historical-only. Preserve returned timestamps, IDs and exact error messages.
+5. Prioritize the two Capsules ecommerce campaigns, the Julie masterclass ecommerce campaign and Blueprint ecommerce restart preparation. Do not blend lead-generation reporting into these scopes.
+6. Use the repository TSV to locate exact files and branches. Private upstream repositories may need authenticated `gh`, but their architecture and recovered operational content are embedded in this public handover.
+
+## Connection matrix and concrete entry points
+
+### GitHub
+
+Recorded owner `gitteromri-ux`; production organization `Longevity-Academy`. Authenticated `gh` and `git` were available to the originating Perplexity session. Prefer those CLIs to connector writes. Test a known repository read, not `gh auth status`, credential inspection or login.
+
+```bash
+gh repo view gitteromri-ux/lla-course-checkout --json nameWithOwner,defaultBranchRef,isPrivate,url
+gh api repos/Longevity-Academy/julie-masterclass/commits?per_page=1
+gh api repos/Longevity-Academy/julie-masterclass/pages
+gh run list --repo Longevity-Academy/julie-masterclass --limit 5
+```
+
+Do not infer source parity from a successful repository read. A later authorized commit must preserve existing author/committer configuration; check it before writing. Personal mirrors, production organization repos, GitHub Pages branch selection and Cloudflare `dist/` deployment selection are documented separately.
+
+### Meta Ads
+
+Recorded connector source `meta_ads`; authenticated CLI name `meta`. Load `meta-ads-best-practices`, and `meta-ads-cli` before CLI work. The originating session's live read failed with authentication error 190; discovery independently reported DISCONNECTED.
+
+Receiving-session recovery: discover `Meta Ads`, use the canonical returned connector ID, and request reauthorization through `connect_connector` only when required. Wait for authorization completion before dependent reads. Never obtain a token from source files or ask for one in ordinary chat.
+
+```bash
+meta --output json ads adaccount list
+meta --output json ads --ad-account-id act_1358975119724184 campaign list
+meta --output json ads --ad-account-id act_1358975119724184 adset list
+meta --output json ads --ad-account-id act_1459085242361281 campaign list
+meta --output json ads --ad-account-id act_1459085242361281 adset list
+```
+
+- Capsules operating account: `French Atelier v2`, `act_1358975119724184`; older distinct French account `act_1188017096669618`.
+- Longevity account: `act_1459085242361281`.
+- Julie campaign: `52668266203628`, `LGV_EN_PPC_ecomm-02_2026-09-02_#118149`.
+- Blueprint campaign: `52663511211628`, `LGV_EN_PPC_ecomm-01_2026-09-02_#118148`.
+- Capsules sets: `120251212250640546` / CRM `108761`; `120251212251230546` / CRM `108758`; `120251212251670546` / CRM `108757`.
+- Full Capsules Meta campaign IDs must be obtained from returned ancestry. CRM campaign labels `116980` and `116939` are not Graph campaign IDs.
+- LLA pixel: `1440305917310328`; Capsules ecommerce pixel: `4075596186030950`. Do not substitute the separate FA dataset `4400286150281912`.
+
+The last recorded Julie action paused Set 03 only; requested budget changes were not applied. This is not a current campaign-wide pause receipt. The historical tables in the main document provide exact dates and amounts.
+
+### ActiveCampaign and CRM deals
+
+Recorded connector source `activecampaign__pipedream`; account API host `eteachergroup.api-us1.com`; authentication header name `Api-Token`. Header value is intentionally excluded. The actual list-campaigns call returned `TypeError: Invalid URL`; the source evidence does not independently establish the root cause.
+
+Discover the connector and inspect the real schemas for campaign listing, deal search/get, contact get and relevant field reads. Inspect the nonsecret base/account URL configuration through supported connection setup; reconnect if needed. A historical browser/header route and project-specific saved-access route existed, but do not extract secrets from Vercel or source code to recreate them.
+
+For direct HTTPS API operations not covered by a functioning connector, load `custom-credentials`, list credentials first, use an exact approved host-scoped handle, and obey its approval policy. Never invent an AC handle or reuse a credential for another host.
+
+Deal retrieval contract:
+
+1. Read the actual field model and supported pagination/order/filter parameters.
+2. Paginate to completion with stable order; deduplicate by deal ID and reconcile returned totals.
+3. Qualify by product/campaign and paid/won status; separate test/internal, unpaid, sync exceptions and unresolved records.
+4. Retain order ID, contact relationship, amount/currency and relevant timestamps privately.
+5. Contact field `187` is the recorded Ad ID lookup. Resolve its Meta ad-set ancestry using current reads or label the saved mapping date.
+6. Paid order count, unique buyers, processor settlement, refunds and attributed Meta purchases are separate metrics.
+7. Keep customer exports private. This public handover intentionally excludes raw customer lists.
+
+Sandra governs new ActiveCampaign objects. Protected fields `214–220` cannot be deleted without approval. Existing-contact abandonment writes use `LGV_checkout_events`, field `206`; Regular/VIP segmentation uses `LGV_Product_Event`. Do not add fields, lists or contacts as an improvised connector repair.
+
+### Vercel
+
+Historical team: GITTER / slug `gitter1`; team ID `team_QsIIEvdvnmtyD40s3mcnka6k`. The recovered project inventory is dated **10 October**, not a fresh control-plane listing.
+
+| Project | Recorded project ID | Operational role |
+|---|---|---|
+| `lla-ac-events` | `prj_3v7g4Xwve6OmXrcPCVQOWJOiN2SK` | LLA AC event relay and Meta CAPI |
+| `fa-leads-proxy` | `prj_byAoWWUN5aXdGDrGRb7PJ25hINlI` | French lead/ecommerce relay, AC and Meta routes |
+| `fa-staging-checkout` | `prj_xluo8z01uYC5bnbHzgWZpxVozk6I` | Staging checkout, not production |
+| `fa-staging-light` | `prj_VL9P72MT1ZQ5nsb6rdbITX90BzED` | Staging page, not production |
+
+Recorded live browser route for LLA CAPI is `https://lla-ac-events.vercel.app/api/meta/capi`; the historical team inventory also lists `https://lla-ac-events-gitter1.vercel.app`. Verify actual project aliases and the browser's configured endpoint before choosing an alias. French browser source points to `https://fa-leads-proxy.vercel.app`.
+
+The originating session listed a vault credential named `Vercel deploy token (lla-ac-events)` for `api.vercel.com`; the value is not transferred. In the receiving session, load `custom-credentials`, call `list_credentials`, and use only the exact allowed handle returned. If absent or approval-required, establish that specific access via the secure flow.
+
+Read project/deployment/alias metadata with the intended team scope. Compare the production deployment, ready state, aliases, source commit and golden baseline. Do not read or print secret environment values. Historical Vercel runtime-log reads returned 403; this does not establish that current project metadata access is also unavailable.
+
+### Cloudflare
+
+Recorded connector source `cloudflare_api_key__pipedream`. The originating vault listed an LLA Cloudflare deploy credential and a separate read-only Worker-tail credential; exact permissions and handles must be re-listed, not inferred from their names.
+
+- Pages project `longevitylifeacademy`: `https://longevitylifeacademy.pages.dev/`.
+- Static Worker `lla-checkout`: `wrangler.static.toml` publishes `dist/`.
+- CRM integration Worker `eteacher-leads-proxy`: `https://eteacher-leads-proxy.gitter-omri.workers.dev`.
+- Q&A backend `julie-live-qa-api`: `https://julie-live-qa-api.gitter-omri.workers.dev`.
+- Repository `gitteromri-ux/lla-course-checkout` has `worker/src/index.js`, `dist/_worker.js` and `capi-relay/`; these are distinct components.
+
+Read account/project/worker/deployment metadata through supported connector tools first. Use approved direct API credentials only for uncovered operations. Do not print Worker secrets, republish an old snapshot, or confuse a Pages deploy with a Worker deploy. The preserved French relay still contains an older forced ProductID behavior; later operational history says it changed, so source snapshot is not safe to redeploy as current.
+
+### Gmail, Drive and stakeholder history
+
+Recorded Gmail/Calendar tool source is `gcal`; Drive source is `google_drive`, with authenticated `gws` CLI. Use current schemas and pagination. Direct Sandra/eTeacher-Chris emails did not appear in the connected-mailbox queries; the eTeacher work mailbox and WhatsApp were historical access gaps.
+
+The document therefore preserves the exact recovered Chris handoff requirements and original transcript evidence, while distinguishing prepared copy, user-described delivery, confirmed sent receipts and installed AC changes. Do not replace that distinction with “everything sent.” The final email-package source does not automatically update installed ActiveCampaign messages.
+
+## Immutable tracking and commerce contract
+
+- Preserve the raw case-sensitive `fbclid` and derived `fbc`; use `_fbp` consistently.
+- Browser event ID equals server event ID. Purchase identity is order-bound and fires on successful Airwallex payment or PayPal capture, not mere page load or order creation.
+- Preserve campaign/ad-group URL parameters across page, order, payment and return. Static CRM ad-group labels are not Meta ad-set IDs.
+- Keep QA/staging test events out of production reporting. No synthetic Purchase or new production QA order without scoped approval.
+- Treat the September Julie golden transaction as a bounded baseline. It does not certify Blueprint or French Capsules.
+- The historical protected period ended October 26; expiration is not blanket approval to alter protected production. Use the user's actual scoped authorization.
+- Keep paid primary order, extra-course assignment, learner access and native bundle financial relationships separate in Capsules.
+- Keep the current Standard price $79 + four $169 = $755 separate from preview VIP alternatives, old $149 pricing, and upfront $799.
+
+## Specific readiness gates the receiving operator owns
+
+| Gate | Evidence currently available | Required next proof |
+|---|---|---|
+| Meta live state | Historical IDs/configuration; fresh auth failure | Successful exact-account campaign/ad-set read with timestamps |
+| ActiveCampaign installed emails | Final source packages, mappings and historical handoffs | Actual production message bodies/links plus automation/send state |
+| CRM current sales | Historical extraction method and attribution fields | Fresh paginated paid-order reconciliation |
+| Vercel/Cloudflare current release | Source and historical project/deployment map | Control-plane production deployment read and source comparison |
+| Blueprint restart | Offer parity record and owner intent | Current campaign configuration plus separate attribution/payment acceptance; explicit activation approval |
+| Capsules fulfillment | Recorded assignment responses | Buyer entitlement/access and order/payment reconciliation |
+| Complete communication history | Recovered transcripts and sent-status ledger | Any missing mailbox/WhatsApp records from authorized source |
+
+These gates do not require the previous assistant. They tell the receiving operator exactly where knowledge ends and live verification begins.
+
+
 # GiTA complete operational handover to Claude
 
 Prepared for Omri Gitter on 28 October 2026, Asia/Jerusalem. Primary reporting window: 28 September through 28 October 2026, with earlier dependencies and the recovered 24 September transfer preserved as historical context. Public operational transfer published at Omri's request. Credentials and personal email addresses are excluded.
@@ -218,83 +357,4 @@ The October 18 original session also explicitly says the actual message to Chris
 ### Chronology: what changed and what remains unproven
 
 #### Baseline entering September 28: September 23–24 audit
-
-The original Sandra audit found 36 emails across two scenarios, Regular $49 and VIP $79—not a 60-email, three-scenario package—and found the Blueprint purchaser branch removed from that package. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-All three checkout-recovery groups returned to the generic Julie `#pricing` section rather than restoring the selected package, session date, stage or existing order; the audit specifically flagged “Choose My Session Date,” “Finish My Booking,” and “Complete My Order” as promises the links did not fulfill. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-The audit also left the Regular $49 discount mechanism, official CRM product naming, and a second linked $0 VIP Masterclass enrollment for Blueprint buyers unverified; it did not establish a secure abandoned-order recovery token. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-These are **pre-window baseline defects**, not assertions that every defect still exists on October 28; they explain why a polished package could not honestly be called installation-ready. Original Sandra audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-#### September 28: Golden transaction and freeze
-
-The golden record dates the freeze from September 28, 15:30 IDT through October 26 and records a real customer's $79 Airwallex order at 11:05:01 IDT, credited to ad set `52668330533628` / CRM group `108813`; three raw Purchase copies were reported as one attributed purchase. Customer identity is deliberately omitted here. [Golden record](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)
-
-The golden website commit is `42726fcd6a46908a499f2d94bb5cbf2f9558c947`, tag `tracking-golden-20260928`, and relay deployment `dpl_DQogoRsNj1XXTpJQmFrRk9zzCCrU`; these are **frozen historical baselines**, not freshly verified current production deployment IDs. [Golden record](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)
-
-#### October 4–10: duplicate-source investigation and handover gaps
-
-The October 9 handover records an October 4 14:10 Events Manager notice saying the dataset was no longer using CAPI, while later server-event counts continued; its explanation that a second sender went quiet was explicitly an assumption and the second sender was not identified. [October 9 handover](https://github.com/gitteromri-ux/handover-master/blob/main/julie-masterclass-handover-2026-10-09.md)
-
-A later handover records a Business Manager dataset connection being disconnected during duplicate-server-copy investigation; no diagnostic-clearance result follows from that action. [Recorded handover amendment](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648)
-
-The October 9 handover had AC access through a cloud-browser API-token-header route despite the broken Pipedream connector, but runtime Vercel logs returned 403, Cloudflare metrics were unread, and no real paid test was completed; its categorical “attribution complete” language must not be generalized beyond its dated observations. [October 9 handover](https://github.com/gitteromri-ux/handover-master/blob/main/julie-masterclass-handover-2026-10-09.md)
-
-October 10's gap register left AC automations/lists/tags/live sequences and send counts uncaptured; it also lacked a full Meta ↔ CRM ↔ processor ↔ refund truth table. [October 10 gaps](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md)
-
-#### October 15: identity-coverage patch
-
-Release `julie-meta-20261015-1`, branch `tracking/emq-coverage-20261015`, PR #1 and merge `a188c6c1bbb4ec79f25de1020597e15aec6d364f` initialize first-party `_fbp` before deferred `fbevents.js`, add anonymous `external_id`, and retain remembered buyer identity for seven days until an accepted Purchase. Original patch session (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) [PR #1](https://github.com/Longevity-Academy/julie-masterclass/pull/1)
-
-The original 07:05 UTC response reports accepted server-only PageView/ViewContent diagnostics under `meta_test=TEST10151`, but that is not proof of Events Manager UI inspection, traffic-wide coverage, paid Purchase success or Blueprint attribution closure. Original patch session (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
-
-The wiki distinguishes Omri's generic “go” from the required literal item-specific freeze lift; repository approval/merge alone does not establish that missing sentence. Tracking synthesis and source trail (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-#### October 17–18: rollback and email launch handoffs
-
-Rollback `cf899f2594e7acb209c0bee27acf99c07d234fdb` restored `a188c6c`, retaining the October 15 tracking patch; the tracked live hash prefix `7dcf7ce9f645` differed from the frozen-tag prefix `9f5ddfbae39c`, while attribution code matched and payment-safety also differed. This is a baseline distinction, not proof of lost sales. [Rollback](https://github.com/Longevity-Academy/julie-masterclass/commit/cf899f2594e7acb209c0bee27acf99c07d234fdb) Original incident record (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-On October 18 at 12:18 UTC, Chris's prepared message required every launch link/image/button to open `/masterclass-72hours/` at the hero, preserve UTMs, remove section anchors, show all four US time zones and apply the corrected refund footnote; it asked for AC confirmation **before sending**. Original launch message (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-
-At 14:03 UTC, the final revised message begins “After speaking with Elaine,” and identifies the dedicated IIBS v4 tab, four segments and approved content-only changes, explicitly preserving Rosen and Longevity and warning that GitHub is not an automatic AC update. Original final Chris message (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-
-At 14:09 UTC, the original session records the community offer's fixed window as October 18 17:00 Israel through October 21 17:00 Israel; that dated campaign window must not be silently represented as a fresh rolling 72-hour promotion on October 28. Original timer record (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-
-#### October 18: CRM extraction precedent
-
-The original purchaser review records 18,941 initial deal rows, followed by a duplicate-safe ordered audit of 3,022 unique won deals across 31 pages; 116 price candidates reconciled to 109 included paid orders and seven internal/test orders, producing 101 unique buyers. These are historical extraction-quality controls, not current totals or a customer list. Purchaser-audience session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
-
-The artifact distinguishes accepted upload rows from matched Meta users and leaves a CRM-unpaid payment-sync exception outside the seed; processor settlement/refunds were not certified. Local original artifact: `memory/sessions/2026-10-12_2026-10-18/2b7e0eda/ai_outputs/Julie-Masterclass-paused-ad-set-review.md`. Purchaser-audience session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
-
-#### October 22–28: no-shows, reporting and offer parity
-
-The October 28 lifecycle wiki records a revised four-message no-show branch: JM-X1–X3 for October 27 absentees who may attend November 14, and JM-X4 for November 14 absentees with 30-day LMS recording access—not an invitation to a nonexistent later session. [No-show revision](https://github.com/gitteromri-ux/lla-masterclass-emails/commit/ebbe0a3c62c68ff2468c10ce32e0262b322cec02)
-
-The follow-up revision removes “no replay,” unsupported $200-credit wording and stale enrollment-footer language; its replacement footer is “You received this as a masterclass registrant.” Chris remains responsible for actual Zoom/LMS values and November preparation/day-before/two-hour reminders; installed versions and sends remain OPEN. [Corrected no-show copy](https://github.com/gitteromri-ux/lla-masterclass-emails/commit/18b89c487feac5389fb2d07a48844a2c4103cffd)
-
-On October 25, the original reporting dialogue corrected an initial confusion between an eTeacher payment-log envelope and ActiveCampaign CRM data: AC deals carry order/amount/status and contact field 187 carries the Ad ID; Meta mapping can then resolve the ad set without waiting for Meta's credited Purchase count. Original session identifier verified from the transcript header: `5f70d990-447e-43ce-9ade-7e29fbae7c02`, transcript lines 7270–7370.
-
-The October 26 tracking synthesis records four CRM-paid orders with raw Purchase receipts while Meta initially showed zero credit, then four attributed purchases split one to Set 02 and three to Set 04; eight raw browser/server receipts were not eight sales and did not themselves prove deduplication. Incident/reporting record (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-At October 27 19:34 UTC, the final Chris file's JM-U1–U4 destination was verified at document level as Pages.dev with `MASTERCLASS-VIP`; Regular/VIP abandonment sequences still returned to Julie pricing, while live AC inspection failed with Invalid URL. Final-file inspection (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`)
-
-At October 27 19:37 UTC, that session read old Pages.dev copy of $179×5 regular, $149×5 promo and $799 upfront; the later approved parity work supersedes those figures with $169×5 regular ($845), $79 plus four $169 installments ($755) for `MASTERCLASS-VIP`/`JULIE249`, and $799 upfront. Original old-price read (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`) Approved parity session (original session `25a94f9a-18d5-4f2d-aeef-e7a40f4d97c2`)
-
-The parent research track reports a fresh October 28 Pages.dev fetch consistent with the revised schedule and notes that extracted branded-attendee content still contains legacy 149/179 text; treat that as a text-parity flag, not visual proof of what a buyer sees or a completed charge. The authorization is recorded at October 27 19:48 UTC in session `25a94f9a`; source changes include `ac35c2874e54bcc2b67f14beaff4ed8c900f9962`. [Offer-alignment commit](https://github.com/gitteromri-ux/lla-course-checkout/commit/ac35c2874e54bcc2b67f14beaff4ed8c900f9962)
-
-### Email surfaces, mappings and exact handoff requirements
-
-| Surface / repository | Use | State and limitation |
-|---|---|---|
-| `gitteromri-ux/lla-masterclass-emails-3tier` | Regular/VIP lifecycle versions | September 24 package audit; field names and CTA shortcomings described above. [Gallery](https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/) |
-| `gitteromri-ux/lla-masterclass-emails` | Maintained lifecycle/no-show gallery | Review URL carries `?v=18b89c4`; source publication is not an installed AC version. [No-show review](https://gitteromri-ux.github.io/lla-masterclass-emails/?v=18b89c4) |
-| `gitteromri-ux/julie-masterclass-blast` | School/LLA one-time acquisition invitation | One original circulated URL, not a new `/v2` handoff. [Gallery](https://gitteromri-ux.github.io/julie-masterclass-blast/) |
-| IIBS v4, commit `6df81d9a9298cbd38a93d20533474560856cb791` | Alumni, active students, non-completers, leads | Seven IIBS files; copy-only approved change; Rosen/LLA unchanged. [Direct IIBS v4 tab](https://gitteromri-ux.github.io/julie-masterclass-blast/?v=6df81d9-iibs-v4#iibs-v4) |
-| JM-U1–U4 | Post-event Blueprint promotion | Final handoff leads to Pages.dev, not normal Julie event purchase. [Exact JM-U1 destination](https://longevitylifeacademy.pages.dev/?enroll=1&code=MASTERCLASS-VIP&utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_onboarding&utm_content=jm-u1) |
-| JM-A1 / A2 / A3 families | Name Details / Course Details / No Payment recovery | Both Regular/VIP historically return to masterclass pricing; secure resume of an existing order not established. Original recovery audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`) |
-| Community invitations | 36%-off, 72-hour school offer | `/masterclass-72hours/`, hero arrival, UTMs retained, no `#pricing`; no claim that offer remains active today. [Destination](https://www.longevitylifeacademy.com/masterclass-72hours/) |
-| Attendee course/questions page | Blueprint signup and separate sales callback | Branded route `/blueprint-attendees-7q4x/?code=JULIE249`; not the Julie event checkout. [Attendee page](https://www.longevitylifeacademy.com/blueprint-attendees-7q4x/?code=JULIE249) |
-
-The preserved personalization tokens include `%FIRSTNAME%`, `%LGVMASTERCLASSSESSIONDATE%` and `%LGVMASTERCLASSZOOMLINK%`; preview sample values must never replace production tags or become guessed Zoom/LMS URLs. [Historical lifecycle implementation](https://github.com/gitteromri-ux/handover-master/blob/main/projects/lla-masterclass-emails.md)
 

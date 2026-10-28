@@ -1,3 +1,82 @@
+The original Sandra audit found 36 emails across two scenarios, Regular $49 and VIP $79—not a 60-email, three-scenario package—and found the Blueprint purchaser branch removed from that package. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
+
+All three checkout-recovery groups returned to the generic Julie `#pricing` section rather than restoring the selected package, session date, stage or existing order; the audit specifically flagged “Choose My Session Date,” “Finish My Booking,” and “Complete My Order” as promises the links did not fulfill. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
+
+The audit also left the Regular $49 discount mechanism, official CRM product naming, and a second linked $0 VIP Masterclass enrollment for Blueprint buyers unverified; it did not establish a secure abandoned-order recovery token. Original September 24 audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
+
+These are **pre-window baseline defects**, not assertions that every defect still exists on October 28; they explain why a polished package could not honestly be called installation-ready. Original Sandra audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
+
+#### September 28: Golden transaction and freeze
+
+The golden record dates the freeze from September 28, 15:30 IDT through October 26 and records a real customer's $79 Airwallex order at 11:05:01 IDT, credited to ad set `52668330533628` / CRM group `108813`; three raw Purchase copies were reported as one attributed purchase. Customer identity is deliberately omitted here. [Golden record](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)
+
+The golden website commit is `42726fcd6a46908a499f2d94bb5cbf2f9558c947`, tag `tracking-golden-20260928`, and relay deployment `dpl_DQogoRsNj1XXTpJQmFrRk9zzCCrU`; these are **frozen historical baselines**, not freshly verified current production deployment IDs. [Golden record](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)
+
+#### October 4–10: duplicate-source investigation and handover gaps
+
+The October 9 handover records an October 4 14:10 Events Manager notice saying the dataset was no longer using CAPI, while later server-event counts continued; its explanation that a second sender went quiet was explicitly an assumption and the second sender was not identified. [October 9 handover](https://github.com/gitteromri-ux/handover-master/blob/main/julie-masterclass-handover-2026-10-09.md)
+
+A later handover records a Business Manager dataset connection being disconnected during duplicate-server-copy investigation; no diagnostic-clearance result follows from that action. [Recorded handover amendment](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648)
+
+The October 9 handover had AC access through a cloud-browser API-token-header route despite the broken Pipedream connector, but runtime Vercel logs returned 403, Cloudflare metrics were unread, and no real paid test was completed; its categorical “attribution complete” language must not be generalized beyond its dated observations. [October 9 handover](https://github.com/gitteromri-ux/handover-master/blob/main/julie-masterclass-handover-2026-10-09.md)
+
+October 10's gap register left AC automations/lists/tags/live sequences and send counts uncaptured; it also lacked a full Meta ↔ CRM ↔ processor ↔ refund truth table. [October 10 gaps](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md)
+
+#### October 15: identity-coverage patch
+
+Release `julie-meta-20261015-1`, branch `tracking/emq-coverage-20261015`, PR #1 and merge `a188c6c1bbb4ec79f25de1020597e15aec6d364f` initialize first-party `_fbp` before deferred `fbevents.js`, add anonymous `external_id`, and retain remembered buyer identity for seven days until an accepted Purchase. Original patch session (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) [PR #1](https://github.com/Longevity-Academy/julie-masterclass/pull/1)
+
+The original 07:05 UTC response reports accepted server-only PageView/ViewContent diagnostics under `meta_test=TEST10151`, but that is not proof of Events Manager UI inspection, traffic-wide coverage, paid Purchase success or Blueprint attribution closure. Original patch session (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
+
+The wiki distinguishes Omri's generic “go” from the required literal item-specific freeze lift; repository approval/merge alone does not establish that missing sentence. Tracking synthesis and source trail (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+#### October 17–18: rollback and email launch handoffs
+
+Rollback `cf899f2594e7acb209c0bee27acf99c07d234fdb` restored `a188c6c`, retaining the October 15 tracking patch; the tracked live hash prefix `7dcf7ce9f645` differed from the frozen-tag prefix `9f5ddfbae39c`, while attribution code matched and payment-safety also differed. This is a baseline distinction, not proof of lost sales. [Rollback](https://github.com/Longevity-Academy/julie-masterclass/commit/cf899f2594e7acb209c0bee27acf99c07d234fdb) Original incident record (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+On October 18 at 12:18 UTC, Chris's prepared message required every launch link/image/button to open `/masterclass-72hours/` at the hero, preserve UTMs, remove section anchors, show all four US time zones and apply the corrected refund footnote; it asked for AC confirmation **before sending**. Original launch message (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+
+At 14:03 UTC, the final revised message begins “After speaking with Elaine,” and identifies the dedicated IIBS v4 tab, four segments and approved content-only changes, explicitly preserving Rosen and Longevity and warning that GitHub is not an automatic AC update. Original final Chris message (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+
+At 14:09 UTC, the original session records the community offer's fixed window as October 18 17:00 Israel through October 21 17:00 Israel; that dated campaign window must not be silently represented as a fresh rolling 72-hour promotion on October 28. Original timer record (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+
+#### October 18: CRM extraction precedent
+
+The original purchaser review records 18,941 initial deal rows, followed by a duplicate-safe ordered audit of 3,022 unique won deals across 31 pages; 116 price candidates reconciled to 109 included paid orders and seven internal/test orders, producing 101 unique buyers. These are historical extraction-quality controls, not current totals or a customer list. Purchaser-audience session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+
+The artifact distinguishes accepted upload rows from matched Meta users and leaves a CRM-unpaid payment-sync exception outside the seed; processor settlement/refunds were not certified. Local original artifact: `memory/sessions/2026-10-12_2026-10-18/2b7e0eda/ai_outputs/Julie-Masterclass-paused-ad-set-review.md`. Purchaser-audience session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+
+#### October 22–28: no-shows, reporting and offer parity
+
+The October 28 lifecycle wiki records a revised four-message no-show branch: JM-X1–X3 for October 27 absentees who may attend November 14, and JM-X4 for November 14 absentees with 30-day LMS recording access—not an invitation to a nonexistent later session. [No-show revision](https://github.com/gitteromri-ux/lla-masterclass-emails/commit/ebbe0a3c62c68ff2468c10ce32e0262b322cec02)
+
+The follow-up revision removes “no replay,” unsupported $200-credit wording and stale enrollment-footer language; its replacement footer is “You received this as a masterclass registrant.” Chris remains responsible for actual Zoom/LMS values and November preparation/day-before/two-hour reminders; installed versions and sends remain OPEN. [Corrected no-show copy](https://github.com/gitteromri-ux/lla-masterclass-emails/commit/18b89c487feac5389fb2d07a48844a2c4103cffd)
+
+On October 25, the original reporting dialogue corrected an initial confusion between an eTeacher payment-log envelope and ActiveCampaign CRM data: AC deals carry order/amount/status and contact field 187 carries the Ad ID; Meta mapping can then resolve the ad set without waiting for Meta's credited Purchase count. Original session identifier verified from the transcript header: `5f70d990-447e-43ce-9ade-7e29fbae7c02`, transcript lines 7270–7370.
+
+The October 26 tracking synthesis records four CRM-paid orders with raw Purchase receipts while Meta initially showed zero credit, then four attributed purchases split one to Set 02 and three to Set 04; eight raw browser/server receipts were not eight sales and did not themselves prove deduplication. Incident/reporting record (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+At October 27 19:34 UTC, the final Chris file's JM-U1–U4 destination was verified at document level as Pages.dev with `MASTERCLASS-VIP`; Regular/VIP abandonment sequences still returned to Julie pricing, while live AC inspection failed with Invalid URL. Final-file inspection (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`)
+
+At October 27 19:37 UTC, that session read old Pages.dev copy of $179×5 regular, $149×5 promo and $799 upfront; the later approved parity work supersedes those figures with $169×5 regular ($845), $79 plus four $169 installments ($755) for `MASTERCLASS-VIP`/`JULIE249`, and $799 upfront. Original old-price read (original session `7f86bc26-cac2-4af5-8a69-13e059680d3d`) Approved parity session (original session `25a94f9a-18d5-4f2d-aeef-e7a40f4d97c2`)
+
+The parent research track reports a fresh October 28 Pages.dev fetch consistent with the revised schedule and notes that extracted branded-attendee content still contains legacy 149/179 text; treat that as a text-parity flag, not visual proof of what a buyer sees or a completed charge. The authorization is recorded at October 27 19:48 UTC in session `25a94f9a`; source changes include `ac35c2874e54bcc2b67f14beaff4ed8c900f9962`. [Offer-alignment commit](https://github.com/gitteromri-ux/lla-course-checkout/commit/ac35c2874e54bcc2b67f14beaff4ed8c900f9962)
+
+### Email surfaces, mappings and exact handoff requirements
+
+| Surface / repository | Use | State and limitation |
+|---|---|---|
+| `gitteromri-ux/lla-masterclass-emails-3tier` | Regular/VIP lifecycle versions | September 24 package audit; field names and CTA shortcomings described above. [Gallery](https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/) |
+| `gitteromri-ux/lla-masterclass-emails` | Maintained lifecycle/no-show gallery | Review URL carries `?v=18b89c4`; source publication is not an installed AC version. [No-show review](https://gitteromri-ux.github.io/lla-masterclass-emails/?v=18b89c4) |
+| `gitteromri-ux/julie-masterclass-blast` | School/LLA one-time acquisition invitation | One original circulated URL, not a new `/v2` handoff. [Gallery](https://gitteromri-ux.github.io/julie-masterclass-blast/) |
+| IIBS v4, commit `6df81d9a9298cbd38a93d20533474560856cb791` | Alumni, active students, non-completers, leads | Seven IIBS files; copy-only approved change; Rosen/LLA unchanged. [Direct IIBS v4 tab](https://gitteromri-ux.github.io/julie-masterclass-blast/?v=6df81d9-iibs-v4#iibs-v4) |
+| JM-U1–U4 | Post-event Blueprint promotion | Final handoff leads to Pages.dev, not normal Julie event purchase. [Exact JM-U1 destination](https://longevitylifeacademy.pages.dev/?enroll=1&code=MASTERCLASS-VIP&utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_onboarding&utm_content=jm-u1) |
+| JM-A1 / A2 / A3 families | Name Details / Course Details / No Payment recovery | Both Regular/VIP historically return to masterclass pricing; secure resume of an existing order not established. Original recovery audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`) |
+| Community invitations | 36%-off, 72-hour school offer | `/masterclass-72hours/`, hero arrival, UTMs retained, no `#pricing`; no claim that offer remains active today. [Destination](https://www.longevitylifeacademy.com/masterclass-72hours/) |
+| Attendee course/questions page | Blueprint signup and separate sales callback | Branded route `/blueprint-attendees-7q4x/?code=JULIE249`; not the Julie event checkout. [Attendee page](https://www.longevitylifeacademy.com/blueprint-attendees-7q4x/?code=JULIE249) |
+
+The preserved personalization tokens include `%FIRSTNAME%`, `%LGVMASTERCLASSSESSIONDATE%` and `%LGVMASTERCLASSZOOMLINK%`; preview sample values must never replace production tags or become guessed Zoom/LMS URLs. [Historical lifecycle implementation](https://github.com/gitteromri-ux/handover-master/blob/main/projects/lla-masterclass-emails.md)
+
 The exact approved launch time lines are “Tuesday, October 27: 7:00 PM ET / 6:00 PM CT / 5:00 PM MT / 4:00 PM PT” and “Saturday, November 14: 1:00 PM ET / 12:00 PM CT / 11:00 AM MT / 10:00 AM PT”; the October 18 instruction uses “14-day refund*” with “*14 days from registration or until your class starts, whichever is later.” These are dated launch instructions, not permission to overwrite a newer refund policy without approval. Original Chris instruction (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
 
 #### Read-only installed-email audit runbook
@@ -209,75 +288,4 @@ Historical business mapping: eTeacher Group business `1545475089051742`; French 
 **CRM suffixes are not Meta IDs.** Never pass `116980`, `116939`, `108761`, etc. as Graph entity IDs merely because the interface shows a hash label. Reconnect and list the v2 campaigns to recover canonical names and numeric Meta IDs before any subsequent operation.
 
 Historical campaign API timestamps: Julie created `2026-09-24T06:03:57+0000`, updated `2026-09-27T20:00:24+0000`; Blueprint created `2026-09-03T06:13:16+0000`, updated `2026-09-16T08:00:31+0000`. Both snapshot objectives were `OUTCOME_SALES`; neither selected campaign record supplies a campaign-level daily budget. These timestamps are source-object values, NOT fresh verification timestamps. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json)
-
-### Last evidenced configurations: USD, not today's verified state
-
-#### Capsules
-
-| Role / CRM suffix | Meta ad-set ID | Last dated daily budget | Last reported state |
-|---|---|---:|---|
-| Buyers LLA / `#108761` | `120251212250640546` | USD 149 | ACTIVE, October 26 |
-| Francophile / `#108758` | `120251212251230546` | USD 79 | ACTIVE, October 26 |
-| Leads LLA / `#108757` | `120251212251670546` | USD 169 | ACTIVE, October 26 |
-| Excluded `#108756` | Not recovered | Not current-verified | Left paused in launch record |
-
-The numeric IDs come from original Ads Manager links; the USD 397/day total is the later October 26 configuration, superseding launch USD 169/159/149. These are ad-set budgets, not campaign budgets or enforced spending ceilings; exact current Meta ad-set names and `updated_time` fields remain unavailable. Original launch with IDs (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`), October 26 budget/state report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-The October 22 launch was reported verified at 14:04 IDT: both campaigns, three sets and 17 selected ads ACTIVE/effectively ACTIVE; five main ads, six Francophile and six lead-lookalike ads, with older ads and excluded set left paused. It is a launch receipt, not today's inventory. Original launch session (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-#### Julie: applied versus requested, October 27
-
-| Exact recovered ad-set name | Meta ID | Last evidenced USD/day | Last evidenced status |
-|---|---|---:|---|
-| `ecomm_Adset_01_All_All_CPM_#108813` | `52668330533628` | 258 | ACTIVE before latest access failure |
-| `ecomm_Adset_02_All_All_CPM_#108814` | `52673824399628` | 564 | ACTIVE before latest access failure |
-| `ecomm_Adset_03_All_All_CPM_#108815` | `52668330165828` | 77 retained | PAUSED, reported verified October 27 |
-| `ecomm_Adset_04_All_All_CPM_#108816` | `52668330870828` | 999 | ACTIVE before latest access failure |
-| `ecomm_Adset_05_All_All_CPM_#108817` | `52668330871228` | 348 | ACTIVE before latest access failure |
-| `ecomm_Adset6_0_All_All_CPM_#108818` | `52668330871028` | Not latest-verified | PAUSED |
-
-Names/older IDs are recovered from the historical snapshot; replacement Set 02 name and ID are confirmed in the October 18 original session. Budgets and October 27 status distinctions come from the later original reporting, not the September budget values. [Historical set registry](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/adsets_52668266203628.json), Replacement Set 02 (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`), October 27 changes (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`)
-
-At 04:24 UTC October 27, Omri requested Set 04 +150, Set 02 −50, Set 03 pause and an ambiguous Set 05 increment. The assistant reported only Set 03 successfully paused; Set 04 remained 999 rather than requested 1,149; Set 02 remained 564 rather than requested 514; Set 05 remained 348. At 05:26 UTC, the original session still said the budget changes were unapplied because fallback access was blocked. Active configured budgets after that reported pause sum to USD 2,169, NOT 2,246 and NOT a subsequently verified campaign-wide pause. Original instructions and outcome (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`)
-
-**Identity trap:** retired Set 02 `52668268711228` is not replacement live Set 02 `52673824399628`, despite the same CRM suffix/name pattern. Never select by name alone. Replacement set source (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
-
-#### Blueprint historical registry: explicitly September, not current
-
-| Exact snapshot ad-set name | Meta ID | Snapshot USD/day | Snapshot status / updated UTC |
-|---|---|---:|---|
-| `ecomm Adset 2_All_All_CPM_#108808` (copy) | `52669013718628` | 199 | ACTIVE; 2026-09-29 23:06:21 |
-| `ecomm Adset 4_All_All_CPM_#108810` | `52666232368428` | 50 | ACTIVE; 2026-09-29 23:06:02 |
-| `ecomm Adset 5_All_All_CPM_#108811` (copy) | `52669048300628` | 155 | ACTIVE; 2026-09-29 23:05:36 |
-| `ecomm Adset 2_All_All_CPM_#108808` (original) | `52663512093428` | 160 | PAUSED; 2026-09-28 15:06:14 |
-| `ecomm Adset 5_All_All_CPM_#108811` (original) | `52666296222628` | 40 | PAUSED; 2026-09-28 15:06:15 |
-| `ecomm Adset 3_All_All_CPM_#108809` | `52664534627228` | 100 | PAUSED; 2026-09-16 19:21:11 |
-| `ecomm Adset 1_All_All_CPM_#108807` | `52663511359228` | 1 | PAUSED; 2026-09-16 19:21:12 |
-
-All values above are historical cents converted to USD, from the September 30 archived JSON. Later October reporting mentioned small spend in Blueprint sets but does not establish maintained budgets or today's delivery state. [Blueprint set JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/adsets_52663511211628.json), October original reporting (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-### October activity, decisions and rejected paths
-
-- **October 18 Julie warm/lookalike launch:** replacement Set 02 launched at USD 99/day with four selected exact-source ads and fifteen paused copies; US 44–65+, Facebook Feed/Reels, Purchase optimization, lowest cost. Audience membership was purchaser 1% lookalike **OR** Julie checkout 30-day/cart 14-day warm pool, not an intersection or separated budgets. The too-small warning concerned the warm pool, not the ready purchaser lookalike. Ordinary page visitors were not included; the cart rule required Julie page plus campaign ID. Original October 18 session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
-- **October 20 seed enrichment:** 101 initial distinct identities became 122 from 131 paid-order records; additions accepted is not platform matched-user count or settlement certification. Existing seed `52673824207628`, existing lookalike `52673827176428`; the original “101” label was deliberately retained. Approval attached the lookalike to paused Set 03 only; Set 06 was explicitly excluded. Processing/updating and lookalike readiness were distinct. Original October 20 session (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`)
-- **French purchaser integrity:** the reported 232 submitted identities came from an expanded 645-student population, not a rigorously established set of 232 paid/noncancelled buyers. Initial filtered population was 410; unrelated eTeacher buyer padding was rejected. Submission accepted/zero invalid is not proof of paid eligibility, accurate identity resolution or final Meta matching. Historical seed `120251221224670546`, purchaser 1% `120251221226160546`; no seed contents retrieved in this task. Original purchaser investigation (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
-- **October 22 audience decisions:** keep verified purchaser 1% only rather than create a fresh 1–2% band. Two website-visitor 2%/1–2% audiences in the other FA account had failed creation and were not purchaser/checkout audiences. Checkout audience creation returned error 2663, Custom Audience terms not accepted. “Emily in Paris,” “Call My Agent” and French-TV interests were not verified selectable; irrelevant Lupin results were rejected. Original October 22 session (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **French warm versus lookalikes:** a warm-nonbuyer third-set proposal was superseded; the launched third role is lead-lookalike **prospecting**, not actual-lead retargeting. Purchaser/lead sources, exclusions, Advantage+ settings and income/device differences were set-specific. Reporting names such as “CA 50+” are not reliable proof of geography: the detailed approved configuration described US nationwide. Do not infer targeting from old names. Original configuration/launch (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **Rejected test path:** October 22 at 22:42 UTC, Omri explicitly rejected the Israel-targeted test approach; the assistant reported the Israel test set paused and never delivered. An earlier test launch approval did not survive this later rejection. Do not recreate it or fire synthetic production Purchases. Original rejection (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **Learning is not a forecast:** October 26 reporting distinguishes Set 04 exited learning, Set 05 learning-limited and Sets 01/02/03 learning. Earlier explanations equating edits to universal resets, a guaranteed ten-day exit, or a fixed CPP after learning were challenged/withdrawn; a status field is not causal proof or a countdown. October monitoring (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`), Original learning/transition debate (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **Blueprint transition intent:** October 24 discussion favored reusing Julie Set 04 with identical targeting but Blueprint destination/copy and masterclass ads stopped after the event. The assistant proposed incremental additions and a one-hour significant-edit check; this was not an executed migration or proof replacing every ad preserves learning. Today's restart intent adds no activation authorization in this read-only task. Original transition discussion (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **Monitoring versus campaigns:** the Capsules hourly reader `9e4332aa-87fb-4950-a05e-c8c3b2da922b` was paused on the stop instruction; the original October 27 message explicitly says no account settings changed and Julie's separate schedules remained scheduled but access-blocked. A paused reporter is not a paused campaign; stale NO DATA is not zero sales. Original stop instruction/result (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Attribution integrity and ecommerce boundaries
-
-Julie new Set 02's name ends in `#108814`, but copied ads retained static source `adGroupID` values `108813`, `108815`, `108817`; the recovered session ends at a request for approval to repair URL mapping, not a completed repair. A rename cannot establish CRM attribution alignment. Original launch/tag discussion (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
-
-Keep separate: paid CRM orders, unique buyers, raw browser/server receipts, deduplicated events, Meta-attributed purchases, recorded last clicks and processor settlement/refunds. October 26 four paid orders totaled USD 226 while eight raw Purchase receipts included browser/server copies; matching four-count Meta/CRM summaries do not themselves reconcile individual orders or certify settlement. Original October 26 reporting (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-Golden Julie attribution preserves pixel `1440305917310328`, exact-case click ID/fbc, fbp, stable event ID (Purchase = CRM order ID), browser/server equality, campaign `cid=118149`, set tags and paid-success triggers. French uses its own pixel and brand fields. Accepted PageView/ViewContent or checkout events do not certify paid Purchase attribution, deduplication, complete enrollment or processor settlement; the original test response's broader inference must not be repeated as proof. [Golden tracking contract](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md), Original test and checkout discussion (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-
-French Meta reporting attributed USD 79 on October 24 to Buyers `#108761` and USD 151 on October 25 to Leads `#108757`, not Francophile. Paid-bundle entitlement and website checkout incidents remain separate reconciliation work, not evidence those Meta credits are settled or fully fulfilled. October report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Exact safe connection/read runbook for the next operator
 

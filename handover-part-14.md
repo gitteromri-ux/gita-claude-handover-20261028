@@ -1,232 +1,265 @@
-The French Atelier website is Omri’s GitHub Pages-hosted production site for `www.frenchatelierlive.com`, backed by the `gitteromri-ux/french-atelier` repo ([recorded evidence](https://github.com/gitteromri-ux/french-atelier)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/29dea6cdd751cf3d2b16d69a61841b0c53ee0520)).
-
-### How it works
-
-The site is a French e-learning marketing website with course pages, lead forms, CEO-requested content revisions, Mapstr-backed location imagery, and a custom GitHub Pages domain ([recorded evidence](https://github.com/gitteromri-ux/french-atelier)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/29dea6cdd751cf3d2b16d69a61841b0c53ee0520)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/d4cb1b77c24482549b6acef8c3efd13526897458)). Work has focused on CEO checklist edits, legal/compliance phrasing, navigation, imagery authenticity, mobile performance, and production-readiness without changing approved copy ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/d4cb1b77c24482549b6acef8c3efd13526897458)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/8b181f5da6f70c44788ec59bd2d706fa06a0b8e4)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/56970c8c9c0e661462ed892fa6da34341826b6de)) (original session `e9859920-2f4e-43da-9eb2-b4a7e2e80c6c`).
-
-- **Mapstr imagery as authentic map source**: The 2026-07-15 update replaced 42 map pin photos with photos pulled from the CEO’s Mapstr map and kept unmatched pins on existing Wikimedia imagery ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/d4cb1b77c24482549b6acef8c3efd13526897458)).
-- **Gastronomy pillar correction**: The homepage/culture gastronomy video was swapped to `wine-tasting.mp4` to avoid the steaming-wine illusion noted in CEO feedback ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/8b181f5da6f70c44788ec59bd2d706fa06a0b8e4)).
-- **Sorbonne language follows the CEO-edit baseline**: Live Sorbonne-bearing copy is byte-identical to the historical CEO-edit commit and retains the independence disclaimer. The original CEO document itself was not retrievable during the latest audit, so the commit is the available authoritative baseline ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/56970c8c9c0e661462ed892fa6da34341826b6de)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/b5d4e71ad21f6496ac82fb69aa1abac670f507a2)) (original session `bff97d1b-8e08-4e46-9e2e-14fcd2f237c4`).
-- **CRM lead capture**: French Atelier lead forms route through eTeacher CRM/ProductID 25 with phone/country fields and a CORS relay path added during production hardening ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/7552aa1bb0c1c9df63021e72d5b318d1f63800c6)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/a00008a06b4e7e22341491dec37f64612a9680d0)).
-- **Asset and loading performance pass**: The production repo was reduced from 528MB to 105MB by converting PNGs to WebP, recompressing JPGs, transcoding videos, removing 207MB of unused assets, lazy-loading below-fold images, and deferring MapLibre loading (original session `e9859920-2f4e-43da-9eb2-b4a7e2e80c6c`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/ec58d90)).
-- **Mobile Mapstr and MapLibre repair**: Mobile marker taps pin the photo card at the top and render the lesson panel as a bottom sheet. The production map library is pinned to MapLibre GL v4.7.1 because the previous `@latest` distribution path resolved to a missing asset ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/b4cebef)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/a240b28ed980ae0b66b1b0e6bebc09c699d86532)).
-- **Video-ad opener rule**: French Atelier opening lines should be short, concrete, declarative, non-accusatory, and locked to the individual script’s theme. Each line must hand off literally into the approved script without rewriting what follows (original session `81aa0c15-006a-4d6b-8cae-e124ee2cb154`).
-- **Approved imagery across internal pages**: All internal-page imagery should come from the approved new asset family, not copied `live.frenchatelier.com` folders or low-resolution thumbnails. The production audit covered 33 pages and corrected course, blog, FAQ, How It Works, culture, and course-index imagery, plus counters and testimonial contrast (original session `28d38197-ec24-4069-bdb5-a0c2e3716ca7`).
-- **Separate lifecycle-message tracks**: Acquisition email/landing-page work lives in `french-atelier-acq-drip`, while the three-message retention and three-message acquisition WhatsApp series lives in `french-atelier-wa-ret-acq`; they are separate delivery surfaces and should not be merged (original session `34a6e1ef-d550-4f71-b1b8-3e8f75d0806a`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-acq-drip)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-wa-ret-acq)).
-- **Production identity and copy constraints**: New campaign work uses `French Atelier by Acadomia` and `frenchatelierlive.com`, not the retired `livefrenchatelier.com` reference. The WhatsApp bodies are exactly 150 words, include `Header Text:` and `{{BODY_1}}`, use emoji, and exclude STOP language and AI-style punctuation (original session `34a6e1ef-d550-4f71-b1b8-3e8f75d0806a`).
-- **Angoulême factual phrasing**: The comics-festival page says “each January, a tradition born in 1974,” avoiding the inaccurate claim that the event ran every January without exception (original session `34a6e1ef-d550-4f71-b1b8-3e8f75d0806a`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-wa-ret-acq)).
-- **Site-wide mobile floor and swipe rails**: The 35-page production surface applies a readable mobile type floor and horizontal swipe rails to card families. A stricter pass caught four card groups missed by the first size-based scan, so automated “zero flag” output is not a substitute for visual fold review ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/89301e83912b062042a36b3f7c3d2cd21de676d0)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/57f8bf716a46c3d86dfc38b922c36d6acb7f496b)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/796cedef7980231d9dff7146365647547cd71e59)) (original session `245bbea7-9eda-424c-bc18-852c2416de41`).
-- **Canonical production domain**: Privacy, sitemap, and robots surfaces use `frenchatelierlive.com`; the retired `livefrenchatelier.com` spelling is removed from production metadata ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/fea06fdcab6afc76abb897d23b135030c131d0e5)).
-- **Homepage teacher portraits preserve real identity pixels**: The language-course homepage/faculty set uses real source pixels, faithful upscaling and consistent eye-line/head-size framing, and was reduced to Caitlin, Carmèle, Charline, Philippe and Shanice. The separately approved Capsules teacher fold uses its own AI-assisted portrait assets. (original session `bff97d1b-8e08-4e46-9e2e-14fcd2f237c4`) (original session `245bbea7-9eda-424c-bc18-852c2416de41`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier)) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-- **Map locations and map imagery are separate authorities**: The 72 dictated places, pin coordinates, and ordering remain fixed while the matching photos can be replaced with more representative real imagery and explicit credits (original session `bff97d1b-8e08-4e46-9e2e-14fcd2f237c4`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier)).
-- **Julien media placements are unique by fold**: The homepage and Julien hero retain the lip-synced audio intro, while internal folds use distinct silent loops; the watermarked Kling 2.1 upload is excluded (original session `bff97d1b-8e08-4e46-9e2e-14fcd2f237c4`).
-- **Course PDFs are hosted but not surfaced**: Seven uploaded syllabus PDFs exist under `/downloads/`, but course pages do not link to them; hosted source material therefore does not prove visitor access or copy parity (original session `bff97d1b-8e08-4e46-9e2e-14fcd2f237c4`).
-- **Marketing lead capture and ecommerce are distinct**: The established marketing-page `Enroll Now` CTAs share one on-page lead form and CRM binding. Dedicated full-course and Capsules ecommerce pages use a separate order/payment engine rather than replacing that lead path. ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/11b74ac)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/4aea60bd32c5004ab09fa1d51ed8c657e7b8b501))
-- **Qualification fields are required**: Lead submission requires both French level and intended start timing so the captured record is usable for follow-up ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/56062e8)).
-- **Privacy and cache behavior are production concerns**: The repository carries a dedicated privacy page and explicit cache-busting/no-store behavior so legal changes and release fixes reach the live surface predictably ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/21f787c)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/d0714dd)).
-- **Dedicated ecommerce surfaces**: Capsules production is `/culture-capsules`, separate from earlier staging/review sites. Full-course checkout remains `french-course-enroll.html` with $89 today plus four $199 payments, $885 total; it is not the Capsules three-payment offer. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/4aea60bd32c5004ab09fa1d51ed8c657e7b8b501)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/9e189819dc399019d536e4373deb7030f335a4d7))
-- **Purchaser recovery spans the brand**: Omri’s `projects/french-atelier-purchaser-recovery` covers language courses and every French Atelier product, not just Capsules. A supplied sales workbook supports reported name matching and a 232-identity submission, not a complete order/payment reconciliation. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
-- **Campaign-gated Capsules, open language courses**: New unqualified Capsules visits show a neutral welcome; approved ad traffic and returning qualified visitors retain the offer. This client-side filter is not authentication and leaves full French courses open. `projects/french-atelier-culture-capsules` holds access rules; `projects/french-atelier-capsules-checkout` holds payment, bundle and Golden-derived tracking. The CEO QA/staging link does not take real payments. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Verified live reach and pipeline reach are separate**: Published groups, approved memberships, pending requests, and potential member totals are tracked independently so unapproved access is never reported as distribution (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **Group eligibility is identity-specific**: Distribution uses the real profile or LLA Page where that identity can publish. The source reports both profile and Page submissions; Page access is not universally blocked, and membership or submission alone does not prove a live post. (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`)
+- **Every post is attributable**: Destination links carry campaign and group identifiers so organic visits and downstream checkout intent can be evaluated by source (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **The status page is operational, not promotional**: The internal surface is marked noindex and shows evidence, current access state, and next actions without presenting pending reach as achieved results (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **Published-state checks must read the actual Published surface**: Removed-queue entries were once misclassified as live and inflated reported reach. A live claim now requires an individual Published-state check; removed, declined, and queued posts remain separate (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **Tracking fetches are not audience clicks**: Facebook can load a tracked link while a post is composed or verified. Events clustered in posting windows, including events for posts still awaiting approval, therefore cannot be reported as organic audience traffic (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **Approval mode determines immediate reach**: Groups with post approval disabled can publish immediately; moderated groups contribute only pipeline reach until an administrator releases the post (original session `f5b22caa-36a3-4364-85a2-a5ee936a0bc6`).
+- **Membership totals are not impressions or reach**: Group member counts describe possible audience size only. The September posting rounds produced about 245 submissions, but only 56 were reported live across all rounds and just 15 had been verified in the prior 24 hours; pending queues remained a separate pipeline (original session `956703ee-01d7-472a-87c5-9846dbba6053`).
+- **Redirect telemetry cannot establish a human-traffic ceiling**: The reported 322 tracked-link loads include posting/verification activity. A 700ms redirect can also outrun pixel loading and undercount genuine visitors, so the earlier five-click floor/~60 ceiling is not a certified audience total. No purchase was traced to a group link; three unattributed site purchases do not establish zero organic sales. (original session `956703ee-01d7-472a-87c5-9846dbba6053`)
+- **Source attribution must survive the full funnel**: A group-specific redirect identifies the click source, but AddToCart, checkout, and purchase cannot be called organic when UTM/source data disappears downstream. End-to-end organic measurement was not delivered in the September rounds (original session `956703ee-01d7-472a-87c5-9846dbba6053`).
 
 ### See also
 
-- `entities/omri-gitter`: project owner
-- `concepts/github-pages-delivery`: hosting pattern
-- `projects/french-atelier-social-kickstart`: organic social plan
-- `projects/french-atelier-culture-capsules`: culture-learning production ecommerce
-- `projects/french-atelier-purchaser-recovery`: brand-wide buyers and audiences
-- `projects/french-atelier-capsules-checkout`: ecommerce entitlement and attribution
+- `entities/longevity-life-academy`: client and course
+- `projects/lla-course-checkout`: conversion destination
+- `projects/lla-funnel-performance-deck`: measurement surface
+- `projects/lla-masterclass-sales-rfp`: separate AI acquisition comparison
 
 
 ---
 
-Record: `lla-october-board-update` | knowledge last updated: 2026-10-22T23:27:00+00:00
+Record: `lla-masterclass-sales-rfp` | knowledge last updated: 2026-10-26T08:44:00+00:00
 
-## LLA October Board Update
+## LLA Masterclass Sales RFP
 
-LLA October Board Update is Omri's eight-slide board/CEO presentation, with two audience slides before the six-slide acquisition strategy. The same circulated surface provides the browser deck, PowerPoint and PDF; the new audience slides are image-based rather than editable charts. The assistant reports sending the updated link to Keren Ziv, not recipient acceptance. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `658b2028-3543-446e-8b94-2c5db8006a50`) ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-launch-report/commit/a5e4ff4f9c1674eea09981bee6cedde154b96bb6))
+LLA Masterclass Sales RFP is Omri's comparison of immediately executable AI-led acquisition ideas for Julie's masterclass through October 27. It excludes email, SMS, call-center work and Meta campaigns from this request. The assistant reported a public comparison hub and recommended actions, not an activated sales program or verified sales result. (original session `5b70164c-5a23-4fe9-bf6b-bc963c9c2035`)
 
 ### How it works
 
-The presentation explains three distinct efforts rather than treating masterclass upsell as Blueprint’s only sales funnel. The source is `gitteromri-ux/julie-ceo-launch-report`; it is not Julie’s separate speaker/teaching deck. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-launch-report/commit/a68e7f3104ef7314e293d9625d659bd0fe581c2c))
+Omri requested ten proposals each from Claude, Grok and Perplexity, including realistic cost-per-purchase assumptions, timing, activities and an executive-readable comparison. Pasted Claude proposals are third-party suggestions rather than adopted decisions. (original session `5b70164c-5a23-4fe9-bf6b-bc963c9c2035`)
 
-- **Masterclass as bottom-up acquisition**: The accessible paid class builds a community of buyers who can later convert to the full Blueprint course. The targets are 350 registrations for 2026-10-27 and 350 for 2026-11-14, totaling 700 by 2026-11-14, with one Blueprint sale per 10–12 masterclass buyers through sales follow-up or direct checkout. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Actuals are not targets**: Omri supplied 113 signups for immediate board use on 2026-10-18. This is a user-supplied board figure, not a fresh CRM reconciliation. The requested scorecard also includes actual paid totals, VIP totals and per-date progress; the supplied transcript does not establish a reconciled VIP total. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Separate direct-course relaunch**: Blueprint’s relaunch brief calls for a revised landing page/promotion informed by masterclass learnings and a planned VIP tier. Its offer mechanics belong to `projects/lla-course-checkout`, not to the masterclass’s $79 Q&A tier. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Hybrid lead generation**: Maintain low traditional lead volume while prioritizing ecommerce and routing abandoned-cart prospects to sales, rather than replacing direct purchase with a lead-only model. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Audience opens, strategy follows**: Slides 1–2 present an executive audience summary and four comparative charts; the previous six slides are 3–8. The original strategy excludes extra budget/CPP cards. Removing “Reported by Omri” from board-facing copy does not verify the number. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `658b2028-3543-446e-8b94-2c5db8006a50`) ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-launch-report/commit/a5e4ff4f9c1674eea09981bee6cedde154b96bb6))
-- **Separate products and denominators**: The reported audience data covers 5,979 Blueprint leads and 141 Meta-attributed masterclass purchases, not a complete profile of Blueprint CRM buyers. Earlier draft totals were 142 masterclass/three online Blueprint purchases; later drafts used 141/four. Those cutoffs are not a reconciled order ledger. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-- **Observed distribution, not causes**: Reported shares are 73% women/69% aged 55+ among Blueprint leads and 70% women/84% aged 55+ among masterclass purchases. Device shares are 75%/91% iPhone. Targeted income-ZIP categories are not measured buyer income; persona motives and health conditions are assistant hypotheses, not Meta observations. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-- **State chart uses unlike metrics**: Blueprint state bars describe leads, while masterclass state bars use ad clicks, not purchases. The chart cannot establish masterclass purchaser geography or political preference; targeted-state selection also affects observed lead geography. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-- **No compulsory funnel claim**: Omri ordered “They enter through the Masterclass; the Blueprint course is the destination” removed at the circulated link, without another email. The paid-community strategy remains one acquisition route, not a description of every buyer's path. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-- **Same-link handoff**: The refreshed page is `https://gitteromri-ux.github.io/julie-ceo-launch-report/board-deck-2026-10-06/?v=a5e4ff4&fresh=20261022-aud`. The assistant reports eight-slide PPTX/PDF/browser parity and a reply to `[email redacted for public handover]`; the source commit corroborates the eight-slide assembly, not commercial-number reconciliation. (original session `658b2028-3543-446e-8b94-2c5db8006a50`) ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-launch-report/commit/a5e4ff4f9c1674eea09981bee6cedde154b96bb6))
+- **Comparison before activation**: The reported [public RFP hub](https://gitteromri-ux.github.io/masterclass-rfp/) has four tabs; a Grok submission was still missing. Six recommended actions and a projected 24–45 sales were assistant proposals, not authorization or achieved outcomes. (original session `5b70164c-5a23-4fe9-bf6b-bc963c9c2035`)
+- **Immediate execution is the selection constraint**: Ideas requiring a fresh Meta learning period or unapproved communication channels do not satisfy this brief. Later discussion also rejected reliance on newsletters, Julie's own profile and other people; no eventual plan was shown activated. (original session `5b70164c-5a23-4fe9-bf6b-bc963c9c2035`) (original session `439a0622-9c29-4beb-a842-cfe2507b97c8`)
 
 ### See also
 
-- `projects/lla-julie-masterclass`: paying-community acquisition model
-- `projects/lla-course-checkout`: separate Blueprint VIP relaunch
-- `projects/lla-growth-engine`: hybrid recovery and lead model
+- `projects/lla-julie-masterclass`: offer being promoted
+- `projects/lla-organic-community-blitz`: separate community distribution system
 
 
 ---
 
-Record: `sokolov-90-lease-renewal` | knowledge last updated: 2026-10-22T05:29:00+00:00
+Record: `lla-julie-tracking` | knowledge last updated: 2026-10-26T08:44:00+00:00
 
-## Sokolov 90 Lease Renewal
+## Julie Golden CAPI
 
-Omri is coordinating the Sokolov 90 lease renewal in Herzliya as landlord for 2026–2027. Both tenants and both guarantors were reported signed on the amended eight-page lease with the approved roof-electrical row. Omri’s signature remains the outstanding step in the session evidence. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`) (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
+Julie Golden CAPI is the protected attribution chain linking the Julie masterclass campaign, production purchase page, eTeacher order, payment success, and Meta Purchase. Omri owns its documented freeze through 2026-10-26; the golden record describes an attributed real-customer transaction, not universal certification of every subsequent release. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
 
 ### How it works
 
-The base is the “הסכם שכירות לא מוגנת” draft, compared with the prior signed lease and current tenant correspondence. The stated term is 2026-10-15 through 2027-10-14, with reported rent of ₪6,200 monthly in advance on the 15th and no indexation. The named tenants are אביב פורת and אגת סדון; this does not establish Omri’s residence. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
+Campaign `LGV_EN_PPC_ecomm-02_2026-09-02_#118149` (`52668266203628`) points to the masterclass path on `www.longevitylifeacademy.com`. The page feeds pixel `1440305917310328` and the shared `lla-ac-events` relay at `/api/meta/capi`. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
 
-- **Preserve known-defect protection**: Clause 2.2 distinguishes acknowledged existing defects from tenant-caused damage. Appendix A records localized damp/mold in the left bedroom and kitchen shelving area, stair-ceiling leaks/peeling, kitchen-cabinet peeling and living-room floor defects. Contractor hearsay and the gas-burner item remain excluded; the roof-electrical clause is separately authorized. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`) (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
-- **Release future liability on tenant replacement**: New clause 9.6 releases tenants and guarantors from future obligations when replacement tenants enter, preserving prior liabilities and the existing landlord-suitability provision in 9.5. Omri rejected extra signing/security conditions added by the assistant. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-- **Five signatories, separate guaranty pages**: Tenants אביב פורת (`[email redacted for public handover]`) and אגת סדון (`[email redacted for public handover]`) and guarantors יצחק פורת (`[email redacted for public handover]`, page 6) and אילן סדון (`[email redacted for public handover]`, page 7) were reported signed. Omri signs as `[email redacted for public handover]` on page 5; all five signatures are required for completion. (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
-- **Envelope-specific completion**: Replacement envelope `3d9c2b43-cd9a-89e5-8181-14a7cf89334d` is the signing target. The assistant reported resending Omri’s invitation after his request, with a security-confirmation message titled “Do you recognize this document?” His signature is not established by that resend. (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
-- **One exact roof clause**: Omri approved only: “בזמן גשם, הדלקת התאורה החיצונית בגג עלולה לגרום לקצר, בשל תשתית חשמל החשופה למים.” The prior signed appendix was recovered on page 11 with “קצר בחשמל בגג בזמן גשמים”. Other historical appendix items were not authorized for addition. (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
-- **Signed-document boundary**: Row 7 must appear inside Appendix A, not just the invitation email. The assistant reported downloading the sent eight-page PDF back from DocuSign and checking row 7 on page 8, with no other contract changes, and voiding the old envelope. The replacement was sent from a new trial account at `[email redacted for public handover]`, not the older Gmail account. (original session `bd4275ad-388c-43a3-a8c0-6bece4637d22`)
+- **Stable order identity**: Browser `eventID` equals server `event_id`; Purchase uses the CRM order ID and follows Airwallex success or PayPal capture. ClickID is preserved exactly in `fbc`, `_fbp` is read from the cookie, and CRM-bound buyer identity is hashed before sending. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
+- **Ad link is part of the contract**: The golden link retains `?preview=zoom-link-sample`, campaign `cid=118149`, set-specific `adGroupID`, and dynamic ad/set attribution tags. The preview query is not one of the documented QA exclusion flags. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)) (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
+- **Protected production boundary**: The freeze covers ad attribution configuration, URL tags, pixel settings, page tracking/payment files, and the relay deployment. Lifting a protected item requires Omri’s literal item-specific freeze-lift sentence; unrelated presentation changes still pass branch preview, approval, and before/after guards. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
+- **Golden deployment and source**: The relay record names `dpl_DQogoRsNj1XXTpJQmFrRk9zzCCrU`; the page source is `Longevity-Academy/julie-masterclass`, and the golden tag is `tracking-golden-20260928`. The guard checks both code hashes and Meta configuration. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
+- **Raw events and attributed purchases differ**: The golden purchase record describes three raw browser/server copies deduplicated to one attributed purchase. A later handover records the Business Manager dataset connection being disconnected while duplicate server copies were being investigated; that action is not a documented diagnostic-clearance result. ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md)) ([recorded evidence](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648))
+- **Order truth and ad credit differ**: The checkout’s session/ad field identifies a recorded last-click path, not a matched Meta event. Repeated paid orders remain separate orders even for one buyer; neither accidental duplication nor an upgrade follows from shared identity. Unpaid staged records are not purchases, and CRM-paid status is not processor settlement. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+- **Attribution can lag raw receipt**: The October 26 report first showed four CRM-paid orders and raw Purchase receipts while Meta credit was zero, then four attributed purchases split one to Set 02 and three to Set 04. Eight browser/server Purchase receipts were not eight sales or proof of deduplication. A required preceding attributed AddToCart was not established as a condition for Purchase credit. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+- **Initialize first-party identity before deferred Meta code**: Release `julie-meta-20261015-1`, merged as `a188c6c`, initializes `_fbp` before deferred `fbevents.js`, supplies an anonymous visitor `external_id`, and remembers buyer identity for seven days, clearing it on accepted Purchase. The coverage patch is distinct from changing the protected attribution interface. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/pull/1))
+- **Diagnostic acceptance has bounded scope**: Production testing with `meta_test=TEST10151` confirmed matching module/cookie fbp, exact-case fbc, an external ID, and accepted PageView/ViewContent receipts. It did not establish Events Manager UI results, traffic-wide match coverage, paid Purchase certification or clearance of the separate Blueprint Set 2 investigation. Omri’s generic “go” is evidenced; the literal item-specific freeze-lift sentence is not. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
+- **Frozen tag and rollback baseline are different**: The 2026-10-17 rollback `cf899f2` restores `a188c6c`, retaining the 2026-10-15 tracking patch. The inspected live tracking hash starts `7dcf7ce9f645`, versus golden-tag `9f5ddfbae39c`; payment-safety also differs from the tag, while attribution is identical. A match to the pre-release production files does not establish frozen-tag compliance. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/commit/cf899f2594e7acb209c0bee27acf99c07d234fdb))
+- **PR merge is not the literal freeze lift**: The coverage change used branch `tracking/emq-coverage-20261015` and PR #1, merged under `gitteromri-ux`. Repository process is established; the required item-specific lift sentence remains unestablished. A guard failure establishes a baseline difference, not proof that a purchase was lost. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/pull/1)) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/commit/a188c6c1bbb4ec79f25de1020597e15aec6d364f))
+- **Design diffs and purchase logic are separate**: The inspected payment-safety difference changes Drop-In appearance and save-card defaults; the coverage patch changes first-party identity inputs. Neither unchanged Purchase code nor those diff scopes prove complete delivery, deduplication or attribution on real traffic. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+- **Recovery evidence has bounded scope**: The `projects/lla-julie-checkout-recovery` release reports production-baseline hash matches and PageView/ViewContent firing, while its QA mode disables Meta. The subsequent `projects/lla-julie-checkout-incident` leaves order-to-Meta matching unresolved; form rendering, accepted diagnostic events and matching hashes do not certify paid Purchase coverage. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
+- **Community source is an order-level distinction**: Existing checkout payloads send `LandingPageURL` and `QueryString`. Identifying a paid community sale requires its originating `/masterclass-72hours/` path and payment after launch; the shared pixel and a persisted IIBS campaign label alone cannot distinguish it from the normal page. Retention beside the paid order in ActiveCampaign was not verified. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+- **New-set naming does not rewrite copied tags**: `projects/lla-julie-purchaser-audience` is named with terminal CRM tag `#108814`, but its copied URLs retain source group values. The approved activation is not evidence that the new URLs were aligned or that end-to-end CRM attribution passed. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
 
 ### See also
 
-- `entities/omri-gitter`: landlord coordinating the renewal
+- `projects/lla-julie-masterclass`: protected purchase surface
+- `projects/lla-julie-meta-pilot`: acquisition and attribution decisions
+- `projects/lla-course-checkout`: separate Blueprint proof boundary
+- `projects/lla-julie-checkout-recovery`: isolated payment repair preview
+- `projects/lla-julie-community-offer`: separate clone attribution boundary
+- `projects/lla-julie-checkout-incident`: rollback and order evidence
 
 
 ---
 
-Record: `iching-career-reflection` | knowledge last updated: 2026-10-20T06:23:00+00:00
+Record: `lla-julie-purchaser-audience` | knowledge last updated: 2026-10-26T08:44:00+00:00
 
-## I Ching Career and Location Reflection
+## Julie Purchaser and Warm-Audience Ad Set
 
-Omri requested an extensive I Ching reading as personal exploration, with a general interpretation and a separate question-specific interpretation. The questions concern suitable work, entering hospitality and remaining in Israel over the coming years; they do not establish a job change, relocation plan or prediction. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
+Julie Purchaser and Warm-Audience Ad Set is Omri’s approved acquisition extension for Julie’s masterclass. Set `52673824399628` launched at $99/day with four selected creatives and fifteen paused copies; it combines purchaser-lookalike prospecting with campaign-specific warm retargeting rather than separating their budgets. It is the live Set 02 in later reporting, not the retired similarly named paused set; launch budget is not its maintained budget. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
 
 ### How it works
 
-The requested deliverable is a browser-readable Hebrew analysis drawing on Wilhelm/Baynes and commentary associated with Wang Bi/Lynn and Alfred Huang. Omri asked for full analysis rather than brief conclusions and ultimately supplied three questions in the toss order. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
+The set uses website Purchase optimization, lowest-cost bidding, United States ages 44–65+, and Facebook Feed plus Reels only. Both genders are eligible. Advantage+ Audience, custom-audience expansion and lookalike expansion are reported off; configuration restrictions do not guarantee buyer intent or perfect identity/location matching. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
 
-- **Separate blind and contextual readings**: One tab retains a general interpretation; the second interprets the same results against the supplied questions. Omri challenged the assistant’s earlier objection to reading without knowing the questions. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
-- **Questions, not decisions**: The three questions ask what to understand/do to attract suitable work, what potential hospitality holds in coming years, and how appropriate remaining in Israel would be. The assistant’s recommendations and numerical success scales are interpretations, not Omri’s choices or validated forecasts. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
-- **Source depth remains attributable**: The assistant reported expanding the question-specific reading to twelve sections per question. It had earlier acknowledged that only Wilhelm material was verified and that Lynn/Huang wording was paraphrased from memory; the final reported expansion is not independent scholarly validation. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
-- **Readable review surface**: The requested design uses larger white/blue type, no yellow/orange and no bold treatment. A Wix-hosted URL was delivered after GitHub/htmlpreview/internal handoffs failed for the user. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
+- **Explicit launch exception**: Omri approved GOLIVE for this purchaser-lookalike/warm configuration. That approval does not broaden the existing live sets or authorize changes to their budgets, targeting or original creatives. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **Enriched seed preserves the original**: Seed `52673824207628` retains its original 101 identities and accepted nineteen then two verified additions, zero invalid rows, for 122 submitted distinct buyer emails from 131 reconciled paid-order records. The final two additions map to orders `8056658` and `8056899`. Its original “101” label was deliberately preserved; that label is not the submitted count, and submitted count is not matched-user count or settlement proof. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`) (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`)
+- **Seed processing and lookalike readiness differ**: Seed additions read ACTIVE/Updating (300), while existing 1% lookalike `52673827176428` remained ACTIVE/Normal (200). Normal does not prove refreshed matching finished. The separate 129-order call-list snapshot had 120 distinct emails and an earlier cutoff. (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`)
+- **Set 3 only**: Omri’s attachment approval applied to paused Set 03, excluded set 6 and preserved budget/creatives at that action. Subsequent resumed delivery does not broaden the earlier approval or establish who made intervening creative changes. (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+- **Seed update is not a pacing guarantee**: Updating an existing customer list and adding a lookalike to targeting are different edits. The former’s documented non-reset behavior does not guarantee unchanged spend speed; the latter is a targeting edit that can restart learning. No observed result establishes specifically slower or better morning delivery. (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`)
+- **OR, not AND**: Eligibility is membership in the 1% purchaser lookalike OR the defined Julie Checkout-30d/AddToCart-14d pool, with purchaser exclusions. The cart rule includes the Julie page and campaign ID, excluding untagged return visits. Ordinary page visitors are not included. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **Warm-pool warning is separate**: The narrow checkout/cart pool was still populating and flagged small; the purchaser lookalike was ready. Event totals are not distinct reachable non-buyers. The broader ready 180-day Julie page-visitor pool and three-way separated audiences were discussed but not implemented in this launch. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **Exact selected sources**: Omri chose Ad#17 Five Habits from Set 05 (`52670277632228`), zoom-blue slower v4 from Set 01 (`52673573725028`), Ad#21 Julie cards from Set 03 (`52673304378628`), and card-gold Reels from Set 03 (`52670313921028`). Four are enabled; the other fifteen copies remain paused. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **Numeric CRM tag ends the name**: The corrected set name is `ecomm_Adset_02_All_All_CPM_#108814`, with nothing after `#108814`. Nineteen ad names were checked against their source names with no added labels or suffixes. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **Name and URL mapping are different interfaces**: The copied URLs retain source `adGroupID` values `108813`, `108815` and `108817`, rather than new set `108814`. Renaming does not align those tags; the reviewed session ends with a request for approval to change the new copies, not a completed repair. (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+
+### See also
+
+- `projects/lla-julie-meta-pilot`: parent paid-acquisition experiment
+- `projects/lla-julie-tracking`: protected URL attribution interface
+- `projects/french-atelier-purchaser-recovery`: separate brand buyer investigation
+
+
+---
+
+Record: `french-atelier-performance-diagnosis` | knowledge last updated: 2026-10-26T08:44:00+00:00
+
+## French Atelier Performance Diagnosis
+
+French Atelier Performance Diagnosis is the browser-ready operating surface for comparing call-center activity and acquisition performance across reporting periods. (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`)
+
+### How it works
+
+The project turns uploaded rep and weekday exports into side-by-side weekly and monthly diagnosis views linked from the existing French Atelier results dashboard (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`).
+
+- **Period identity must be established before comparison**: The three uploaded exports carried different windows-September, the current week, and July–August-but the filenames and file contents did not identify which was which. Performance decline cannot be calculated or attributed until each export is mapped to its period (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`).
+- **Only requested performance drivers belong in the diagnosis**: The corrected view focuses on the named representatives and overall calling rather than adding unsupported headlines or unrelated representatives (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`).
+- **Near-identical totals do not establish a shared period**: Two rep exports had similar totals, but that similarity was not a valid basis for treating them as duplicate snapshots when the user stated they covered different dates (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`).
+
+### Key surfaces
+
+- Diagnosis: `https://gitteromri-ux.github.io/french-atelier-june-results/diagnosis/index.html` (original session `cdb8100a-982c-4f57-a758-7c81ccfb4327`)
+
+### See also
+
+- `projects/french-atelier-social-kickstart`: organic campaign system
+- `projects/french-atelier-website`: production website
+- `projects/french-atelier-weekly-reporting`: recurring corrected workbook
+
+
+---
+
+Record: `french-atelier-culture-capsules` | knowledge last updated: 2026-10-26T08:44:00+00:00
+
+## French Atelier Culture Capsules
+
+French Atelier Culture Capsules is Omri’s three-theme live culture-learning offer, campaign-gated production ecommerce page and launch library. The production URL is `https://www.frenchatelierlive.com/culture-capsules`; preview/review and launch-library surfaces remain separate. Omri approved the paid launch and checkout repairs; event transport and sandbox enrollment do not certify production ad-attributed purchases or settlement. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `7915eae5-e0c8-4e9f-8bae-8d57695ba748`) (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+
+### How it works
+
+Fashion & Art, Gastronomy & Wine and Cinema & Music each comprise ten live one-hour Zoom conferences plus Q&A, in English with no French required. The offer is independent of the language courses; the production site and checkout live in `gitteromri-ux/french-atelier`. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/c5f6111c982ae17cfee337a45de80bfa8961bcb6))
+
+- **Readable hero and branded card differentiation**: Omri requested a larger headline with narrower line breaks, a larger subheader, and different card colors. The reported revision uses navy for one capsule, ivory/gold for the all-three best seller, and brand blue for two capsules. (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`)
+- **Public launch-pack surface**: The session provides a browser-readable media plan and hub in addition to GitHub source links, so the handoff is not limited to a repository directory. (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`)
+- **Dark source identity is separate**: Omri described recent pricing/fold work on another account’s dark Culture Capsule website. Its exact repository was not identified in the search session; the described dark build was not established as the same source as the French Atelier preview. (original session `90701961-41f5-40dc-a674-a33926c9c165`)
+- **Earlier preview stays separate**: The balanced `fa-capsules-v3.pplx.app/capsules.html` publication preserves its floating CTA/promo controls and was not the French Atelier production merge. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `7915eae5-e0c8-4e9f-8bae-8d57695ba748`)
+- **Dark homepage is not dark Capsules**: The retrieved `staging-checkout-ecom-dark` v10 changes the 20-lesson language-course homepage. That source does not establish the final three-package Culture Capsules page Omri requested. (original session `0b5e32e6-fbb9-418f-a0ac-32c046b29743`)
+- **Non-default bridge contains a dark-site snapshot**: `gitteromri-ux/fa-capsules-launch` branch `bridge` mirrors the public capsules URL in `bridge/out/capsules-site/`. It includes Fashion & Art, Gastronomy & Wine and Cinema & Music, with dark navy CSS. The mirror log records a syllabus-PDF 404; it is a capture record, not a current live-link test or production-promotion receipt. ([recorded evidence](https://github.com/gitteromri-ux/fa-capsules-launch/blob/bridge/bridge/out/capsules-site/capsules.html)) ([recorded evidence](https://github.com/gitteromri-ux/fa-capsules-launch/blob/bridge/bridge/out/capsules-site/_mirror.log))
+- **Balanced lighting belongs to the earlier public preview**: Omri approved moderated brightness, stronger contrast and larger type after rejecting the initial overly bright treatment. Publication and browser checks establish fourteen balanced video backgrounds, autoplay, no tested mobile overflow and three checkout modals opening on that surface; completed payments were not tested. (original session `7915eae5-e0c8-4e9f-8bae-8d57695ba748`)
+- **Programme visibility is separate from source completeness**: The saved page contained eleven sections and thirty conference cards, while two programmes were hidden by default. The separate public review exposes all three programmes and thirty cards; it does not replace the balanced sales page. (original session `7915eae5-e0c8-4e9f-8bae-8d57695ba748`)
+- **Approved faculty design**: Beige background, Manuela Breschi left, Vicky Bourdenecc middle and Shaina Abdellaoui right; matched visible face scale/eye line, upright portraits and short readable credential-led bios. Shaina’s title is “Cinema & Music Instructor,” not graduate; Manuela’s genuine Christian Dior background anchors her copy. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Design-only release boundary**: Omri approved the reviewed teacher presentation, aligned theme cards, larger text, supplied Philippe/Charline films in section five and mobile CSS fixes. The release merged the newer checkout baseline and verified nine protected files byte-for-byte plus unchanged scripts and pricing-through-footer; no payment was submitted. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Three-payment offer with manual promotion**: One capsule is $99 ×3 = $297, two are $178 ×3 = $534, all three $189 ×3 = $567. CAPSULE20 must be entered and Apply pressed; visiting/copying the banner does not activate it. Rounded promotional installments are $79/$142/$151 and totals $237/$426/$453. Staging CRM checks confirm these displayed amounts without completed charges. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) (original session `11b3a24a-1d1c-4b1f-8788-81abd1a9fe32`)
+- **Per-capsule price leads the cards**: Omri explicitly requires the dominant monthly number to be $99/$89/$63 per capsule; two/all-three show the $99 reference with 10%/36% savings. Package installments and full totals are secondary. The reported final design retains tight spacing, large factual bullets and no pills; enrollment remains “Enroll Online.” (original session `11b3a24a-1d1c-4b1f-8788-81abd1a9fe32`)
+- **Checkout presentation is not account timezone**: Customer-facing checkout uses EST/GMT/Pacific, not Israel time, and a lock beside secure payment. The approved reviewed publication includes the capsule refund period starting at registration. These presentation changes do not certify completed card/PayPal payments or change Meta’s reporting timezone. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) (original session `11b3a24a-1d1c-4b1f-8788-81abd1a9fe32`)
+- **Course-priced CRM orders**: Staging comparisons isolated forced `ProductID:25` in the French relay as the cause of the wrong $885 language-course schedule. Stripping it lets the CRM honor the chosen capsule course and payment amounts; the reported deployed relay rejects non-FA courses. The full-course offer remains $89 plus four $199 payments, not a Capsules plan. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- **Production gateway and brand identity are separate**: The reported relay deployment continues forwarding production CRM orders through `eteacher-leads-proxy.gitter-omri.workers.dev`, while using French Atelier course IDs and tracking identity. Its own direct CRM credentials cover staging; website pricing repair is not evidence of migration to French-only production infrastructure. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- **Dedicated checkout and attribution system**: `projects/french-atelier-capsules-checkout` owns Golden-derived tracking, buyer-bound order caching and paid bundle enrollment. Dataset `4075596186030950` is distinct from dataset “FA” `4400286150281912`; event receipts do not establish ad credit or settlement. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Failure-safe payment presentation**: Reported fixes cover 320/360/375/390/430px payment layouts and retain “Payment received. Enrollment confirmation pending. Do not pay again.” after simulated CRM-report failure. Pay Later/Venmo and unsupported automatic-monthly PayPal promises were removed; real recurring collection is not established. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- **Mobile redesign has a protected integration boundary**: Omri requests a larger, stronger hero headline, readable body type, no hero price text, no gold text on imagery and mobile sliders where useful. The mobile-readability v5 commit changes CSS and one hero span, hiding phone hero pricing while preserving tracking/checkout/attribution files. This source change does not establish resolution of the discounted-payment fallback or physical-device payment success. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/73865bb0303c6799a9498e0ced4c30a7ba6ab70f))
+- **Website depth is a conversion concern, not checkout evidence**: The reported 28-screen iPhone-emulated walkthrough places the first full pricing cards around screens 13–14; the floating enrollment control shortcuts the long page. Omri explicitly requested website screenshots rather than another checkout sequence. Moving pricing/Enroll into the first screen was an assistant proposal, not an accepted replacement for the no-hero-pricing constraint. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Brand-wide seed and selected launch**: Omri rejected mixed-brand buyer padding and requested purchasers across French Atelier. `projects/french-atelier-purchaser-recovery` owns seed reconciliation and the reported 17-ad, three-set active launch; it is not warm-lead retargeting. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Campaign gate protects full-course presentation**: After sales-team complaints that the cheaper offer competed with full-course sales, Omri approved a client-side filter. Meta click IDs, Facebook/Instagram referrers or qualifying campaign tags admit the offer; returning ad visitors retain access for 30 days. New unqualified visitors see a neutral welcome with course/teacher links. Copied campaign URLs still work: this is not authentication. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/1a5938cc11c98d9697f948871448ff23cc016589)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/aaf9a1710961baf374f5327b0b49eb6d7d7b5f5d)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/8a8a3e61d2a8197443223819a34503ea21507692))
+- **Offer versus welcome instrumentation**: Offer pages send `FA_OfferShown` and ViewContent; welcome pages send `FA_WelcomeShown` without ViewContent, alongside PageView. Aggregate counts and simulated-link checks do not identify the landing outcome of each real ad click. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/c0f9527ca0aea657a51d88aaca2217ca4abc1334))
+- **Review access is test-only**: The CEO review link uses `?fa_review=capsules&qa=1&env=staging`, is shareable without login and does not take real payments. Its TEST MODE warning is separate from paid-traffic presentation; future email campaigns need explicit gate qualification. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier/commit/1a5938cc11c98d9697f948871448ff23cc016589))
+- **Dark launch-hub identity**: Omri retained the existing dark hero and requested brighter motion footage, not a light-theme redesign. The reported correction restores dark styling and readable text without changing checkout/tracking. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+- **Selected UGCs remain unchanged**: The three supplied `video-kit/ugc/` MP4s replace assistant-edited UGCs in the hub, mockups and downloads. Original website films and their edits remain a separate collection, not substitutes for or replaced by UGCs. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+- **Launch library, not installed campaigns**: The hub contains twenty-four banner exports in three formats, sixty-four email assets, beauty clips, source films/edits and the selected UGCs. The reported banner rebuild uses Instrument Serif regular/italic headlines, Inter body text, wide photography and structured offer panels. Delivered files do not establish ActiveCampaign installation, sends or user acceptance of the rebuilt banners. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
 
 ### Surfaces
 
-- Delivered reading: `https://headless-zgyfbzqmrfg-gitteromri5-140b.wix-site-host.com/`; question-specific tab: `#questions`. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
-- Source repository identified in the session: `gitteromri-ux/iching-reading`. (original session `f3ef654d-0617-422d-b1f3-b1893a2ce623`)
-
-
----
-
-Record: `eteacher-monthly-invoicing` | knowledge last updated: 2026-10-20T06:23:00+00:00
-
-## eTeacher Monthly Invoicing
-
-Omri manages separate recurring Morning/Green Invoice tax invoices for eTeacher Group’s French Atelier and Longevity Life Academy work. Billing uses 15th-to-15th service periods, month-end due dates and preview approval before issuance; the October cycle includes verified allocation-number recovery and newly issued documents. (original session `126994a0-ae37-4d2b-9e2c-b1c3ca4417ae`) (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-
-### How it works
-
-The invoice client is איטיצאר בע"מ. The two brands share the client but retain separate titles and service rows. September’s source documents are 50036 for French Atelier and 50037 for LLA; the approved next service period is 2026-09-15–2026-10-15, issued 2026-10-19 and due 2026-10-31. (original session `126994a0-ae37-4d2b-9e2c-b1c3ca4417ae`) (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-
-- **French Atelier’s approved recurring scope**: “E2E Marketing agency” $11,000 and “Active Campaign CRM (tech/software)” $630, plus 18% VAT. The $8,000 Organic Assets item from the previous cycle is excluded from this cycle, not silently rebilled. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- **LLA’s approved recurring scope**: “E2E Marketing agency Fee” $8,000 plus 18% VAT, with source wording otherwise preserved. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- **Current conversion for the new cycle**: Morning duplication retained the old 2.954 ILS/USD rate; Omri rejected it. Refreshed rows show 3.11 ILS/USD. French Atelier totals ₪36,169.30 before VAT + ₪6,510.47 VAT = ₪42,679.77; LLA totals ₪24,880 + ₪4,478.40 = ₪29,358.40. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- **September allocation recovery**: After Morning’s Tax Authority authorization was renewed, 50036 received 292018463 and 50037 received 292083483. Browser confirmations show successful allocation requests against the existing documents, not replacement invoices. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- **Approved October issuance**: 50038 is French Atelier, ₪42,679.77, allocation 292011586; 50039 is LLA, ₪29,358.40, allocation 292072185. Browser confirmation and the income-list readback establish issued documents. The assistant reported auto-sending to [email redacted for public handover] and [email redacted for public handover]; recipient receipt is not established. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- **Authorization and tax payment are different systems**: Morning’s allocation authorization was shown active after renewal on 2026-10-19, with three-month validity. This is allocation access, not evidence that VAT or other tax returns were filed or paid. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-
-### Surfaces
-
-- September 50036: `https://app.greeninvoice.co.il/incomes/documents/81e54cae-7177-43f1-93af-6cf7917a3356`. (original session `126994a0-ae37-4d2b-9e2c-b1c3ca4417ae`) (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- September 50037: `https://app.greeninvoice.co.il/incomes/documents/a84a060a-5bf2-47f1-9fce-b113e011dbd6`. (original session `126994a0-ae37-4d2b-9e2c-b1c3ca4417ae`) (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- October 50038: `https://app.greeninvoice.co.il/incomes/documents/aca27508-3cfe-4312-9bc8-f61219149491`. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
-- October 50039: `https://app.greeninvoice.co.il/incomes/documents/8ae354c3-d6e9-45df-8789-d88fec0fcabe`. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
+- Production: `https://www.frenchatelierlive.com/culture-capsules`, with separate payment page `enroll-checkout.html`; old enrollment URL redirects preserving attribution parameters. Internal no-charge walkthrough uses `?env=staging`. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- CEO purchasing entry: `https://www.frenchatelierlive.com/culture-capsules?utm_source=facebook&cq_src=facebook`. The GitHub review mirror is not a purchase handoff: Omri encountered a payment-page 404 there. Production page availability is not a completed-payment test. (original session `50d09f1f-0a80-4b26-b0d9-ffcbc97f0f44`)
+- Earlier source/preview: `staging-capsules-light`, `docs/capsules-launch/` and `https://fa-capsules-v3.pplx.app/capsules.html`; these are not the canonical production launch URL. (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`) (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- Separate public review: `https://gitteromri-ux.github.io/fa-capsules-review-public/`. (original session `7915eae5-e0c8-4e9f-8bae-8d57695ba748`)
+- Launch library: `https://gitteromri-ux.github.io/fa-capsules-launch/?v=dd1841f`; supplied kit: `https://gitteromri-ux.github.io/fa-capsules-launch/video-kit/`. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+- Ad selection board: `https://gitteromri-ux.github.io/fa-capsules-launch/ad-board/`; separate from the production offer and Meta activation. (original session `a7807e3c-c002-4b23-8068-2c53c5b076c2`)
 
 ### See also
 
-- `entities/gita-agency`: agency issuing the documents
-- `entities/longevity-life-academy`: separately billed client brand
+- `projects/french-atelier-weekly-reporting`: separate language-course reporting
+- `projects/french-atelier-website`: production site and source
+- `projects/direct-ecommerce-school-pilot`: separate school acquisition test
+- `projects/french-atelier-purchaser-recovery`: CRM buyers and launch audiences
+- `projects/french-atelier-capsules-checkout`: payment entitlement and attribution
 
 
 ---
 
-Record: `lla-julie-invitation-blast` | knowledge last updated: 2026-10-19T01:21:00+00:00
+Record: `lla-julie-overnight-guardrails` | knowledge last updated: 2026-10-24T23:33:00+00:00
 
-## Julie School Invitation Emails
+## Julie Masterclass Overnight Guardrails
 
-Julie School Invitation Emails is Omri’s community-masterclass acquisition handoff for Rosen, IIBS and Longevity audiences. Its original public gallery now includes the approved IIBS Emails v4 tab and community hero destinations. Published GitHub versions do not automatically update ActiveCampaign imports or certify full send coverage. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/gitteromri-ux/julie-masterclass-blast/commit/6df81d9a9298cbd38a93d20533474560856cb791))
+Omri's stored overnight rules control Julie masterclass ad-set budgets through no-sale cuts, efficient-sale raises and dry-spend alerts. Actions are **reductions by a dollar amount**, not reductions to that amount. The verified automation is bounded to 2026-10-25 before 07:00 Asia/Jerusalem; storing the rules does not authorize perpetual nightly execution. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
 
 ### How it works
 
-The recipient’s actual relationship determines the opening, sender and footer rather than treating every contact as an alumnus. IIBS v4 covers alumni, active students, non-completers and leads, with audience-specific introductions and a shared approved body. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+The rules apply to campaign `ecomm-02` (`52668266203628`) in Longevity account `1459085242361281`. A sale counts for a set when Meta reports it or a CRM order carries that set's number; an unattributed CRM order does not cancel a set's cut. A qualifying sale before the cut cancels that cut for the night. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
 
-- **Context before credentials**: Omri selected the softer reference-email direction: explain longevity and the learning opportunity before introducing Julie. The school connection must be credible and respectful to readers unfamiliar with her, not a supposed new partnership or arbitrary name-dropping. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- **Automatic masterclass discount**: The chosen invitation offer is 36% off for 72 hours, applied without an entered code, with participation from $49. Price appears toward the bottom, not as the lead subject. This replaces the cross-product `$249` coupon pitch; it does not establish the value of any underlying VIP Blueprint benefit. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- **No invented pre-public exclusivity**: Omri rejected “held seats before general release” because the masterclass was already public. Limited-seat wording is separate from a claim that the public cannot enroll. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- **School and Academy voices differ**: School versions use their school identity, personalization, and footer; Academy versions introduce LLA as the eTeacher school behind the invitation and explain the prior school contact. The final reported senders are Noa Shalev for Rosen, Sophia Green for IIBS, and Emma for LLA. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- **Reusable production handoff**: Chris and Sandra’s requested handoff combines complete email previews, separate image downloads, copyable text/HTML, correct headers/footers, and ActiveCampaign personalization. Review versions are artifacts for installation, not proof of activation. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- **One circulated URL, hero landing**: The authoritative gallery remains `https://gitteromri-ux.github.io/julie-masterclass-blast/`. All sixteen reported email versions, HTML downloads and plain-text copies point to `/masterclass-72hours/` at the hero, retain UTMs and omit pricing/section anchors. ([recorded evidence](https://github.com/gitteromri-ux/julie-masterclass-blast/commit/d23be44ce26d9b09973960db0d247cea2c5ef149)) (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/gitteromri-ux/julie-masterclass-blast/commit/49531c6a31b06a6921b9e778ef17e667309086d0))
-- **Full US time-zone lines**: 2026-10-27 is 7:00 PM ET / 6:00 PM CT / 5:00 PM MT / 4:00 PM PT; 2026-11-14 is 1:00 PM ET / 12:00 PM CT / 11:00 AM MT / 10:00 AM PT. All variants retain the short “14-day refund*” and later-of-class-start clarification. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **IIBS v4 is approved copy only**: Seven IIBS files cover the four audiences, grouped under `#iibs-v4`. The preheader is “One live hour with Julie Gibson Clark on health that lasts. 36% off for the Institute community.” The strip is “For our community · A live hour on living well, longer.” Each main headline retains “The Longevity Masterclass of the Year”; Julie’s subheadline identifies a single mom aging about 6.5 years per decade, with an educational/results disclaimer. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/gitteromri-ux/julie-masterclass-blast/commit/6df81d9a9298cbd38a93d20533474560856cb791))
-- **Scope preserves design and other brands**: The approved IIBS update preserves CSS, fonts, images, buttons, subject lines, personalization, unsubscribe links and earlier link/time/refund corrections. Rosen and Longevity remain unchanged by this IIBS-only revision. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Chris’s import is a separate release**: The copy-paste handoff explains the approved changes after speaking with Elaine and singles out IIBS v4 at `?v=6df81d9-iibs-v4#iibs-v4`. GitHub changes do not propagate to ActiveCampaign; the reviewed record requests confirmation before launch rather than establishing all imports or sends. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+| Set | Meta ad-set ID | No-sale spend trigger | Subtract from current daily budget |
+|---|---|---:|---:|
+| 04 · `#108816` | `52668330870828` | ≥$155 | $99 |
+| 05 · `#108817` | `52668330871228` | ≥$145 | $49 |
+| 02 · `#108814` | `52673824399628` | ≥$145 | $40 |
+| 01 · `#108813` | `52668330533628` | >$149 | $30 |
+| 03 · `#108815` | `52668330165828` | >$149 | $30 |
+
+For example, Set 04 at a $999 budget becomes $900. Set 03 has the same cut as Set 01. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+
+- **Efficient-sale raise**: Any live set receives +$70 once when it has two sales at aggregate spend/sales ≤$100, or three at ≤$125. One sale or higher CPP produces no raise. Each cut and each raise can fire at most once per set per night. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Dry-hour alert**: Notify when Set 04 or Set 05 spends more than $50 in the last full hour with no sale in that hour. Quiet checks suppress notification; an alert is not itself a budget cut. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Narrow mutation scope**: Permission covers these budget deltas for the bounded night, not pausing sets or changing targeting, bids, ads or tracking. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Saved execution**: Automation `658668c7-5f7a-453d-9a44-7cb520aebdfa` was created with a 20-minute recurrence, local start `2026-10-25T01:50:00` and local end `2026-10-25T07:00:00`, then corrected to the decrements above. Its returned next wake is `2026-10-24T22:50:00Z`; an actual wake reports a Set 04 dry-hour alert and no budget mutation. This proves a saved definition and one wake, not all-night punctual execution. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Control telemetry is not settlement**: The saved prompt treats a successful `payments/crm` response as a paid-order signal and requires a set number to cancel a cut. This operational sales proxy is not processor settlement or browser/server Meta deduplication. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
 
 ### See also
 
-- `projects/lla-masterclass-emails`: separate lifecycle email system
-- `projects/lla-julie-masterclass`: enrollment offer and destination
-- `entities/sandra-kwiecien`: copy and CRM authority
-- `projects/lla-julie-community-offer`: separate community offer surface
+- `projects/lla-julie-meta-pilot`: parent acquisition campaign
+- `projects/lla-blueprint-relaunch`: separate post-event acquisition plan
 
 
 ---
 
-Record: `lla-julie-community-offer` | knowledge last updated: 2026-10-19T01:21:00+00:00
+Record: `lla-julie-communications-plan` | knowledge last updated: 2026-10-24T10:14:00+00:00
 
-## Julie Community 72-Hour Offer
+## LLA Julie Communications Plan
 
-Julie Community 72-Hour Offer is Omri’s separate masterclass purchase page for school communities and Longevity leads. It presents an automatic discount at the existing public URL and one fixed 72-hour campaign deadline. Published presentation and UI checks do not certify completed payments or source-specific purchase attribution. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`) (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/Longevity-Academy/masterclass-72hours/commit/a68b6edaf2e238abf1871171c6c83fb543ec0eaf))
+LLA Julie Communications Plan is the public GitHub Pages briefing used to align Julie Gibson Clark on LLA campaign initiatives and her specific asks. The expanded preview places masterclass context before the campaign materials and collects Julie’s two requested actions at the end (original session `f43ebdba-3055-4d95-98f5-8baed7b8b701`) (original session `d1a1f25c-b0cd-4301-a437-3188d0c71824`).
 
 ### How it works
 
-The source is `Longevity-Academy/masterclass-72hours`, published at `https://www.longevitylifeacademy.com/masterclass-72hours/`. The paid campaign remains on `Longevity-Academy/julie-masterclass` and `/julie-masterclass/`; the duplication report includes a production-source hash comparison. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
+The plan uses a context introduction, numbered chapters, direct links, and one final request block to turn the masterclass and campaign materials into one reviewable handoff (original session `d1a1f25c-b0cd-4301-a437-3188d0c71824`).
 
-- **Separate offer, automatic price**: The page advertises 36% off, displaying Standard $49 and VIP $79 against prior prices $77/$124, with no entered code. Rounded display prices are not exact 36% arithmetic. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
-- **One fixed campaign clock**: The universal window runs from 2026-10-18 17:00 to 2026-10-21 17:00 Israel time, equivalent to 14:00 UTC at both endpoints. Reloads and new visitors share the deadline; expiry stays at zero rather than starting a new window. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) ([recorded evidence](https://github.com/Longevity-Academy/masterclass-72hours/commit/a68b6edaf2e238abf1871171c6c83fb543ec0eaf))
-- **Unlisted rather than private**: `noindex`, `nofollow`, `noarchive` and omission from navigation reduce discovery, but anyone with the URL can open the page. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
-- **Paid order, page and payment time identify the channel**: Existing checkout payloads send `LandingPageURL` and `QueryString`; community attribution requires a paid order originating on `/masterclass-72hours/` after campaign launch. A shared pixel total or retained IIBS campaign label alone cannot identify that sale. Field retention beside the paid order in ActiveCampaign was not verified. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Mobile layout without commerce changes**: The published revision reports hero → What you’ll learn → pricing → About Julie, aligned pricing cards and restored visible controls at the same URL. Omri explicitly excludes checkout, tracking/CAPI and the normal masterclass page from this work. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Design-only handoff protects commerce**: The reported Claude pack combines source, screenshots and protected checkout/Golden CAPI boundaries. It calls for premium mobile and desktop treatment, including 360/390/412 widths, enlarged Android text and a 1440 desktop view. Packaging and reported inspection are not proof of acceptance or a later production port. (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`)
-- **Read-only UI coverage has limits**: The audit reports 82 interface checks with writes blocked and no CRM orders created. It found an Airwallex setup error, checkout refund text differing from pricing and an error state persisting across plans. No real card, 3DS, wallet or PayPal payment was tested; the setup error alone does not prove payment failure. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Short refund presentation**: Pricing uses “14-day refund*” with “14 days from registration or until your class starts, whichever is later.” The audit still found “within 14 days from registration” in checkout. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-- **Checkout recovery is another surface**: The selected pricing-card/strip port and SDK/PayPal repairs belong to `projects/lla-julie-checkout-recovery`, not this clone. That workstream’s authorized release and subsequent production rollback do not establish this community page’s acceptance or commerce certification. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`)
+- **Context before materials**: The introduction explains the proposed live masterclass and collaborative deck preparation before chapters covering videos, selected banners, the masterclass site, syllabus, mockups, PR, and animations (original session `d1a1f25c-b0cd-4301-a437-3188d0c71824`).
+- **Requests belong at the end**: Omri rejected asks in each chapter. The final block requests two available dates and preliminary syllabus comments, keeping campaign materials separate from Julie’s actions (original session `d1a1f25c-b0cd-4301-a437-3188d0c71824`).
+- **Public clickable handoff**: The surface remains anonymous and browser-ready, with direct initiative links rather than a document that depends on PDF annotations (original session `f43ebdba-3055-4d95-98f5-8baed7b8b701`) (original session `d1a1f25c-b0cd-4301-a437-3188d0c71824`).
+- **Syllabus and speaker deck are separate artifacts**: The briefing's v4-preview syllabus and the curated `projects/lla-julie-masterclass-deck` have separate source scopes. The speaker review follows Version C and explicit overrides, including testing/disclosure content and the integrated day protocol; its publication does not certify parity of every public syllabus surface. (original session `5fc1c29a-a40f-4e3a-8017-9a20d981b89f`)
+- **Executive distribution has its own brief**: `projects/lla-julie-executive-social` separates Harel, management/board and faculty voices for the masterclass. Its nine reported drafts ended in an unresolved risk audit, not an approved extension of Julie's teaching syllabus. (original session `f55de7df-62e4-4685-aa1e-d2280ec69eff`)
+
+### Key surfaces
+
+- Repo: `https://github.com/gitteromri-ux/lla-julie-communications-plan` ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-communications-plan))
+- V1: `https://gitteromri-ux.github.io/lla-julie-communications-plan/` (original session `f43ebdba-3055-4d95-98f5-8baed7b8b701`)
 
 ### See also
 
-- `projects/lla-julie-masterclass`: separate paid purchase surface
-- `projects/lla-julie-invitation-blast`: community invitation messaging
-- `projects/lla-julie-tracking`: protected attribution boundary
-- `projects/lla-julie-checkout-recovery`: separate payment repair preview
+- `entities/julie-gibson-clark`: plan recipient
+- `projects/lla-ad-banner-campaign`: banner deliverables
+- `projects/lla-julie-masterclass-video`: video system
+- `projects/lla-julie-masterclass`: standalone masterclass launch
+- `projects/lla-julie-masterclass-deck`: syllabus-based speaker presentation
+- `projects/lla-julie-executive-social`: executive and faculty promotion
 
 
 ---
 
-Record: `lla-julie-checkout-recovery` | knowledge last updated: 2026-10-19T01:21:00+00:00
+Record: `french-atelier-website` | knowledge last updated: 2026-10-24T10:14:00+00:00
 
-## Julie Checkout Recovery Preview
-
-Julie Checkout Recovery Preview is Omri’s repair and presentation workstream for the Julie masterclass purchase page. Its SDK recovery, PayPal guest-card fallback and selected offer designs were authorized for production, then removed by an explicitly requested rollback to the 2026-10-15 production build. The preview and its form-rendering tests are not a certified all-device payment release. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/commit/cf899f2594e7acb209c0bee27acf99c07d234fdb))
-
-### How it works
-
-The approved repository is `Longevity-Academy/julie-fix-preview`, served at `https://www.longevitylifeacademy.com/julie-fix-preview/`. It is distinct from both `/julie-masterclass/` and the community clone `/masterclass-72hours/`. Its device-test link uses `?plan=standard&enroll=1&qa=1&env=staging`; the session’s QA runs use staging/demo payment configuration with Meta mode off. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-
-- **Separate approval for production**: Omri initially held release pending Grok’s device retest, then explicitly authorized go-live after relaying a passing forced-block and control report. That approval covers the tested recovery build, not unrestricted future payment or tracking changes. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- **Recover the SDK, not the attribution chain**: The preview wraps initialization in `Promise.resolve` and retries a missing SDK once by script reinjection. The SDK URL’s query does not pin the served bundle; v2.34.0 and later v2.38.0 were observed. The version observations do not establish a provider-caused outage. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`)
-- **Guest-card access in the fallback**: On SDK failure the preview hides the empty Airwallex mount, reloads PayPal with both its blue button and black “Debit or Credit Card” button, and selects the PayPal tab. The guest-card form is served by PayPal; it is not the primary Airwallex form or proof that Apple Pay works. Plain grey guidance replaces buyer-facing technical codes, and the contradictory wallet hint is hidden while fallback is active. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- **Order creation and SDK failure are distinct**: The details request precedes the missing-SDK check. A form-load failure therefore does not establish that no order or payment intent was created; staging order-creation latency was also observed separately. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- **Tracking baseline is explicit**: The release reports matches for `julie-meta-tracking.js`, `julie-attribution.js` and `julie-payment-safety.js` against the pre-release production files, not identity to the 2026-09-28 frozen tag. The production baseline includes the 2026-10-15 coverage patch. No ActiveCampaign-trigger change was reported, but code-boundary checks do not certify live trigger behavior or Purchase coverage. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- **Rollback is the production decision**: Omri’s separate “Rollback” instruction restored `a188c6c` through `cf899f2`, removing the recovery/payment-init and design changes from production. The preview remains a comparison surface; production is not serving the final recovery design. (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/commit/cf899f2594e7acb209c0bee27acf99c07d234fdb))
-- **Preview publication also requires approval**: A later phone-CSS candidate was published to the preview without Omri’s approval, then withdrawn. The reported restoration returns `/julie-fix-preview/` to design-round-3 commit `473265f`; the new phone fix remains local and unapproved. That preview restoration is not a production change. (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-### Device evidence
+## French Atelier Website
 

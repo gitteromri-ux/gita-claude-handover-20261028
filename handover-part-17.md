@@ -1,357 +1,355 @@
-LLA Turnaround Plan is a GitHub Pages deck/site for the Longevity Life Academy turnaround narrative, combining marketing actions, sales actions, real LLA assets, and contact-rate improvements into a CEO-ready presentation (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`) (original session `4fca1618-75d1-4a7b-aec7-e07a13ba32c9`).
+The plan moves from macro diagnosis to floor-level operating detail, then organizes the management agenda around efficiency, revenue, and brand/digital growth (original session `56d2ef86-ea05-43d6-b6f2-e09d82fcf16a`) (original session `44859035-df25-47a4-bd36-f12b628efdb6`).
+
+- **Three operating engines**: Efficiency/productivity, revenue expansion, and brand/digital are presented as one connected management system rather than unrelated initiatives (original session `56d2ef86-ea05-43d6-b6f2-e09d82fcf16a`).
+- **Learn the operation before restructuring it**: The sequence prioritizes observation, measurement, role clarity, and process repair; cost cuts and dismissals are treated as a respectful last resort rather than the opening move (original session `56d2ef86-ea05-43d6-b6f2-e09d82fcf16a`) (original session `44859035-df25-47a4-bd36-f12b628efdb6`).
+- **AI supports productivity, not vague transformation claims**: Automation is attached to concrete operating tasks and measurable time savings inside the efficiency engine (original session `56d2ef86-ea05-43d6-b6f2-e09d82fcf16a`).
+- **Executive readability is literal**: The deck uses large conclusion-first headlines, sparse supporting text, and macro-to-detail sequencing so the CEO can understand the recommendation before reading the evidence (original session `44859035-df25-47a4-bd36-f12b628efdb6`).
+- **Public GitHub delivery is the maintained surface**: The repository and its recent commit provide the durable source for the plan ([recorded evidence](https://github.com/gitteromri-ux/abraham-tlv-gm/commit/57446de352e3b8e549b1801426b8dda176cd0460)).
+
+### See also
+
+- `entities/gita-agency`: strategy and delivery owner
+- `concepts/github-pages-delivery`: browser-ready handoff pattern
+
+
+---
+
+Record: `club-italia-school` | knowledge last updated: 2026-09-13T10:26:00+00:00
+
+## Club Italia School
+
+Club Italia is a public, browser-ready concept for a premium online Italian-language school built as a sister model to French Atelier. It combines CEFR-based live courses, spoken-Italian modules, culture capsules, regional teachers, syllabi, and an AI-tutor concept in a 58-page GitHub Pages site. Its release standard requires contextual media and fold-by-fold perceptual inspection, not only automated link checks (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
 
 ### How it works
 
-The deck organizes the turnaround into marketing and sales workstreams, then deep-dives into proof assets rather than presenting the plan as a static bullet list (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`).
+The school maps a complete learning and culture architecture into public course, teacher, editorial, event, pricing, legal, and support surfaces, with 11 downloadable course syllabi and subject-matched video across its major folds (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
 
-- **Asset-backed turnaround story**: The marketing side anchors on story-format videos, the Julie film-series slides, Courtney scripts/video, live PR/deck proof, and three Longevity promo-email mockups migrated from existing eTeacher/French Atelier-style references (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`).
-- **Higher contacted-rate mechanism**: The site demonstrates callback slots, WhatsApp, and Messenger next to the lead form, using the `lla-homepage-demo` implementation as the visual proof for the funnel change (original session `4fca1618-75d1-4a7b-aec7-e07a13ba32c9`) ([recorded evidence](https://github.com/gitteromri-ux/lla-homepage-demo)).
-- **Sales-side operating moves**: The plan includes updated scripts, night-shift calling hours, stronger trainer/rep coverage on new campaigns, staffing/shift planning, and a sales-script appendix (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`).
-- **Second-pilot performance framework**: The board narrative ties additional budget to measurable outcomes: test self-service checkout across campaigns, use WhatsApp to improve contact and conversion, target a 2–3× lift from current rates, and scale video/masterclass spend only after positive ROI is established (original session `6e5fbcf0-34c0-4539-b72f-ac61f6db0280`).
-- **Consolidated go-to-market workstreams**: The operating plan spans two-phase PR, Julie authority-building, a new video/banner library, higher-value US targeting, a women 35–65 emphasis, earned-media retargeting, three-click checkout, contact-flow changes, and reactivation of the 3,500-lead database (original session `6e5fbcf0-34c0-4539-b72f-ac61f6db0280`).
-- **GitHub Pages delivery**: The deck was deployed at `gitteromri-ux.github.io/lla-turnaround-plan/`, with the Courtney video pointed to an LFS media URL so it could play on Pages (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`) ([recorded evidence](https://github.com/gitteromri-ux/lla-turnaround-plan)).
+- **Structural parity without visual cloning**: French Atelier supplies the depth and school architecture, while Club Italia uses its own premium Italian palette of red, white, green, and black, editorial typography, shadows, and cinematic media (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **Three product families**: The offer separates four core Italian levels, four spoken-Italian courses, and three culture capsules. Course pages carry a 20-lesson syllabus, schedule and format facts, teacher, price, certificate, refund, and access information (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **CEFR and Italian institutions ground the curriculum**: The research and syllabus framing use CEFR and Italian language-school references rather than treating the product as a generic lifestyle concept (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **Media is assigned by subject**: Twenty supplied Artgrid clips were remuxed and compressed for the site, with footage mapped to Rome, Tuscany, Venice, Sicily, food, travel, teachers, and course contexts rather than reused indiscriminately (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **Full school over pitch mockup**: The first shallow build was rejected; the accepted direction requires meaningful multi-fold course, teacher, culture, editorial, and institutional pages rather than surface-level page count (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **Real photography over generated-looking people**: Artificial teacher and student imagery was rejected. The cinematic rebuild replaced it with sourced human photography and retained the supplied Artgrid footage as the visual backbone (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`) ([recorded evidence](https://github.com/gitteromri-ux/club-italia/commits/main)).
+- **Perceptual QA is a release gate**: Automated URL and media checks did not catch generic folds, mismatched cards, weak mobile wrapping, or unsuitable portraits. The course-page cinematic treatment and a complete multi-viewport fold review remain necessary for parity with the reference site (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`).
+- **Deployment branch needs normalization**: The 2026-09-13 cinematic build is on `main` and deployed successfully, while the repository still names the older `master` branch as default ([recorded evidence](https://github.com/gitteromri-ux/club-italia/commits/main)).
 
 ### Key surfaces
 
-- Repo: `gitteromri-ux/lla-turnaround-plan` ([recorded evidence](https://github.com/gitteromri-ux/lla-turnaround-plan))
-- Site: `https://gitteromri-ux.github.io/lla-turnaround-plan/` (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`)
-- Homepage demo dependency: `https://gitteromri-ux.github.io/lla-homepage-demo/#lead-gen` (original session `4fca1618-75d1-4a7b-aec7-e07a13ba32c9`) ([recorded evidence](https://github.com/gitteromri-ux/lla-homepage-demo))
+- Site: `https://gitteromri-ux.github.io/club-italia/` (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`)
+- Repo: `https://github.com/gitteromri-ux/club-italia` (original session `2e57adb4-e6af-4490-a1c4-bf8b47e0eb80`)
 
 ### See also
 
-- `entities/longevity-life-academy`: client surface
-- `projects/lla-pr-campaign`: PR credibility layer
-- `projects/lla-s09-s10-video-delivery`: Courtney video assets
-- `concepts/github-pages-delivery`: delivery surface
+- `projects/french-atelier-website`: sister-school reference
+- `entities/gita-agency`: concept and delivery
 
 
 ---
 
-Record: `personalix-website` | knowledge last updated: 2026-07-24T05:47:00+00:00
+Record: `lla-handoff-pack` | knowledge last updated: 2026-09-02T10:45:00+00:00
 
-## Personalix Website
+## LLA Handoff Pack
 
-Personalix Website is Omri’s GitHub Pages site for Personalix, an AI-powered human-first recruitment platform positioned around “Candidate first. Designed for people.” ([recorded evidence](https://github.com/gitteromri-ux/personalix)) (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`).
+LLA Handoff Pack is a public, mobile-ready two-tab transfer surface for the Longevity Life Academy ecommerce media strategy and technical checkout state. It separates measured account and implementation facts from unmeasured forecasting assumptions so another strategist or implementation team can resume without repeating the failed analysis (original session `e8f80581-31fc-4a86-989d-138e3812a19f`) ([recorded evidence](https://github.com/gitteromri-ux/lla-handoff-pack)).
 
 ### How it works
 
-The site lives in `gitteromri-ux/personalix` and uses a single public GitHub Pages URL as the CEO/client handoff surface ([recorded evidence](https://github.com/gitteromri-ux/personalix)) (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`). Its current design system combines premium typography, neon glass layering, floating candidate-dashboard imagery, mobile sliders, and per-card brand-color accents while preserving the supplied content verbatim (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`) ([recorded evidence](https://github.com/gitteromri-ux/personalix/commit/e4d090f)).
+The GitHub Pages site exposes a Meta Media Brief and Technical Handoff at stable hash-linked tabs. The media brief defines the assignment and evidence boundaries; the technical brief captures live code state, deployment risk, CRM behavior, credentials inventory, and cleanup work (original session `e8f80581-31fc-4a86-989d-138e3812a19f`) ([recorded evidence](https://github.com/gitteromri-ux/lla-handoff-pack)).
 
-- **Verbatim-content redesign**: The redesign must improve perceived premium value without changing the words or removing folds, because Omri’s explicit constraint was content integrity plus a stronger visual system (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`).
-- **Reference-led premium style**: The design moved away from an aggressive generic tech look toward the supplied luxury reference language: Boska/Switzer typography, glass/neon layering, a floating candidate card, and brand-purple/light-blue accents (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`) ([recorded evidence](https://github.com/gitteromri-ux/personalix/commit/b1796f5)).
-- **Multicolor card system**: Card folds should not read as monotone navy; the accepted fix gives neighboring cards distinct on-brand accents through background tint, border, glow, icon chip, ticks, and badges (original session `16118e53-80d5-42a2-9103-b85f2c35bc08`) ([recorded evidence](https://github.com/gitteromri-ux/personalix/commit/e4d090f)).
+- **Measured facts stay separate from unknown rates**: Verified Ads Manager and live technical observations are isolated from conversion assumptions; unmeasured rates must be named as assumptions and expressed as ranges rather than presented as account data (original session `e8f80581-31fc-4a86-989d-138e3812a19f`) ([recorded evidence](https://github.com/gitteromri-ux/lla-handoff-pack)).
+- **The mission leads the handoff**: The recipient is asked for product-specific campaign architecture, fully named funnel metrics, whole-sale daily forecasts, charts, and numeric kill criteria, while honoring full-ecommerce constraints and requiring authorization before technical action (original session `e8f80581-31fc-4a86-989d-138e3812a19f`).
+- **Repository state is a deployment gate**: The handoff warns that the live `$279` and ecommerce-mode fixes were not committed, so a clean rebuild from HEAD can reintroduce the checkout outage (original session `e8f80581-31fc-4a86-989d-138e3812a19f`).
+- **Public but intentionally unindexed**: The page is responsive, requires no login, and uses `noindex`; it contains operational account identifiers and test-order IDs but no tokens, keys, or passwords (original session `e8f80581-31fc-4a86-989d-138e3812a19f`).
+
+### Key surfaces
+
+- Media brief: `https://gitteromri-ux.github.io/lla-handoff-pack/#media` (original session `e8f80581-31fc-4a86-989d-138e3812a19f`)
+- Technical handoff: `https://gitteromri-ux.github.io/lla-handoff-pack/#tech` (original session `e8f80581-31fc-4a86-989d-138e3812a19f`)
+
+### See also
+
+- `projects/lla-course-checkout`: captured technical state
+- `projects/lla-delta-force`: ecommerce strategy context
+- `projects/lla-master-delivery-hub`: broader client handoff
+
+
+---
+
+Record: `lla-delta-force` | knowledge last updated: 2026-08-27T07:18:00+00:00
+
+## LLA Delta Force
+
+LLA Delta Force is Longevity Life Academy’s three-track “Save the Pilot” activation initiative: high-intent lead sourcing, influencer partnerships, and direct-response ecommerce execution (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`) ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force)).
+
+### How it works
+
+The program joins research and launch materials in one activation hub rather than treating lead vendors, influencers, and ecommerce as separate assignments (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`) ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force)).
+
+- **Intent must be mechanically evidenced**: Lead-vendor rankings require the exact lead type, verification mechanism, B2C and vertical fit, pricing evidence, launch speed, named contacts, direct links, and explicit backup or rejection reasons (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`).
+- **Influencer conflict is based on competitive commitment**: A single sponsorship is not disqualifying; ownership of, or aggressive promotion for, a competing program is (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`).
+- **Ecommerce stays distinct from call-center acquisition**: The French Atelier call-center model cannot substitute for LLA’s purchase-objective architecture, landing-page traffic assumptions, conversion model, budgets, campaigns, creatives, funnel, and recovery emails (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`).
+- **Primary-source validation is a launch gate**: Vendor fit, influencer reach and contacts, pricing, benchmarks, offer terms, checkout paths, and purchase instrumentation must be verified before activation or volume modeling (original session `b6e96342-b7f1-44c0-ac46-994b849660c3`).
+- **One execution surface**: The `lla-delta-force` hub combines the activation plan, creative gallery, eight recovery emails, 15 remarketing banners, four promo emails, two landing pages, and a public ecommerce status/proof page for direct use ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force)) ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force/commit/08f3248585a9187165114a2f4e6c9a28b7f35fb5)) ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force/commit/b27f3b142a4f6a293413e1adf3782d19cf111fcb)).
+- **Current offer alignment**: The activation hub’s ecommerce pricing is aligned to `$279/mo`, matching the checkout production configuration ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force/commit/efa5362253aa28f8ceb119b68eb05565182cd516)).
+- **Five lifecycle funnels replace the earlier recovery set**: The email architecture now comprises 20 emails across three abandoned-cart paths, consolidated onboarding, and a no-show path; the generic new-leads funnel was removed ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force/commit/4b42bd61a14be5db54bb5b7cc7b6bb28d5f48430)).
+- **One-field checkout status model**: Checkout events are represented through a single latest-status field with a purchase state and timed abandonment waits, keeping the CRM handoff narrow ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force/commit/d366d86d9f63cf2a9748415add05953e935fc64e)).
+
+### Key surfaces
+
+- Repo: `https://github.com/gitteromri-ux/lla-delta-force` ([recorded evidence](https://github.com/gitteromri-ux/lla-delta-force))
+
+### See also
+
+- `projects/lla-growth-engine`: ecommerce recovery system
+- `projects/lla-course-checkout`: purchase flow
+- `entities/longevity-life-academy`: client and offer
+- `projects/lla-master-delivery-hub`: executive handoff
+- `projects/lla-masterclass-emails`: lifecycle email system
+
+
+---
+
+Record: `lla-ad-banner-campaign` | knowledge last updated: 2026-08-14T07:55:00+00:00
+
+## LLA Ad Banner Campaign
+
+LLA Ad Banner Campaign is Omri’s GitHub Pages-based Meta and Instagram creative system for Julie Gibson Clark and Courtney, with reusable brand rules across four platform aspect ratios (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`) (original session `6076d5ae-eac7-4bb9-a282-c40b72d79e6d`).
+
+### How it works
+
+The campaign maintains public galleries for Julie, Julie-on-set, and Courtney, renders each concept natively across 1:1, 4:5, 9:16, and 1.91:1 formats, and feeds a four-chapter LLA launch-review deck with PR coverage and video cuts (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`) (original session `6076d5ae-eac7-4bb9-a282-c40b72d79e6d`) ([recorded evidence](https://github.com/gitteromri-ux/julie-onset-banners)) ([recorded evidence](https://github.com/gitteromri-ux/lla-campaign-chapters)).
+
+- **Locked visual system**: Use a large `Longevity Life Academy by eTeacher Group` lockup, real instructor imagery where available, short benefit-first headlines, Trustpilot proof near the CTA, and no tiny-cap eyebrows, decorative dot separators, ghost pills, or other AI-design tells (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`) (original session `6076d5ae-eac7-4bb9-a282-c40b72d79e6d`).
+- **Julie positioning**: Julie’s banners may use “2nd Slowest-Aging Person on Earth,” DunedinPACE 0.665, and selective Bryan Johnson comparisons; the final V7 direction uses full-bleed photography and a compact bottom-third information stack (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`).
+- **Courtney positioning**: Courtney’s banners focus on a personal longevity protocol, biomarkers, six pillars, and the live 18-session/18-week course; Julie’s slow-aging credential does not transfer to Courtney (original session `6076d5ae-eac7-4bb9-a282-c40b72d79e6d`).
+- **Platform-native CTA decision**: Embedded CTA buttons were removed from the final Julie and Courtney systems because Meta/Instagram supplies the action control; the recovered space is used for stronger hierarchy, Trustpilot proof, and platform-safe margins (original session `48172e2b-cb21-4d33-95d6-10eb52a00186`) (original session `753a6cb3-829e-44f4-869b-7daac62f1e88`).
+- **Aspect-ratio-specific composition**: Landscape banners use a horizontal facts-and-stats band rather than a compressed vertical stack; Story layouts retain extra bottom clearance for platform UI, and Courtney’s identifying caption sits beside her face rather than in the furniture band (original session `48172e2b-cb21-4d33-95d6-10eb52a00186`).
+- **Expanded Julie system**: The approved Chosen-tab design was propagated to 58 copy variants in four native sizes, producing 232 upload-ready files while preserving each tab’s copy angle (original session `753a6cb3-829e-44f4-869b-7daac62f1e88`).
+- **Julie credential treatment**: “2nd Slowest-Aging Person on Earth” is a primary proof element in the same champagne-gold luxury-serif language as the headline, not a small lower-third label (original session `753a6cb3-829e-44f4-869b-7daac62f1e88`).
+- **Julie-on-set extension**: A separate gallery composites Julie onto the walnut-library set across seven concepts and four placements while preserving the campaign’s full-bleed system ([recorded evidence](https://github.com/gitteromri-ux/julie-onset-banners)).
+- **Campaign consolidation**: The four-chapter deck combines PR coverage, Julie banners, Courtney banners, and Courtney’s final cuts in `gitteromri-ux/lla-campaign-chapters` ([recorded evidence](https://github.com/gitteromri-ux/lla-campaign-chapters)).
+- **Press-placement derivative pack**: Four live article placements were converted into 16 upload-ready Meta/Instagram creatives, each rendered in the campaign’s four native sizes with article-safe post copy and `Learn More` routing (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`).
+- **Julie Meta production pack**: The dedicated `julie-meta-banners` surface carries four designs across six placements, including square, landscape, portrait, Story, and high-resolution variants; ratio changes preserve the complete composition rather than cropping it (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) ([recorded evidence](https://github.com/gitteromri-ux/julie-meta-banners)).
+- **Organic social lockup discipline**: The social go-live pack preserves the supplied `Longevity Life Academy by eTeacher Group` lockup on brand blue without changing its fonts or colors, using a high-resolution transparent master rather than enlarging the earlier low-resolution extraction (original session `3779792c-8b6c-4b02-ae27-f35bb58f431d`).
+- **Exact-size master pack**: `lla-meta-ig-ad-sizes` is the current public delivery surface for native Meta and Instagram placements. Its approval passes removed cards without visible price and other rejected formats instead of preserving every generated concept ([recorded evidence](https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes)).
+- **Gaurav handoff is source-count exact**: The `Gaurav Upload` tab was corrected from a larger generated set to the exact 21 files decoded from `only-these.docx`; delivery count follows the source document rather than inferred size permutations ([recorded evidence](https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes/commit/9bc2637d53fe3afbc2233e0ff09dba3badaf4c4e)).
+
+### Key surfaces
+
+- Julie repo: `gitteromri-ux/lla-meta-banners-gallery` ([recorded evidence](https://github.com/gitteromri-ux/lla-meta-banners-gallery))
+- Julie gallery: `https://gitteromri-ux.github.io/lla-meta-banners-gallery/` (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`)
+- Courtney repo: `gitteromri-ux/courtney-banners` ([recorded evidence](https://github.com/gitteromri-ux/courtney-banners))
+- Courtney gallery: `https://gitteromri-ux.github.io/courtney-banners/` (original session `6076d5ae-eac7-4bb9-a282-c40b72d79e6d`)
+- Julie-on-set repo: `gitteromri-ux/julie-onset-banners` ([recorded evidence](https://github.com/gitteromri-ux/julie-onset-banners))
+- Campaign deck repo: `gitteromri-ux/lla-campaign-chapters` ([recorded evidence](https://github.com/gitteromri-ux/lla-campaign-chapters))
+- Julie Meta repo: `gitteromri-ux/julie-meta-banners` ([recorded evidence](https://github.com/gitteromri-ux/julie-meta-banners))
+- Organic social hub: `https://gitteromri-ux.github.io/lla-social-golive/` (original session `3779792c-8b6c-4b02-ae27-f35bb58f431d`)
+- Exact-size master hub: `https://gitteromri-ux.github.io/lla-meta-ig-ad-sizes/` ([recorded evidence](https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes))
+
+### See also
+
+- `projects/lla-pr-campaign`: first deck chapter
+- `projects/lla-pr-article-ads`: placement-led ad pack
+- `projects/lla-s09-s10-video-delivery`: final video cuts
+- `entities/longevity-life-academy`: client brand
+- `concepts/github-pages-delivery`: public handoff pattern
+
+
+---
+
+Record: `lla-s09-s10-video-delivery` | knowledge last updated: 2026-08-11T08:56:00+00:00
+
+## LLA S09/S10 Video Delivery
+
+LLA S09/S10 Video Delivery is Omri’s Courtney production, source-reconstruction, and editor-handoff system across `gitteromri-ux/lla-s09-s10-downloads` and `gitteromri-ux/lla-courtney-final`, with public GitHub delivery surfaces and automated video pipelines for Longevity Life Academy ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/5088402f7a1cee1ad9253d89a66b9af87ea05d3e)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/2baa8b113f2d721f96154ed17ddade3b1500996e)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads)) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-final)).
+
+### How it works
+
+The repo hosts Courtney FRONT and SIDE video versions, downloadable media files, and a GitHub Pages viewer with inline playback/download buttons ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/aacf8abbf21e98e1ea93d97e0458fbb73f7c9794)). The production target is full-frame Courtney-only video with Teams UI removed, smooth playback, audio/lipsync integrity, sharp color/detail, and no AI alteration of face, voice, or mouth unless explicitly overridden (original session `55a60e33-9e3b-46be-8dec-1524935234b3`) (original session `720bb025-55fc-453c-a4f8-ae5fe4b3bde1`).
+
+- **GitHub Pages as the delivery surface**: A normal landing page with videos and download buttons became the required delivery shape after raw GitHub repository pages and direct download links caused login/download confusion ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/aacf8abbf21e98e1ea93d97e0458fbb73f7c9794)) (original session `8d7a6c0a-0ccf-41ef-994d-3c8f621afc4a`).
+- **Split large video masters for GitHub constraints**: The 4K set was delivered as multiple FRONT/SIDE parts because GitHub/Git LFS size and disk constraints made single large masters fragile in-session (original session `8d7a6c0a-0ccf-41ef-994d-3c8f621afc4a`) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/e2ac298275c3caaf301429dec0ad0ebaa47fa7f9)). A later viewer commit consolidated all 19 files with playable URLs and download buttons ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/2baa8b113f2d721f96154ed17ddade3b1500996e)).
+- **No AI face-touching default**: The agreed pipeline default is Lanczos/math-based upscale, sharpening, color work, and audio copy/remastering; AI super-resolution requires explicit override because it can alter face detail (original session `55a60e33-9e3b-46be-8dec-1524935234b3`) (original session `81c1193f-08f7-49f7-974d-a55f605f1ec0`).
+- **Quality claims must track source limits**: Earlier claims of 90%+ studio quality were contradicted by the Teams-source tile limitations, and future work needs objective source-resolution framing before making studio-quality promises (original session `55a60e33-9e3b-46be-8dec-1524935234b3`).
+- **Real-footage replacement boundary**: After failed new-set/body-completion routes, the acceptable repair was to replace fake library talking-head shots with real home footage while leaving face, voice, captions, music, b-roll, and original footage timing untouched unless Omri explicitly approves a card/caption edit (original session `e8852a7d-a2ae-458f-b4b4-a9a69c669518`).
+- **Automated video pipeline**: The active repo now uses Actions/automation commits for Seedance assembly, Demucs stem separation, animated cards, source chunking, and lip-sync retiming; connector data showed most recent workflow failures were transient and later succeeded ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads)).
+- **Master production file as planning layer**: A separate Courtney master-production GitHub Pages site deconstructs French Atelier reference films, cleans Courtney’s real new-set transcript, and holds three storyboard routes plus transformation/action CTA cards for editing handoff (original session `685f1849-e891-4740-a845-579dd39592ca`).
+- **Ad-format derivatives**: The repo now carries branded Courtney HERO and META60 cuts plus Meta-ready 9:16 and 1:1 canvases, so the project includes paid-social derivatives in addition to master downloads ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/e92d72e)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/c4bc349)).
+- **Premium b-roll integration**: Recent builds incorporated Artlist premium b-roll, extending the delivery from simple cleanup/downloads into finished campaign-video assets ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/ea576a0)).
+- **Campaign-card derivative cuts**: The latest 90s/60s-derived campaign cuts use premium navy/Playfair full-screen cards, teacher footage, and an outro, with full-screen card holds accepted when placed for narration logic (original session `e8852a7d-a2ae-458f-b4b4-a9a69c669518`) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/fb2d374de9b167bba77b1b8493434e2b6d52a868)).
+- **A/V sync hard gates**: Late repo work added audio padding/concat safeguards and a silent outro audio track so rendered body/outro segments keep equal audio/video length ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/70ca3b47e68f4ce5b2c1629e20c1bd05cfe8559a)) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/3e88cc4168277b59dee2d16d75a38279b1f5d49c)).
+- **Two-pass release audit**: Final delivery requires both an itemized brief-compliance audit and a separate cold-viewer/CEO quality audit. The latter caught repeated b-roll, transition ghosting, a disconnected wireframe ending, unsafe audio peak, and weak caption contrast that checklist-only review missed (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`) ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/dbb22c40b2ac636a835bb3cc981c688137f97b31)).
+- **Approved sequence is a hard constraint**: The final campaign-card chain is `18 Live Session Course` → `Your biomarkers. Your data. Your longevity protocol.` → fast gray protocol b-roll → `Taught by longevity’s leading experts` → tight Julie shot → Zoom lesson → outro. Inverting this sequence or inserting extra Courtney/faculty shots is a release-blocking error (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`).
+- **One-use footage constraints**: The green b-roll and Harvard age graph each appear once; pillar b-roll must align to Courtney’s spoken pillar names, and approved footage cannot be globally replaced to hide isolated green-frame defects (original session `b5d6efa8-ebd4-4446-89ff-c1f49f522a83`).
+- **Separate production repository**: Courtney’s production and source handoff moved to `gitteromri-ux/lla-courtney-final`, which carries final cuts, raw-source releases, per-scene assets, graphic packs, and editor pages (original session `aef895b6-3270-4889-8b0d-efa8a3c4a061`) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-final)) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-final/releases/tag/raw-sources-silent-v1)).
+- **Explicit public final pair**: The authorized `lla-90s-final` handoff pairs Courtney v18 with Julie V24; both talent and version must be named because their version histories are independent (original session `f573e739-cd35-4b06-a95b-417ae188a9d5`) ([recorded evidence](https://github.com/gitteromri-ux/lla-90s-final/releases/tag/v90s)).
+- **Social placement pack**: `meta-pack-v1` contains 18 placement renders across the two talents and their full/90s/60s variants, produced through parallel GitHub Actions jobs with faststart enabled (original session `aef895b6-3270-4889-8b0d-efa8a3c4a061`) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-final)).
+- **Original-source editor handoff**: Each storyboard scene must sit beside its full-length original MP4/JPEG/PNG source, never a clip extracted from the finished render. The Courtney V2 synchronization accepts only verified frame matches and leaves uncertain rows unresolved rather than inserting lookalikes (original session `2a307fd5-0351-4a12-b6ec-591ae61de6c7`) (original session `3d5fbe49-ea40-467d-84aa-2f44e6db4c90`).
+- **Combined Courtney/Julie source sheet**: The public master-elements handoff maps 41 Courtney V16 scenes and 23 Julie scenes to original camera masters, b-roll, cards, graphics, and exact in-points; its delivery audit reported 44 download links and all 45 asset links returning HTTP 200 (original session `6e61e143-0306-4be3-bafb-9f0f01791c2a`).
+- **Two-tab Julie/Courtney cut handoff**: The client-facing cut hub keeps Julie and Courtney on separate tabs, opens Julie by default, places each full master before its derivatives, and makes every Courtney cut’s hook and source-segment provenance visible (original session `95cc26e4-8e21-4311-b006-486e8dbaa042`) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-cuts)).
+- **Courtney cut-length mismatch is unresolved**: The request named 75s, 70s, 55s, and 40s variants, while the published handoff claimed 75s, 60s, 45s, and 30s; no later acceptance resolves which set is authoritative (original session `95cc26e4-8e21-4311-b006-486e8dbaa042`).
+- **Reference typography requires visual verification**: Font family, size, weight, and italic treatment must be established from the actual reference frame; an unverified typography guess is not a brand specification (original session `5c6b712e-2649-4a99-9c96-52b8344a6209`).
+- **Captions yield to graphic cards**: Julie/Courtney captions sit low, use smaller type and longer lines, and appear only over talent or b-roll; cards and animations remain caption-free so competing text layers do not collide (original session `6e61e143-0306-4be3-bafb-9f0f01791c2a`) ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-cuts/commit/857b3f39c1f9d1471a5971f00f49d35555fada10)).
+- **Website b-roll must preserve source identity**: The approved scrolling sequence runs from `The Six Pillars` to `Taught by Leading Voices` with Julie centered. It cannot be replaced by the older four-instructor clip or by smeared screenshot reconstruction (original session `6e61e143-0306-4be3-bafb-9f0f01791c2a`) ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-cuts/commit/a16d5a5e2d5ca00e4841f17d66a7213efadb2ed8)).
+- **Lower thirds are isolated overlays**: The Julie treatment is a small black box with white serif italic type, placed bottom-right at 19–22 seconds and limited to the supplied name/ranking copy; the camera master remains untouched (original session `6c26641f-55cc-42c1-a1a3-b0425e5d0e00`).
+- **Paid-social launch set**: The August release work produced Courtney and Julie launch variants across 90s/75s/60s/45s/30s, plus b-roll, lower-thirds, and cards ([recorded evidence](https://github.com/gitteromri-ux/lla-courtney-cuts/commit/7466de26a43ef29d2a13b56bcaf72942bbe3a01d)) ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-cuts)).
+
+### Key assets
+
+- Repo: `gitteromri-ux/lla-s09-s10-downloads` ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads))
+- Landing page: `https://gitteromri-ux.github.io/lla-s09-s10-downloads/` ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/aacf8abbf21e98e1ea93d97e0458fbb73f7c9794))
+- Latest all-versions viewer commit: “All versions FRONT+SIDE with download buttons” ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/commit/aacf8abbf21e98e1ea93d97e0458fbb73f7c9794))
+- Master production site: `https://gitteromri-ux.github.io/courtney-master-production/` (original session `685f1849-e891-4740-a845-579dd39592ca`)
+- Final Julie V24 / Courtney v18 handoff: `https://gitteromri-ux.github.io/lla-90s-final/` (original session `f573e739-cd35-4b06-a95b-417ae188a9d5`)
+- Courtney editor source page: `https://gitteromri-ux.github.io/lla-courtney-final/editor/` (original session `2a307fd5-0351-4a12-b6ec-591ae61de6c7`)
+- Courtney V16 + Julie master-elements page: `https://gitteromri-ux.github.io/lla-courtney-final/master-elements/` (original session `6e61e143-0306-4be3-bafb-9f0f01791c2a`)
 
 ### See also
 
 - `entities/omri-gitter`: project owner
-- `concepts/github-pages-delivery`: live handoff rule
-
-
----
-
-Record: `lla-domain-reputation-fix` | knowledge last updated: 2026-07-24T05:47:00+00:00
-
-## LLA Domain Reputation Fix
-
-LLA Domain Reputation Fix is Omri’s Longevity Life Academy/eTeacher workstream for separating website-trust remediation from Google Postmaster/email authentication recovery (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`) ([recorded evidence](https://github.com/gitteromri-ux/longevity-life-academy/commit/6156e40)).
-
-### How it works
-
-The work has two tracks: website trust/compliance pages on `www.longevitylifeacademy.com`, and DNS/email authentication fixes for the campaign-sending domain (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`) ([recorded evidence](https://github.com/gitteromri-ux/longevity-life-academy/commit/6156e40)). The website can remove landing-page trust and legal defects, but the Google Postmaster “Bad” score is an email-reputation signal that depends on authenticated, disciplined sending over time (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`).
-
-- **Website trust pages shipped**: Privacy Policy, Terms of Service, and Medical Disclaimer pages were added, dead footer links were repaired, and `robots.txt`/`sitemap.xml` were added so campaign-linked pages have normal trust/compliance surfaces (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`) ([recorded evidence](https://github.com/gitteromri-ux/longevity-life-academy/commit/6156e40)).
-- **ActiveCampaign SPF is the P0 email fix**: Live checks identified ActiveCampaign as the campaign sender that needs SPF authorization, so the root TXT record should include `include:emsend1.com` alongside Microsoft 365 rather than relying on website changes to move Postmaster (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`).
-- **No instant reputation switch**: The CEO-facing framing should separate what can be fixed immediately (authentication and trust defects) from reputation recovery, which rebuilds through clean sending rather than same-day website edits (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`).
-
-### See also
-
-- `entities/longevity-life-academy`: affected client surface
-- `projects/lla-promo-email-funnel`: email campaign funnel
-
-
----
-
-Record: `hana-enneagram-assessment` | knowledge last updated: 2026-07-24T05:47:00+00:00
-
-## Hana Enneagram Assessment
-
-Hana is Omri’s public GitHub Pages Enneagram assessment and compatibility site in `gitteromri-ux/hana`, built around 108-item type/wing analysis and a full-depth 7w8 × 4w3 compatibility page ([recorded evidence](https://github.com/gitteromri-ux/hana)) (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`).
-
-### How it works
-
-The app uses 12 questions per Enneagram type, scores all 9 types, identifies a dominant type and wing, and presents type/wing analysis in a deployed web app ([recorded evidence](https://github.com/gitteromri-ux/hana)). The Hana compatibility branch uses a separate full-template structure for the `compat-7w8-4w3` page rather than the assessment-only flow (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`) (original session `b176fb94-d670-4bbb-98e8-068de7cc8a86`).
-
-- **GitHub Pages required for handoff**: The usable deliverable is the live site URL, not only a public repository page; the current handoff target is `https://gitteromri-ux.github.io/hana/` and the compatibility page at `/compat-7w8-4w3/` (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`) (original session `b176fb94-d670-4bbb-98e8-068de7cc8a86`).
-- **Full-template compatibility requirement**: The accepted compatibility page needs the full elaborate structure and length class of the earlier reference, not a condensed adaptation; the final verified pass reported 2,043 visible words after the short 1,014-word attempt was rejected (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`) (original session `b176fb94-d670-4bbb-98e8-068de7cc8a86`).
-- **4w3 self-framing**: Omri’s Type 4 side should emphasize a strong wing 3, depth, artistic nature, a genuinely unique/genius mindset, and feelings as longing for what is missing rather than abandonment anxiety (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`) (original session `b176fb94-d670-4bbb-98e8-068de7cc8a86`).
-- **7w8 partner framing**: Hana’s side should be written as a true 7w8 “Realist”: head-center, options/movement, grounded wing-8 directness, and growth toward stillness/depth, not copied from Type 8 psychology (original session `40a18e1e-6aeb-49d6-9e5a-efe9cfa8305f`) (original session `b176fb94-d670-4bbb-98e8-068de7cc8a86`).
-
-### See also
-
-- `entities/omri-gitter`: project owner
+- `entities/longevity-life-academy`: client context
+- `concepts/video-quality-qa`: media QA criteria
 - `concepts/github-pages-delivery`: delivery surface rule
+- `projects/lla-ad-banner-campaign`: campaign creative suite
+- `projects/lla-master-delivery-hub`: consolidated handoff
 
 
 ---
 
-Record: `keren-or-farm-adoption-en` | knowledge last updated: 2026-07-16T10:04:00+00:00
+Record: `in-venture-website` | knowledge last updated: 2026-08-10T05:25:00+00:00
 
-## Keren Or Farm Adoption EN
+## IN Venture Website
 
-Keren Or Farm Adoption EN is a public English adoption-page replica in `gitteromri-ux/kerenor-adoption-en`, built with 33 animal profiles and per-animal adoption forms ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en)) ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en/commit/0ac558a644e344ef335120542059dafe75117729)).
+IN Venture Website is Omri’s public GitHub Pages redesign for IN Venture, intended to present the firm at a premium global venture-capital standard across desktop and mobile (original session `65862fd2-e80c-420b-aad6-866d3e19c710`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-website)).
 
 ### How it works
 
-The GitHub Pages site serves as the English version of the Keren Or Farm adoption experience while Wix-domain integration is handled separately ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en)) ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en/commit/9c50ea4dc5c24e6ca078572b1008021a5229849b)). The page includes animal profiles, package CTAs, forms, VIP/package styling, and a CEO-ready staging URL path on the client domain from the Wix session ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en/commit/0ac558a644e344ef335120542059dafe75117729)) ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en/commit/9c50ea4dc5c24e6ca078572b1008021a5229849b)).
+The `gitteromri-ux/in-venture-website` repository contains the public multi-page site. The brief applies to the home page and every internal page, with a stable client-facing URL and full mobile treatment (original session `65862fd2-e80c-420b-aad6-866d3e19c710`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-website)).
 
-- **GitHub Pages first, Wix path second**: The English page was delivery-ready at GitHub Pages before the Wix-domain path was finalized ([recorded evidence](https://github.com/gitteromri-ux/kerenor-adoption-en/commit/9c50ea4dc5c24e6ca078572b1008021a5229849b)).
-- **Staging URL as urgent client-domain fallback**: `https://www.kerenorfarm.com/adoption-en-staging` became the CEO-ready link when production `/adoption-en` remained blocked by editor/2FA friction (original session `a669e25b-f59e-4b86-8dec-1524935234b3`).
-- **Wix Editor/API split**: Clean Wix page creation/visual embedding required Wix Editor access; API/automation attempts were not enough for the full embedded-page task in-session (original session `a669e25b-f59e-4b86-8dec-1524935234b3`).
+- **Premium VC positioning across the whole site**: The design must read as credible, bright, editorial, and luxury-grade rather than generic, dark, or mock-up-like; imagery, contrast, navigation, typography, and internal pages are all part of the acceptance bar (original session `65862fd2-e80c-420b-aad6-866d3e19c710`).
+- **Rejected iterations are not design approval**: The user rejected every delivered image system in the source session, so the assistant’s font and image choices are not approved brand decisions (original session `65862fd2-e80c-420b-aad6-866d3e19c710`).
+- **Durable public handoff**: The project uses a normal GitHub Pages URL rather than an expiring or cache-sensitive preview link (original session `65862fd2-e80c-420b-aad6-866d3e19c710`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-website)).
 
-### See also
+### Key surfaces
 
-- `entities/omri-gitter`: project owner
-- `concepts/wix-editor-publishing`: publishing constraint
-- `concepts/github-pages-delivery`: fallback delivery surface
-
-
-# People, preferences and cross-project operating rules
-
-These retained records explain ownership and working constraints. They are context, not independent authorization to change any service.
-
-
-
-## GiTA Agency
-
-GiTA Agency is Omri Gitter’s advertising/performance agency and the party named in agency-client confirmation documents (original session `a10d679b-31c3-4f15-96b4-cb444430ea8c`).
-
-### What they own
-
-GiTA Agency is the agency-side entity Omri uses for client marketing, performance, and paid-media engagements (original session `a10d679b-31c3-4f15-96b4-cb444430ea8c`).
-
-- **Rosen/eTeacher termination confirmation**: The correct document framing is an engagement between GiTA Agency and eTeacher Group regarding the Rosen Hebrew School advertiser account, ending by mutual agreement on 2026-06-01 with ongoing management returned to the client-side internal team (original session `a10d679b-31c3-4f15-96b4-cb444430ea8c`).
-- **Separate recurring eTeacher brand billing**: Omri maintains French Atelier and LLA documents through `projects/eteacher-monthly-invoicing`, with separate service rows and allocation numbers rather than one combined brand invoice. (original session `6bfde4d1-02a4-44c9-8773-1bd6b8d883b6`)
+- Repo: `https://github.com/gitteromri-ux/in-venture-website` ([recorded evidence](https://github.com/gitteromri-ux/in-venture-website))
+- Site: `https://gitteromri-ux.github.io/in-venture-website/` (original session `65862fd2-e80c-420b-aad6-866d3e19c710`)
 
 ### See also
 
-- `entities/omri-gitter`: agency owner
-- `entities/longevity-life-academy`: eTeacher work
-- `projects/french-atelier-social-kickstart`: French Atelier campaign
-- `projects/in-venture-website`: client website redesign
-- `projects/club-italia-school`: online language-school concept
-- `projects/eteacher-monthly-invoicing`: recurring client billing documents
+- `projects/in-venture-programme`: programme document handoff
+- `concepts/github-pages-delivery`: delivery pattern
+- `entities/gita-agency`: agency context
 
 
-## Harel Tayeb
+---
 
-Harel Tayeb is the CEO and public-facing media contact named in Omri’s LLA/eTeacher Group PR kit and PR-outlet campaign work ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit/commit/ded574ee23e5fac1c64fca59fde31711a9f8ab28)) (original session `403edc06-11f9-46e4-881b-aa422bec23b2`).
+Record: `in-venture-programme` | knowledge last updated: 2026-08-10T05:25:00+00:00
 
-### Who they are
+## IN Venture Programme
 
-Harel’s role in the GitHub-sourced LLA PR materials is external-facing: the PR kit commit names him as CEO and media contact, while Omri is kept in a back-office role ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit/commit/ded574ee23e5fac1c64fca59fde31711a9f8ab28)). The PR campaign used Harel as the public contact while distributing the three approved article angles across owned and third-party surfaces (original session `403edc06-11f9-46e4-881b-aa422bec23b2`). The later launch brief made the rule explicit: Harel is the media-contact name for LLA/eTeacher releases and Omri must not be named as the contact person (original session `d65c9925-abe9-4a9e-8b74-826c97a8d9fa`).
+IN Venture Programme is Omri’s source-faithful public handoff for a programme plan, Partner Interview, and Force Management Interview (original session `a6c0ef82-b281-444d-8873-949c7b0db941`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-programme)).
 
-### See also
+### How it works
 
-- `entities/longevity-life-academy`: LLA PR context
-- `entities/omri-gitter`: back-office operator
-- `projects/lla-pr-campaign`: campaign surface
+The `gitteromri-ux/in-venture-programme` repository presents the plan and two interviews as separate browser tabs while retaining a standalone plan view (original session `a6c0ef82-b281-444d-8873-949c7b0db941`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-programme)).
 
+- **Source fidelity is the governing constraint**: Document wording and design must remain unchanged; the tab bar is the only authorized structural addition (original session `a6c0ef82-b281-444d-8873-949c7b0db941`).
+- **Editable interview fields**: Grey interview boxes must accept typing and retain entered text after reload, while the plan remains a faithful view of the supplied source (original session `a6c0ef82-b281-444d-8873-949c7b0db941`) ([recorded evidence](https://github.com/gitteromri-ux/in-venture-programme)).
 
-## Julie Gibson Clark
+### Key surfaces
 
-Julie Gibson Clark is an authority figure used in Longevity Life Academy bio-age and masterclass marketing work ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io/commit/276fe263a87671f26a226ee714361298d2601bc7)) ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-review)).
-
-### Who they are
-
-LLA site work positions Julie Gibson Clark in a bio-age banner and identifies her as a “#2 slowest-ager” authority signal ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io/commit/276fe263a87671f26a226ee714361298d2601bc7)). Related `gitteromri-ux` repos use Julie-focused review and communications assets for LLA work ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-review)) ([recorded evidence](https://github.com/gitteromri-ux/lla-julie-communications-plan)). Her LLA role also includes on-camera masterclass advertising built around her willpower, routine, and longevity-method story (original session `6d5a72f3-5c7d-4eb6-9d85-5f22afe19f9b`).
+- Repo: `https://github.com/gitteromri-ux/in-venture-programme` ([recorded evidence](https://github.com/gitteromri-ux/in-venture-programme))
+- Site: `https://gitteromri-ux.github.io/in-venture-programme/` (original session `a6c0ef82-b281-444d-8873-949c7b0db941`)
 
 ### See also
 
-- `entities/longevity-life-academy`: LLA marketing context
-- `projects/lla-julie-masterclass-video`: masterclass ad system
-- `projects/lla-ad-banner-campaign`: paid-media creatives
+- `projects/in-venture-website`: public brand site
+- `concepts/github-pages-delivery`: delivery pattern
+- `entities/gita-agency`: agency context
 
 
-## Longevity Life Academy
+---
 
-Longevity Life Academy is an LLA/Longevity Academy client surface Omri supports through GitHub-hosted websites, masterclass film assets, PR materials, article/deck sites, contact-rate improvements, promo-email funnels, domain-reputation fixes, and marketing campaigns ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io)) ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit)) (original session `403edc06-11f9-46e4-881b-aa422bec23b2`) (original session `8a02c109-3383-4400-99a7-af3f585fc2a4`) (original session `4fca1618-75d1-4a7b-aec7-e07a13ba32c9`) ([recorded evidence](https://github.com/gitteromri-ux/lla-homepage-demo)) (original session `9c82dce7-0c87-4dfa-84dc-e8eead87f269`) (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`).
+Record: `lla-pr-article-ads` | knowledge last updated: 2026-07-31T06:29:00+00:00
 
-### What they own
+## LLA PR Article Ads
 
-The GitHub footprint includes the `Longevity-Academy` organization, its `Longevity-Academy/Longevity-Academy.github.io` Pages root, and related `gitteromri-ux` repos for PR, film-series, Julie-review, communications-plan, redesign, and eTeacher-longevity work ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io)) ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit)) ([recorded evidence](https://github.com/gitteromri-ux/courtney-lla-masterclass)) ([recorded evidence](https://github.com/Longevity-Academy)).
+LLA PR Article Ads is a paid-social derivative pack that turns four live LLA press placements into upload-ready Meta and Instagram creatives with matching post copy. (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`) ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-article-ads))
 
-- **GitHub Pages as public site infrastructure**: The organization site is hosted in `Longevity-Academy/Longevity-Academy.github.io`, where Omri has a large contribution history and recent banner/hero changes ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io)).
-- **Hero-copy preview system**: The `Longevity-Academy` org also holds numbered preview repos for landing-page hero-copy variants, including “Live Younger. For Longer.”, “Shared Life. Shared Health.”, and “One Academy. Every Pillar of Longevity.” variants ([recorded evidence](https://github.com/Longevity-Academy)).
-- **Julie Gibson Clark as authority figure**: Recent LLA site work uses Julie Gibson Clark in bio-age banner positioning and describes her as a “#2 slowest-ager” authority signal ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io/commit/276fe263a87671f26a226ee714361298d2601bc7)).
-- **Harel Tayeb as public media contact**: The LLA PR kit names Harel Tayeb as the CEO/public-facing contact while keeping Omri in a back-office role ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit/commit/ded574ee23e5fac1c64fca59fde31711a9f8ab28)).
-- **PR campaign surfaces**: LLA/eTeacher PR work uses the `lla-pr-kit` repo as a controlled press-kit surface and separate PR outlet placements for three approved article angles (original session `403edc06-11f9-46e4-881b-aa422bec23b2`).
-- **Press-release product facts**: The approved LLA PR brief frames the product as an 18-week, 18-session online longevity program with cohorts of 8–15, six pillars, tuition around `$289/month`, and a free Abbott Lingo CGM shipped to US students before Lesson 5 (original session `d65c9925-abe9-4a9e-8b74-826c97a8d9fa`).
-- **Article deck review surface**: `gitteromri-ux/lla-articles-deck` presents 14 LLA articles in a Julie-review-style GitHub Pages deck, ranked best-first by CEO/PR-agency criteria (original session `8a02c109-3383-4400-99a7-af3f585fc2a4`).
-- **Contact-rate homepage demo**: The LLA homepage demo adds a callback-time dropdown for 09:00–22:00 ET plus WhatsApp and Messenger contact options next to the lead form, preserving the form as the primary lead path (original session `4fca1618-75d1-4a7b-aec7-e07a13ba32c9`) ([recorded evidence](https://github.com/gitteromri-ux/lla-homepage-demo)).
-- **Turnaround-plan deck**: The `lla-turnaround-plan` site frames the operational turnaround around storytelling videos, reactivation of 3,500 prior leads, PR credibility, higher contacted rates, night-shift calling, sales scripts, and stronger trainer/rep coverage (original session `6cc01150-c8b5-4671-93e4-e9918f2600d7`).
-- **Founder email funnel**: The LLA promo-email funnel uses two gated founder LPs and four promo emails, with LP forms routed to eTeacher ProductID `26` and CampaignID `117600` for email-marketing attribution (original session `9c82dce7-0c87-4dfa-84dc-e8eead87f269`).
-- **Domain trust and email authentication**: The LLA site received Privacy, Terms, and Medical Disclaimer pages plus repaired footer links, while the email-reputation fix remained an ActiveCampaign SPF DNS change in Route 53 (original session `df0254fb-87b3-43cd-a27d-2d92f89f0cdb`).
+### How it works
+
+The public gallery contains creatives for USA TODAY, Yahoo Finance, EIN Presswire, and NewsBreak. Each article is rendered at 1080×1080, 1080×1350, 1080×1920, and 1200×628, with downloadable files and copy fields for Meta’s primary text, headline, and description. (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`)
+
+- **Article-led framing**: Creative language presents the published story rather than making unsupported personal-attribute claims. CTA is `Learn More`, with `longevitylifeacademy.com` as the destination. (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`)
+- **One production matrix**: Four placements multiplied by four native platform sizes creates 16 upload-ready ads, with HD variants and placement guidance handled in the gallery. (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`)
+- **Course proof stays consistent**: The pack uses the LLA/eTeacher lockup, Julie’s official PR image, `$289/month`, 18 weeks/18 live sessions, the Abbott Lingo CGM, cohort size, and Trustpilot 4.6/5. (original session `8c226f0b-9057-4558-8c9b-0733e53747a0`)
+- **GitHub Pages handoff**: `gitteromri-ux/lla-pr-article-ads` is the public source and delivery surface for the finished creative pack. ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-article-ads))
 
 ### See also
 
-- `projects/lla-s09-s10-video-delivery`, `projects/lla-julie-masterclass-video`: Courtney and Julie media
-- `entities/julie-gibson-clark`, `entities/harel-tayeb`: authority and executive contacts
-- `entities/omri-gitter`, `entities/gita-agency`: delivery operator and agency
-- `projects/lla-pr-campaign`, `concepts/pr-placement-guarantees`: PR distribution and promises
-- `projects/lla-promo-email-funnel`, `projects/lla-growth-engine`: conversion funnels and acquisition
-- `projects/lla-masterclass-emails`, `projects/lla-master-delivery-hub`: lifecycle and delivery surfaces
+- `projects/lla-pr-campaign`: source placements
+- `projects/lla-ad-banner-campaign`: creative system
+- `entities/longevity-life-academy`: client brand
+- `concepts/github-pages-delivery`: public handoff
 
 
-## Omri Gitter
+---
 
-Omri Gitter is the owner of GiTA Agency and the GitHub account owner behind `gitteromri-ux`; he uses the account for client-facing marketing, website, and media-delivery work ([recorded evidence](https://github.com/gitteromri-ux)) (original session `a10d679b-31c3-4f15-96b4-cb444430ea8c`).
+Record: `lla-employee-referral` | knowledge last updated: 2026-07-31T06:29:00+00:00
 
-### Who they are
+## LLA Employee Referral Campaign
 
-Omri owns delivery across his GitHub repos, which form a high-volume public portfolio of project-specific landing pages, decks, dashboards, review sites, promo funnels, and video handoffs ([recorded evidence](https://github.com/gitteromri-ux)). Repo naming alone does not establish client scope: the LLA-named S09/S10 repo also contains an unrelated personal birthday-film pull request ([recorded evidence](https://github.com/gitteromri-ux/lla-s09-s10-downloads/pull/1)). His active work centers on marketing websites, GitHub Pages deliverables, Wix/domain handoffs, PR/communications kits, formal client documents, CRM-connected funnels, and high-pressure video-production QA (original session `55a60e33-9e3b-46be-8dec-1524935234b3`) (original session `8d7a6c0a-0ccf-41ef-994d-3c8f621afc4a`) (original session `83c61d68-a08a-4ce7-9665-1b84b60cb146`) ([recorded evidence](https://github.com/gitteromri-ux/lla-pr-kit)) (original session `403edc06-11f9-46e4-881b-aa422bec23b2`) (original session `a10d679b-31c3-4f15-96b4-cb444430ea8c`) (original session `9c82dce7-0c87-4dfa-84dc-e8eead87f269`).
+LLA Employee Referral Campaign lets eTeacher Group employees promote the Longevity Blueprint while keeping the incentive mechanism invisible to prospective students. The public GitHub Pages surface is a normal course-enrollment page; the separate employee-facing banner gallery carries the `$250` reward message. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`) ([recorded evidence](https://github.com/gitteromri-ux/lla-employee-referral))
 
-Outside client delivery, Omri is coordinating `projects/sokolov-90-lease-renewal` as landlord. The lease source does not establish that this is his residence. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
+### How it works
 
-### See also
+The public route presents standard course positioning, proof, curriculum, press credibility, and a normal signup form. Employee attribution can travel through a silent `?ref=` URL parameter, while the prospect-facing page and linked article pages contain no referral, reward, bonus, or employee language. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`)
 
-- `projects/lla-s09-s10-video-delivery`: main video crisis
-- `entities/longevity-life-academy`: LLA client surface
-- `projects/french-atelier-website`: website delivery work
-- `projects/lla-pr-campaign`: PR distribution
-- `entities/gita-agency`: agency entity
-- `projects/sokolov-90-lease-renewal`: personal landlord contract endeavor
-
-
-## Sandra Kwiecien
-
-Sandra Kwiecien is named in the eTeacher handover as an ActiveCampaign access holder. Sandra governs copy and CRM-object changes across Omri’s LLA and French Atelier work ([recorded evidence](https://github.com/gitteromri-ux/lla-course-checkout)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-social-kickstart/commit/f47c0c8b)) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md)).
-
-### Who they are
-
-Sandra governs ActiveCampaign object changes for LLA and supplies approved acquisition and WhatsApp source copy used in French Atelier campaign work ([recorded evidence](https://github.com/gitteromri-ux/lla-course-checkout)) ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-social-kickstart/commit/f47c0c8b)).
-
-- **ActiveCampaign changes require Sandra**: New ActiveCampaign objects cannot be created without Sandra, and protected fields `214–220` cannot be deleted without approval ([recorded evidence](https://github.com/gitteromri-ux/lla-course-checkout)).
-- **Original copy controls downstream length**: The Julie three-tier lifecycle system keeps all emails at or below Sandra’s original word count ([recorded evidence](https://github.com/gitteromri-ux/lla-masterclass-emails-3tier/commit/067a6c3c)).
-- **Real campaign source over invented copy**: French Atelier’s social delivery uses Sandra’s real acquisition-drip emails and WhatsApp broadcasts with their actual banner imagery rather than fabricated replacements ([recorded evidence](https://github.com/gitteromri-ux/french-atelier-social-kickstart/commit/f47c0c8b)).
+- **Public/private message separation**: The public landing page and four article pages use plain enrollment CTAs and `$289/month` course pricing; only the employee banner gallery exposes the `$250` incentive. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`)
+- **Silent employee attribution**: Employee-specific duplicated links may use a `?ref=` parameter that is stored in CRM notes without surfacing the referral mechanism to the prospect. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`)
+- **US Eastern Time is a conversion-critical disclosure**: The hero uses a prominent ET callout and the signup area repeats that live sessions run on US Eastern Time and are recorded. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`)
+- **Campaign creative remains course-led**: Four banner layouts explain the reward, course facts, aging authority, and six-pillar curriculum with exact LLA branding and large readable CTAs. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`)
+- **Public preview and handoff**: `gitteromri-ux/lla-employee-referral` is the public source repository, with separate live landing-page and banner-gallery routes for internal review and downloads. (original session `ac11344f-e123-4ce3-a5c6-d6f759a0ebea`) ([recorded evidence](https://github.com/gitteromri-ux/lla-employee-referral))
 
 ### See also
 
-- `projects/lla-masterclass-emails`: approved lifecycle copy
-- `projects/french-atelier-social-kickstart`: source campaign material
-- `projects/lla-course-checkout`: CRM governance boundary
-- `projects/lla-julie-invitation-blast`: segmented school-email handoff
+- `entities/longevity-life-academy`: program and brand
+- `projects/lla-promo-email-funnel`: related CRM funnel
+- `projects/lla-ad-banner-campaign`: creative standards
+- `concepts/github-pages-delivery`: public handoff
 
 
-## Address recurring process failures
+---
 
-The user wants answers to process-failure complaints to address the recurring failure itself rather than substitute another tactical plan. (original session `59596b49-4843-4756-b08f-17722a531c89`) The user rejects unsolicited CEO messages, support referrals or consolation documents as substitutes for addressing that complaint. (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`) (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`)
+Record: `lms-image-pack` | knowledge last updated: 2026-07-29T09:42:00+00:00
 
+## LMS Image Pack
 
-## Concise practical communication
+LMS Image Pack is Omri’s GitHub Pages delivery surface for themed French-culture imagery in exact LMS slot dimensions, with downloadable JPEG variants for the homepage and My Achievements page (original session `9726b072-940f-432f-b817-15063d618aad`) ([recorded evidence](https://github.com/gitteromri-ux/lms-image-pack)).
 
-The user prefers concise, clear responses without filler, using simple nontechnical language for practical instructions and preserving the requested format (original session `cda24151-3fe4-426e-bbbe-ed83eb6f75db`) (original session `943d2b2f-7019-4c73-abd9-5254b34d8819`).
+### How it works
 
-For campaign checks, the user wants readable in-chat tables at the requested ad-set or ad grain and period, not rendered charts, design work, or dense prose; the latest explicit format puts daily budget in column two beside each set or ad, ahead of sales, cost per sale, spend and remaining metrics. The user requires explicit learning states separate from delivery status, and distinct CRM-paid, raw-event and Meta-attributed sales counters. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) (original session `41572080-cfcc-4c6d-af2a-b8f571a26054`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `59596b49-4843-4756-b08f-17722a531c89`)
+The pack groups 11 images under fashion, music, cuisine, wine, art, and film themes, then exports each at 161×147 and 106×101 pixels for 22 downloadable files (original session `9726b072-940f-432f-b817-15063d618aad`).
 
+- **Licensed-source boundary**: Watermarks are not removed from iStock previews; clean generated replacements are used when licensed originals are unavailable (original session `9726b072-940f-432f-b817-15063d618aad`).
+- **Exact canvas over uncropped source**: The near-square LMS slots are filled edge to edge with minimal cover-cropping. This avoids white padding while keeping every output at the exact requested dimensions (original session `9726b072-940f-432f-b817-15063d618aad`).
+- **Delivery QA**: Files use JPEG format, theme-and-size filenames, and pixel-dimension verification before publication (original session `9726b072-940f-432f-b817-15063d618aad`).
 
-## Current authorization required
+### Key surfaces
 
-The user does not want work started, resumed, published, scheduled, submitted, or mutated in external software without clear current authorization; for unfamiliar account work, they require existing records researched and screenshot previews approved before anything is saved, issued or sent. (original session `373062cb-3ec9-424b-8613-f8478d1f7ea9`) (original session `1ad4b3ec-9b30-4a28-95f2-9f4e2101a5dc`) (original session `3e8a6838-f72a-4a17-8c7a-a7018d3a2684`) (original session `5608d58e-c5f5-447c-9bac-d0dd37c3cd5e`) (original session `05caf531-03f3-4736-8d9c-214938ba4f1c`) (original session `126994a0-ae37-4d2b-9e2c-b1c3ca4417ae`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`) This includes footage edits, evidence claims, paid-media settings, analysis after a hands-off instruction and publication to a preview repository/URL; a stop halts work, and a materially different implementation needs fresh approval. (original session `3e8a6838-f72a-4a17-8c7a-a7018d3a2684`) (original session `5608d58e-c5f5-447c-9bac-d0dd37c3cd5e`) (original session `05caf531-03f3-4736-8d9c-214938ba4f1c`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`) For Meta, the user explicitly includes exports, uploads, audience creation/edits/deletion, targeting and cleanup in the approval boundary; a separately approved read-only lead export for local matching does not authorize write-back or activation, and a page/screenshot inspection does not authorize production form submissions, test CRM records, checkout progression or cleanup merely because no charge occurs. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- Repo: `gitteromri-ux/lms-image-pack` ([recorded evidence](https://github.com/gitteromri-ux/lms-image-pack))
+- Gallery: `https://gitteromri-ux.github.io/lms-image-pack/` (original session `9726b072-940f-432f-b817-15063d618aad`)
 
+### See also
 
-## Direct working deliverables
+- `concepts/github-pages-delivery`: public download handoff
+- `entities/longevity-life-academy`: client program surface
 
-The user expects the agent to execute technical work rather than transfer tool operation back to them, and deliver working public links or downloads rather than status messages, workarounds or chat-only descriptions (original session `cf7d2e65-ded5-477c-a3fa-5af60845b165`) (original session `8d7a6c0a-0ccf-41ef-994d-3c8f621afc4a`) (original session `ba090ec8-18e5-412c-8665-2deba042703c`).
 
-When a client deliverable has already been circulated, the user requires revisions at that original public link, with fresh cache-busting queries for revised decks and matching downloadable formats rather than a replacement base URL (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `ad99e93f-fc49-4bda-be84-3501fced7806`).
+---
 
-The user wants short WhatsApp handoffs as ordinary plain-text content with full working URLs and the exact approved wording, not code-styled text in the message or links replaced by inaccessible citation labels; the delivery needs an immediate copy control rather than manual editing. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `5fc1c29a-a40f-4e3a-8017-9a20d981b89f`) For cross-platform social handoffs, the user wants complete Facebook and Instagram text together in one copyable block with clear separation, while bio fields stay separate. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
+Record: `lla-turnaround-plan` | knowledge last updated: 2026-07-29T09:42:00+00:00
 
-The user distinguishes revisions of a shared review from genuinely new deck alternatives: shared reviews stay on their established link, while a new design receives its own open GitHub link rather than being relabelled as a round of the old deck. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `5fc1c29a-a40f-4e3a-8017-9a20d981b89f`) (original session `12e9ff81-d844-4ea6-aaa4-0863ca1d4b53`)
-
-
-## Executive deck clarity
-
-The user wants executive decks to state the conclusion in literal, very large headlines, keep supporting text sparse and readable, and move from macro strategy to operating detail. Visual polish must strengthen comprehension rather than replace the requested management logic (original session `56d2ef86-ea05-43d6-b6f2-e09d82fcf16a`) (original session `44859035-df25-47a4-bd36-f12b628efdb6`).
-
-The user requires actual performance to be verified and clearly distinguished from targets, not replaced with targets alone or internal “reported/not confirmed” labels in board-facing copy (original session `ad99e93f-fc49-4bda-be84-3501fced7806`).
-
-The user requires audience slides to distinguish observed conversions, targeting and inferred motivations, with separate products and lead/buyer populations. Clear executive bullets and readable graphs must answer the board's actual questions rather than substitute invented persona labels or imply an unverified funnel. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-
-For rehearsal documents, the user wants a plain chronological production timeline with large readable stage cues and direct jumps from speaking cues to exact preserved scripts, rather than a moderator-only framing or invented management framework. (original session `97ea884b-02ca-40ad-bba8-29fb41a5f490`) (original session `0425b0f4-2e0f-4068-92f5-25673f9541f0`)
-
-
-## Immediate urgent acknowledgement
-
-The user expects immediate responses to stop, status, and urgent ETA requests before any longer execution resumes (original session `cda24151-3fe4-426e-bbbe-ed83eb6f75db`) (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`).
-
-The user requests a deployable emergency mode that responds within 60 seconds, minimizes mistakes and follows the literal urgent ask instead of looping or expanding the task. The assistant's proposed blanket suspension of verification is not a user-approved rule. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-
-
-## Literal scope and source fidelity
-
-The user requires exact adherence to approved scope, source material, wording and design; silent substitutions, changed versions, removals and partial delivery are unacceptable, and source identity must be verified before production begins. (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `2a307fd5-0351-4a12-b6ec-591ae61de6c7`) (original session `3e8a6838-f72a-4a17-8c7a-a7018d3a2684`) (original session `a6c0ef82-b281-444d-8873-949c7b0db941`) (original session `95cc26e4-8e21-4311-b006-486e8dbaa042`) This includes brand-specific buyer sources: the user rejects unrelated brands’ customers or unverified leads substituted for purchasers to meet platform thresholds. (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
-
-Explicit “only” requests and output exclusions are hard constraints, shared copy corrections apply across every requested audience segment rather than just the example shown, and placement formats of one creative concept must count as one ad rather than inflated distinct ads. (original session `32a35d34-ee27-4481-8d88-0843d24f7ad7`) (original session `a572ab4f-2086-4f3c-b6cf-da71015aecb8`) (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
-
-The user requires mobile adaptation to preserve the approved design and visible controls, including floating CTAs and promotional strips, rather than hiding elements or redesigning to make them fit (original session `ad99e93f-fc49-4bda-be84-3501fced7806`).
-
-The user distinguishes a tone/style reference from content to reuse: explicitly rejected topics must not return simply because they appear in a supplied reference. A requested exact-design comparison must preserve the reference's actual styles and side-by-side view, not replace it with a generic approximation. (original session `f55de7df-62e4-4685-aa1e-d2280ec69eff`) (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-
-
-## No subpar alternatives
-
-The user expects quality-critical outputs to meet the stated standard and rejects compromised fallback versions presented as acceptable deliverables (original session `00f1fab4-d98f-4d8e-94cf-489036adba6e`) (original session `8d7a6c0a-0ccf-41ef-994d-3c8f621afc4a`).
-
-For premium web work, the user expects a visually complete mobile and desktop experience with large legible type, aligned pricing and clear tier benefits, not an overflow-only repair presented as a redesign. (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`) (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
-
-
-## Plan and ETA first
-
-The user wants a complete staged plan with an accepted ETA for each phase before execution, truthful pacing against it, and immediate disclosure whenever the timeline changes (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `00f1fab4-d98f-4d8e-94cf-489036adba6e`) (original session `a6c0ef82-b281-444d-8873-949c7b0db941`).
-
-
-## Premium design guardrails
-
-The user wants compact, sleek layouts with large readable text, factual content and clear hierarchy rather than excessive gaps or pill badges. (original session `11b3a24a-1d1c-4b1f-8788-81abd1a9fe32`) The user rejects all-caps display words, decorative dashes and generic AI promotional language, and wants approved headline concepts preserved rather than replaced; course-page headings should explain learning literally rather than use slogans or repeat one card template. (original session `642f6ef0-4790-463c-a38d-deb60bbbcb7a`) (original session `c3a19142-607c-4005-aeda-8c65494e6bd5`)
-
-The user wants introductory prices dominant without hiding the remaining installments or total commitment in unreadable text. Phone comparison views must preserve the requested side-by-side cards, compact height and readable brand-colored CTAs; merely increasing desktop pixel sizes does not satisfy phone readability. (original session `658b2028-3543-446e-8b94-2c5db8006a50`)
-
-
-## Reuse existing context
-
-The user expects independent use of existing context, prior uploads, and available assets rather than being asked to repeat work or re-upload material; an already-agreed chart should be resent immediately from history, with fresh live-state checks separate rather than delaying it. (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `d671ac39-6efd-4bed-b813-20a26fa5b2ab`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-The user requires recommendations to combine current configuration, recent results, the mission and previously rejected tests rather than recycle disproven proposals or treat poor historical performance as a ceiling. (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) Campaign diagnoses must use relevant account history and actual delivery evidence rather than generic learning-reset explanations; targeting advice must examine actual lead and purchase outcomes by age, creative, placement and settings, not spend alone. (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `1ad26cec-e6d7-4c05-a960-9620bad9b66a`)
-
-When a promised repair remains incomplete, the user expects the assistant to recover the existing agreement and tests and finish that work, not restart the brief or repeatedly ask the user to supply already-established context. (original session `50d09f1f-0a80-4b26-b0d9-ffcbc97f0f44`)
-
-
-## Simplest fast quality path
-
-The user prefers the fastest and simplest viable method that preserves every required quality standard over unnecessarily complex or slow approaches (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `720bb025-55fc-453c-a4f8-ae5fe4b3bde1`).
-
-The user rejects automatic lengthy work budgets for small edits and expects planning and execution to be proportionate to the actual task (original session `ad99e93f-fc49-4bda-be84-3501fced7806`).
-
-
-## Tool-verified completion
-
-The user requires tool recommendations, capability statements, completion claims, research results, and audits to be backed by concrete, visible verification against every stated hard requirement before purchase, execution, or delivery (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `2a307fd5-0351-4a12-b6ec-591ae61de6c7`) (original session `3e8a6838-f72a-4a17-8c7a-a7018d3a2684`) (original session `65862fd2-e80c-420b-aad6-866d3e19c710`) (original session `7873ebd0-a188-4e44-97a6-40fa2af1e3a1`).
-
-The user expects checkout-readiness claims to cover the named devices and failure paths, not just successful form rendering elsewhere, and rejects repeated third-party retest loops as a substitute for the agent owning its audit. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-
-The user requires audit reports to distinguish purchase events, orders and unique buyers, rejects classifying repeated purchases as accidental duplicates without evidence of intent, and rejects causal learning/reset or budget explanations that are not established by the observed data. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-The user expects proactive investigation, fixes and concrete proof rather than disclaimer-only updates that require a predictable follow-up. Evidence must match the requested outcome: event receipt, preview clicks or URL tags are not substitutes for a Purchase credited to an ad set; a direct-URL emulation is not a real Meta-origin click, checkout captures do not replace website screenshots, and a public Ad Library redirect does not establish paid-feed attribution or physical-device testing. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-The user assigns the assistant sole end-to-end attribution ownership before a campaign launches and treats unresolved live tracking as an emergency, not a user-operated debugging assignment. (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
-
-For enrollment repair, the user requires actual course assignments and access to be checked, not just returned student/order IDs; duplicate-write guards and pending-status messages do not fulfill the original repair agreement. (original session `50d09f1f-0a80-4b26-b0d9-ffcbc97f0f44`)
-
-The user requires present-day roster claims to distinguish live retrieval from historical backup files, and local-browser changes to be distinguished from what is actually visible in another presenter's already-open tab. (original session `8904dadb-53f9-4ac0-ab1b-550470b3bccf`) (original session `858958e0-bbbf-493d-887e-0365bd6c7f0d`)
-
-
-## Use the best available tools
-
-The user expects the agent to evaluate and use the strongest available connected tools or capabilities before starting when they materially improve the result (original session `8b3275ab-0b98-402c-be96-825b3eeb0b91`) (original session `720bb025-55fc-453c-a4f8-ae5fe4b3bde1`).
+## LLA Turnaround Plan
 

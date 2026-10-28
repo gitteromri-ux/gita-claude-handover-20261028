@@ -1,3 +1,74 @@
+### Last evidenced configurations: USD, not today's verified state
+
+#### Capsules
+
+| Role / CRM suffix | Meta ad-set ID | Last dated daily budget | Last reported state |
+|---|---|---:|---|
+| Buyers LLA / `#108761` | `120251212250640546` | USD 149 | ACTIVE, October 26 |
+| Francophile / `#108758` | `120251212251230546` | USD 79 | ACTIVE, October 26 |
+| Leads LLA / `#108757` | `120251212251670546` | USD 169 | ACTIVE, October 26 |
+| Excluded `#108756` | Not recovered | Not current-verified | Left paused in launch record |
+
+The numeric IDs come from original Ads Manager links; the USD 397/day total is the later October 26 configuration, superseding launch USD 169/159/149. These are ad-set budgets, not campaign budgets or enforced spending ceilings; exact current Meta ad-set names and `updated_time` fields remain unavailable. Original launch with IDs (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`), October 26 budget/state report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+The October 22 launch was reported verified at 14:04 IDT: both campaigns, three sets and 17 selected ads ACTIVE/effectively ACTIVE; five main ads, six Francophile and six lead-lookalike ads, with older ads and excluded set left paused. It is a launch receipt, not today's inventory. Original launch session (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+
+#### Julie: applied versus requested, October 27
+
+| Exact recovered ad-set name | Meta ID | Last evidenced USD/day | Last evidenced status |
+|---|---|---:|---|
+| `ecomm_Adset_01_All_All_CPM_#108813` | `52668330533628` | 258 | ACTIVE before latest access failure |
+| `ecomm_Adset_02_All_All_CPM_#108814` | `52673824399628` | 564 | ACTIVE before latest access failure |
+| `ecomm_Adset_03_All_All_CPM_#108815` | `52668330165828` | 77 retained | PAUSED, reported verified October 27 |
+| `ecomm_Adset_04_All_All_CPM_#108816` | `52668330870828` | 999 | ACTIVE before latest access failure |
+| `ecomm_Adset_05_All_All_CPM_#108817` | `52668330871228` | 348 | ACTIVE before latest access failure |
+| `ecomm_Adset6_0_All_All_CPM_#108818` | `52668330871028` | Not latest-verified | PAUSED |
+
+Names/older IDs are recovered from the historical snapshot; replacement Set 02 name and ID are confirmed in the October 18 original session. Budgets and October 27 status distinctions come from the later original reporting, not the September budget values. [Historical set registry](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/adsets_52668266203628.json), Replacement Set 02 (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`), October 27 changes (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`)
+
+At 04:24 UTC October 27, Omri requested Set 04 +150, Set 02 −50, Set 03 pause and an ambiguous Set 05 increment. The assistant reported only Set 03 successfully paused; Set 04 remained 999 rather than requested 1,149; Set 02 remained 564 rather than requested 514; Set 05 remained 348. At 05:26 UTC, the original session still said the budget changes were unapplied because fallback access was blocked. Active configured budgets after that reported pause sum to USD 2,169, NOT 2,246 and NOT a subsequently verified campaign-wide pause. Original instructions and outcome (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`)
+
+**Identity trap:** retired Set 02 `52668268711228` is not replacement live Set 02 `52673824399628`, despite the same CRM suffix/name pattern. Never select by name alone. Replacement set source (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+
+#### Blueprint historical registry: explicitly September, not current
+
+| Exact snapshot ad-set name | Meta ID | Snapshot USD/day | Snapshot status / updated UTC |
+|---|---|---:|---|
+| `ecomm Adset 2_All_All_CPM_#108808` (copy) | `52669013718628` | 199 | ACTIVE; 2026-09-29 23:06:21 |
+| `ecomm Adset 4_All_All_CPM_#108810` | `52666232368428` | 50 | ACTIVE; 2026-09-29 23:06:02 |
+| `ecomm Adset 5_All_All_CPM_#108811` (copy) | `52669048300628` | 155 | ACTIVE; 2026-09-29 23:05:36 |
+| `ecomm Adset 2_All_All_CPM_#108808` (original) | `52663512093428` | 160 | PAUSED; 2026-09-28 15:06:14 |
+| `ecomm Adset 5_All_All_CPM_#108811` (original) | `52666296222628` | 40 | PAUSED; 2026-09-28 15:06:15 |
+| `ecomm Adset 3_All_All_CPM_#108809` | `52664534627228` | 100 | PAUSED; 2026-09-16 19:21:11 |
+| `ecomm Adset 1_All_All_CPM_#108807` | `52663511359228` | 1 | PAUSED; 2026-09-16 19:21:12 |
+
+All values above are historical cents converted to USD, from the September 30 archived JSON. Later October reporting mentioned small spend in Blueprint sets but does not establish maintained budgets or today's delivery state. [Blueprint set JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/adsets_52663511211628.json), October original reporting (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+
+### October activity, decisions and rejected paths
+
+- **October 18 Julie warm/lookalike launch:** replacement Set 02 launched at USD 99/day with four selected exact-source ads and fifteen paused copies; US 44–65+, Facebook Feed/Reels, Purchase optimization, lowest cost. Audience membership was purchaser 1% lookalike **OR** Julie checkout 30-day/cart 14-day warm pool, not an intersection or separated budgets. The too-small warning concerned the warm pool, not the ready purchaser lookalike. Ordinary page visitors were not included; the cart rule required Julie page plus campaign ID. Original October 18 session (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+- **October 20 seed enrichment:** 101 initial distinct identities became 122 from 131 paid-order records; additions accepted is not platform matched-user count or settlement certification. Existing seed `52673824207628`, existing lookalike `52673827176428`; the original “101” label was deliberately retained. Approval attached the lookalike to paused Set 03 only; Set 06 was explicitly excluded. Processing/updating and lookalike readiness were distinct. Original October 20 session (original session `e5d1fc33-0efd-48b4-bc1a-e197a6661b68`)
+- **French purchaser integrity:** the reported 232 submitted identities came from an expanded 645-student population, not a rigorously established set of 232 paid/noncancelled buyers. Initial filtered population was 410; unrelated eTeacher buyer padding was rejected. Submission accepted/zero invalid is not proof of paid eligibility, accurate identity resolution or final Meta matching. Historical seed `120251221224670546`, purchaser 1% `120251221226160546`; no seed contents retrieved in this task. Original purchaser investigation (original session `39e18618-574d-4840-99a7-54fb2c7b8b30`)
+- **October 22 audience decisions:** keep verified purchaser 1% only rather than create a fresh 1–2% band. Two website-visitor 2%/1–2% audiences in the other FA account had failed creation and were not purchaser/checkout audiences. Checkout audience creation returned error 2663, Custom Audience terms not accepted. “Emily in Paris,” “Call My Agent” and French-TV interests were not verified selectable; irrelevant Lupin results were rejected. Original October 22 session (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **French warm versus lookalikes:** a warm-nonbuyer third-set proposal was superseded; the launched third role is lead-lookalike **prospecting**, not actual-lead retargeting. Purchaser/lead sources, exclusions, Advantage+ settings and income/device differences were set-specific. Reporting names such as “CA 50+” are not reliable proof of geography: the detailed approved configuration described US nationwide. Do not infer targeting from old names. Original configuration/launch (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Rejected test path:** October 22 at 22:42 UTC, Omri explicitly rejected the Israel-targeted test approach; the assistant reported the Israel test set paused and never delivered. An earlier test launch approval did not survive this later rejection. Do not recreate it or fire synthetic production Purchases. Original rejection (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Learning is not a forecast:** October 26 reporting distinguishes Set 04 exited learning, Set 05 learning-limited and Sets 01/02/03 learning. Earlier explanations equating edits to universal resets, a guaranteed ten-day exit, or a fixed CPP after learning were challenged/withdrawn; a status field is not causal proof or a countdown. October monitoring (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`), Original learning/transition debate (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Blueprint transition intent:** October 24 discussion favored reusing Julie Set 04 with identical targeting but Blueprint destination/copy and masterclass ads stopped after the event. The assistant proposed incremental additions and a one-hour significant-edit check; this was not an executed migration or proof replacing every ad preserves learning. Today's restart intent adds no activation authorization in this read-only task. Original transition discussion (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+- **Monitoring versus campaigns:** the Capsules hourly reader `9e4332aa-87fb-4950-a05e-c8c3b2da922b` was paused on the stop instruction; the original October 27 message explicitly says no account settings changed and Julie's separate schedules remained scheduled but access-blocked. A paused reporter is not a paused campaign; stale NO DATA is not zero sales. Original stop instruction/result (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+### Attribution integrity and ecommerce boundaries
+
+Julie new Set 02's name ends in `#108814`, but copied ads retained static source `adGroupID` values `108813`, `108815`, `108817`; the recovered session ends at a request for approval to repair URL mapping, not a completed repair. A rename cannot establish CRM attribution alignment. Original launch/tag discussion (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`)
+
+Keep separate: paid CRM orders, unique buyers, raw browser/server receipts, deduplicated events, Meta-attributed purchases, recorded last clicks and processor settlement/refunds. October 26 four paid orders totaled USD 226 while eight raw Purchase receipts included browser/server copies; matching four-count Meta/CRM summaries do not themselves reconcile individual orders or certify settlement. Original October 26 reporting (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+Golden Julie attribution preserves pixel `1440305917310328`, exact-case click ID/fbc, fbp, stable event ID (Purchase = CRM order ID), browser/server equality, campaign `cid=118149`, set tags and paid-success triggers. French uses its own pixel and brand fields. Accepted PageView/ViewContent or checkout events do not certify paid Purchase attribution, deduplication, complete enrollment or processor settlement; the original test response's broader inference must not be repeated as proof. [Golden tracking contract](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md), Original test and checkout discussion (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`)
+
+
+French Meta reporting attributed USD 79 on October 24 to Buyers `#108761` and USD 151 on October 25 to Leads `#108757`, not Francophile. Paid-bundle entitlement and website checkout incidents remain separate reconciliation work, not evidence those Meta credits are settled or fully fulfilled. October report (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
+
+### Exact safe connection/read runbook for the next operator
+
 1. Load `meta-ads-best-practices`; inspect the actual `ads_*` schemas if available. For CLI load `meta-ads-cli`. Existing CLI authentication is provisioned; do not run login/auth inspection, print environment variables, extract tokens, request a pasted secret, or inspect credential stores.
 2. The observed failure calls for **Meta connector reauthorization**, not account guessing. Parent can show `connect_connector(connector_id="meta_ads", force_reauth=true)` if the tool is available. Authorization must finish separately; do not retry the invalid session in a loop. This subagent did not open an authorization request.
 3. After reauthorization, first run the read-only account list and verify exact ID/name/currency/timezone. Choose `act_1358975119724184` for Capsules, `act_1459085242361281` for LLA; inspect `act_1188017096669618` separately only for the old/main FA account.
@@ -196,94 +267,4 @@ File counts include multiple inspected branches where present. A Git tree listin
 - **Top-level contents:** `.nojekyll`, `.nudge`, `AGENT_B_REPORT.md`, `AGENT_SECONDARY_REPORT.md`, `BIAGIO_BUILD_REPORT.md`, `FA_PORT_REPORT.md`, `README.md`, `REAL_ASSETS_REPORT.md`, `V4_REBUILD_REPORT.md`, `__pycache__`, `_brand.py`, `_build_biagio_v2.py`, `_build_home.py`, `_build_new_pages.py`, `_build_secondary.py`, `_ci_build.py`, `_ci_build2.py`, `_ci_build3.py`, `_fa_port_build.py`, `_home17_build.py`, `_page_deepen.py`, `_page_events.py`, `_page_map.py`, `_page_rest.py`, `_partials`, `_sales_build.py`, `_v17_build.py`, `_v18_build.py`, `_v18_pages.py`, `_v18_reskin.py`, `_v19_build.py`, `_v19_legacy.py`, `_v20_build.py`, `_v21_course.py`, `_v21_fix.py`, `_v21_home.py`, `_v21_map.py`, `_v3_build.py`, `_v3_tier2.py`, `_v4`, `_v8_build.py`, `about.html`, `assets`, `biagio.html`, `blog.html`, `build.py`, `build2.py`, `build3.py`, `build_agent_c.py`, `build_agent_c2.py`, `build_agent_c3.py`, `build_fa.py`, `build_fa_courses.py`, `build_fa_indexes.py`, `build_svgs.py`, `build_tools`, `build_zoom_luxury.py`, `capsules.html`, `certifications.html`, `community.html`, `contact.html`, `courses.html`, `css`, `culture.html`, `curriculum.html`, `eteacher.html`, `events.html`, `fa`, `faq.html`, `gen_placeholders.py`, `how-it-works.html`, `index.html`, `js`, `map.html`, `method.html`, `pages`, `pdf`, `pricing.html`, `privacy.html`, `rasterize.py`, `research`, `sample-class.html`, `teachers.html`, `terms.html`, `tts_scripts`, `zoom-luxury-findings.md`.
 
 ### gitteromri-ux/club-italia-preview
-
-- **Repository:** [gitteromri-ux/club-italia-preview](https://github.com/gitteromri-ux/club-italia-preview); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 410 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `e1b9a8bb8bf0bf7c446ddc03815a68bd5fde8248`; 2026-10-11T21:11:43Z; v26.
-- **Pages configuration:** https://gitteromri-ux.github.io/club-italia-preview/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `.nudge`, `AGENT_B_REPORT.md`, `AGENT_SECONDARY_REPORT.md`, `BIAGIO_BUILD_REPORT.md`, `FA_PORT_REPORT.md`, `README.md`, `REAL_ASSETS_REPORT.md`, `V4_REBUILD_REPORT.md`, `__pycache__`, `_brand.py`, `_build_biagio_v2.py`, `_build_home.py`, `_build_new_pages.py`, `_build_secondary.py`, `_ci_build.py`, `_ci_build2.py`, `_ci_build3.py`, `_fa_port_build.py`, `_home17_build.py`, `_page_deepen.py`, `_page_events.py`, `_page_map.py`, `_page_rest.py`, `_partials`, `_sales_build.py`, `_v17_build.py`, `_v18_build.py`, `_v18_pages.py`, `_v18_reskin.py`, `_v19_build.py`, `_v19_legacy.py`, `_v20_build.py`, `_v21_course.py`, `_v21_fix.py`, `_v21_home.py`, `_v21_map.py`, `_v3_build.py`, `_v3_tier2.py`, `_v4`, `_v8_build.py`, `about.html`, `assets`, `biagio.html`, `blog.html`, `build.py`, `build2.py`, `build3.py`, `build_agent_c.py`, `build_agent_c2.py`, `build_agent_c3.py`, `build_fa.py`, `build_fa_courses.py`, `build_fa_indexes.py`, `build_svgs.py`, `build_tools`, `build_zoom_luxury.py`, `capsules.html`, `certifications.html`, `community.html`, `contact.html`, `courses.html`, `css`, `culture.html`, `curriculum.html`, `eteacher.html`, `events.html`, `fa`, `faq.html`, `gen_placeholders.py`, `how-it-works.html`, `index.html`, `js`, `map.html`, `method.html`, `pages`, `pdf`, `pricing.html`, `privacy.html`, `rasterize.py`, `research`, `sample-class.html`, `teachers.html`, `terms.html`, `tts_scripts`, `zoom-luxury-findings.md`.
-
-### gitteromri-ux/cultural-capsules-pack3
-
-- **Repository:** [gitteromri-ux/cultural-capsules-pack3](https://github.com/gitteromri-ux/cultural-capsules-pack3); public/visibility not independently specified.
-- **Purpose:** French Atelier: Cultural Capsules Pack 3: Cinema & Music (10 decks)
-- **Branches inspected:** `main`.
-- **Inventory:** 294 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `3636e7fbbc4e9e783f93a679cbb1fb276a24ca0a`; 2026-10-08T10:06:35Z; Audit pass: abbreviation-safe sentence cuts, 8 hand-written short blocks, hook captions clear of illustration; 262 slides checked.
-- **Pages configuration:** https://gitteromri-ux.github.io/cultural-capsules-pack3/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `Cultural_Capsules_Visual_Canvas_His_vs_Ours.pdf`, `README.md`, `decks`, `index.html`, `preview`.
-
-### gitteromri-ux/fa-capsules-launch
-
-- **Repository:** [gitteromri-ux/fa-capsules-launch](https://github.com/gitteromri-ux/fa-capsules-launch); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `bridge`, `main`.
-- **Inventory:** 1,361 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `708a86f3be5754d475291d5665022d53be09a329`; 2026-10-22T08:02:37Z; Video kit: New to upload, 22 October section with the three new UGC cuts.
-- **Pages configuration:** https://gitteromri-ux.github.io/fa-capsules-launch/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.github`, `.nojekyll`, `README.md`, `ad-board`, `app.js`, `banners`, `bridge`, `catalog.json`, `downloads`, `emails`, `index.html`, `media`, `meta-banners`, `styles.css`, `video-kit`, `website`.
-
-### gitteromri-ux/fa-capsules-review-public
-
-- **Repository:** [gitteromri-ux/fa-capsules-review-public](https://github.com/gitteromri-ux/fa-capsules-review-public); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 352 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `39451a8b1d51745c9d8b1af3502739b3738eedd2`; 2026-10-19T08:44:25Z; Publish Culture Capsules review with visible programmes and revised design.
-- **Pages configuration:** https://gitteromri-ux.github.io/fa-capsules-review-public/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `.nojekyll`, `.vercelignore`, `_ext`, `about.html`, `acadomia.html`, `assets`, `blog`, `blog.html`, `capsules.html`, `cdn-cgi`, `contact.html`, `courses`, `courses.html`, `css`, `culture.html`, `downloads`, `faq.html`, `how-it-works.html`, `index.html`, `js`, `juliane.html`, `map.html`, `method.html`, `pricing.html`, `privacy.html`, `teachers.html`, `terms.html`, `vercel.json`.
-
-### gitteromri-ux/final-versions
-
-- **Repository:** [gitteromri-ux/final-versions](https://github.com/gitteromri-ux/final-versions); public/visibility not independently specified.
-- **Purpose:** Julie Masterclass UGC Ads · FINAL VERSIONS
-- **Branches inspected:** `claude/audits-2026-10-01`, `claude/ugc-fixes`, `main`.
-- **Inventory:** 529 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `7b93fa71165ab690486476fb31c517ceb28b50a9`; 2026-10-01T13:24:16Z; deploy 2026-10-01T13:24Z: 2 videos.
-- **Pages configuration:** https://gitteromri-ux.github.io/final-versions/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `.nojekyll`, `AUDIT.md`, `BRIEF.md`, `HANDOVER-TO-CLAUDE.md`, `META-UPLOAD-SPEC.md`, `NOTE-formats-caption-highlight-bug.md`, `PRESS-SOURCES.md`, `REPORT-durations.md`, `REPORT-formats.md`, `REPORT-site.md`, `RESPONSE-v10.md`, `RESPONSE-v11.md`, `RESPONSE-v12.md`, `_shot_index_desktop.jpg`, `_shot_index_mobile.jpg`, `_shot_video_mobile.jpg`, `ad1-man42__16x9__60.html`, `ad1-man42__1x1__60.html`, `ad1-man42__4x5__60.html`, `ad1-man42__9x16__45.html`, `ad1-man42__9x16__60.html`, `ad1-man42__9x16__75.html`, `ad2-woman42__16x9__60.html`, `ad2-woman42__1x1__60.html`, `ad2-woman42__4x5__60.html`, `ad2-woman42__9x16__45.html`, `ad2-woman42__9x16__60.html`, `ad2-woman42__9x16__75.html`, `ad3-woman51__16x9__60.html`, `ad3-woman51__1x1__60.html`, `ad3-woman51__4x5__60.html`, `ad3-woman51__9x16__45.html`, `ad3-woman51__9x16__60.html`, `ad3-woman51__9x16__75.html`, `ad5-woman46__1x1__75.html`, `ad5-woman46__9x16__75.html`, `audit`, `audit_frames`, `audits`, `build_site.py`, `claude-fixes`, `claude_audit_docx.txt`, `deploy.sh`, `index.html`, `manifest.json`, `posters`, `site-audit`, `videos`.
-
-### gitteromri-ux/french-atelier
-
-- **Repository:** [gitteromri-ux/french-atelier](https://github.com/gitteromri-ux/french-atelier); public/visibility not independently specified.
-- **Purpose:** The French Atelier by Acadomia: world-class French e-learning website
-- **Branches inspected:** `main`, `review/teachers-7-grid`, `staging-capsules-light`, `staging-checkout`, `staging-checkout-ecom-dark`.
-- **Inventory:** 2,504 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `e4b79e052b3960d65b79720a96df197b47305ff8`; 2026-10-26T10:11:50Z; Student reuse keyed on the same verified buyer identity as the order signature.
-- **Pages configuration:** https://www.frenchatelierlive.com/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.gitignore`, `.nojekyll`, `.vercelignore`, `CNAME`, `_apply_nav.py`, `_audit_assets.py`, `_nav_fix.py`, `_nav_fix2.py`, `_nav_transform.py`, `_nocache.py`, `_partials`, `_restructure.py`, `about.html`, `acadomia.html`, `assets`, `blog`, `blog.html`, `capsules.html`, `checkout.html`, `contact.html`, `courses`, `courses.html`, `crush_assets.sh`, `crush_images.py`, `css`, `culture-capsules-enroll.html`, `culture-capsules.html`, `culture.html`, `data`, `docs`, `downloads`, `enroll-checkout.html`, `faq.html`, `french-course-enroll.html`, `how-it-works.html`, `index.html`, `js`, `juliane.html`, `map.html`, `method.html`, `pricing.html`, `privacy.html`, `qa_clusters.js`, `qa_rail.js`, `recompress_hq.py`, `robots.txt`, `sitemap.xml`, `teachers.html`, `terms.html`, `vercel.json`.
-
-### gitteromri-ux/french-atelier-acq-drip
-
-- **Repository:** [gitteromri-ux/french-atelier-acq-drip](https://github.com/gitteromri-ux/french-atelier-acq-drip); public/visibility not independently specified.
-- **Purpose:** French Atelier - ACQ Drip Series Stage 3: 12 emails, 12 landing pages, quiz, promo claim page, 36 exact-size images
-- **Branches inspected:** `main`.
-- **Inventory:** 72 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `2828c47615a0fea96291ae069a69b8064a976c79`; 2026-08-05T14:34:48Z; Match email chrome to last-delivery onboarding spec: 700px main, 768px breakpoint, dual hero imgs, ref CTA wrapper.
-- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-acq-drip/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `assets`, `emails`, `index.html`, `landing-pages`, `promo`, `quiz`.
-
-### gitteromri-ux/french-atelier-capsules
-
-- **Repository:** [gitteromri-ux/french-atelier-capsules](https://github.com/gitteromri-ux/french-atelier-capsules); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 128 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `24fe6c02d6cdacb291159d72afd5d62bd1cab952`; 2026-10-23T01:40:42Z; Preview: reword comment in slider JS.
-- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-capsules/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `assets`, `culture-capsules-mobile-preview-20261023`, `index.html`.
-
-### gitteromri-ux/french-atelier-jv-deck
-
-- **Repository:** [gitteromri-ux/french-atelier-jv-deck](https://github.com/gitteromri-ux/french-atelier-jv-deck); public/visibility not independently specified.
-- **Purpose:** No repository description; use paths and project register.
-- **Branches inspected:** `main`.
-- **Inventory:** 73 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `67a0c2921c283ae3fe17e2a39e586bf888935487`; 2026-10-07T08:10:12Z; Capsule labels readable; 3 large readable emails.
-- **Pages configuration:** https://gitteromri-ux.github.io/french-atelier-jv-deck/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `.nojekyll`, `French-Atelier-Initiatives-Oct-2026.pptx`, `README.md`, `img`, `index.html`, `media`.
-
-### gitteromri-ux/french-atelier-lifecycle-emails
 

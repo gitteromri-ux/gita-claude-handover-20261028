@@ -1,3 +1,203 @@
+| Repository | Latest pushed UTC | Tree collected | Description |
+|---|---|---|---|
+| [Longevity-Academy/Longevity-Academy.github.io](https://github.com/Longevity-Academy/Longevity-Academy.github.io) | 2026-10-27T10:16:58Z | yes |  |
+| [Longevity-Academy/blueprint-attendees-7q4x](https://github.com/Longevity-Academy/blueprint-attendees-7q4x) | 2026-10-27T22:52:28Z | yes | Unlisted attendee offer page for Julie's masterclass (noindex, link-only) |
+| [Longevity-Academy/french-atelier-paris](https://github.com/Longevity-Academy/french-atelier-paris) | 2026-06-24T21:56:29Z | no | French Atelier: Win a Flight to Paris |
+| [Longevity-Academy/julie-fix-preview](https://github.com/Longevity-Academy/julie-fix-preview) | 2026-10-18T20:53:25Z | yes | Julie masterclass preview: SDK retry fix + v9 pricing cards and 72h strip. Production untouched. |
+| [Longevity-Academy/julie-masterclass](https://github.com/Longevity-Academy/julie-masterclass) | 2026-10-26T10:02:02Z | yes |  |
+| [Longevity-Academy/lla-checkout-live](https://github.com/Longevity-Academy/lla-checkout-live) | 2026-09-09T14:29:07Z | yes |  |
+| [Longevity-Academy/longevity-pillars-mece-preview](https://github.com/Longevity-Academy/longevity-pillars-mece-preview) | 2026-04-30T11:46:43Z | no | Preview: Six Pillars MECE update with clinical subheaders |
+| [Longevity-Academy/longevity-v61-preview](https://github.com/Longevity-Academy/longevity-v61-preview) | 2026-05-07T08:38:47Z | no | v61 hero preview - One Academy. Every Pillar of Longevity. |
+| [Longevity-Academy/longevity-v62-preview](https://github.com/Longevity-Academy/longevity-v62-preview) | 2026-05-07T08:38:49Z | no | v62 hero preview - Be There. Fully. For a Long Time. |
+| [Longevity-Academy/longevity-v63-preview](https://github.com/Longevity-Academy/longevity-v63-preview) | 2026-05-07T08:38:51Z | no | v63 hero preview - Still Going Strong. For Them. |
+| [Longevity-Academy/longevity-v64-preview](https://github.com/Longevity-Academy/longevity-v64-preview) | 2026-05-07T08:38:54Z | no | v64 hero preview - Live Younger. For Longer. |
+| [Longevity-Academy/longevity-v65-preview](https://github.com/Longevity-Academy/longevity-v65-preview) | 2026-05-07T08:38:56Z | no | v65 hero preview - Shared Life. Shared Health. |
+| [Longevity-Academy/longevity-v66-preview](https://github.com/Longevity-Academy/longevity-v66-preview) | 2026-05-07T08:38:58Z | no | Longevity Life Academy: Version 7 (cells hero) |
+| [Longevity-Academy/longevity-v8-preview](https://github.com/Longevity-Academy/longevity-v8-preview) | 2026-05-07T08:38:44Z | no | v8 preview: fold reorder + hero/pillars text edits per CEO spec |
+| [Longevity-Academy/longevity-v9-preview](https://github.com/Longevity-Academy/longevity-v9-preview) | 2026-05-05T19:29:51Z | no | v9 preview snapshot: exact clone of v8 lock-in (b5a56ce) |
+| [Longevity-Academy/masterclass-72hours](https://github.com/Longevity-Academy/masterclass-72hours) | 2026-10-18T14:07:41Z | yes | Julie masterclass 72-hour community-offer LP (email blast). Separate duplicate; production julie-masterclass untouched. |
+| [gitteromri-ux/Longevity](https://github.com/gitteromri-ux/Longevity) | 2026-04-10T15:38:55Z | no |  |
+| [gitteromri-ux/Longevity-light](https://github.com/gitteromri-ux/Longevity-light) | 2026-04-13T10:41:49Z | no |  |
+| [gitteromri-ux/abraham-tel-aviv-gm](https://github.com/gitteromri-ux/abraham-tel-aviv-gm) | 2026-09-15T06:48:29Z | no | Abraham Tel Aviv · GM 100-day plan · Fall 2026 |
+| [gitteromri-ux/abraham-tlv-gm](https://github.com/gitteromri-ux/abraham-tlv-gm) | 2026-09-16T12:24:58Z | no | Abraham Tel Aviv GM · Autumn 2026 plan |
+| [gitteromri-ux/abraham-tlv-gm-v2](https://github.com/gitteromri-ux/abraham-tlv-gm-v2) | 2026-09-16T12:36:51Z | no | Abraham Tel Aviv GM · Autumn 2026 |
+| [gitteromri-ux/amy-squishy](https://github.com/gitteromri-ux/amy-squishy) | 2026-06-08T14:13:19Z | no | איימי סקווישי: מבחר הסקווישי הגדול בישראל |
+| [gitteromri-ux/amy-squishy-new](https://github.com/gitteromri-ux/amy-squishy-new) | 2026-06-10T16:34:03Z | no |  |
+| [gitteromri-ux/apt-furniture-deck](https://github.com/gitteromri-ux/apt-furniture-deck) | 2026-07-05T11:45:44Z | no |  |
+| [gitteromri-ux/awesome-longevity](https://github.com/gitteromri-ux/awesome-longevity) | 2026-09-15T16:21:34Z | no | An awesome list of longevity resources for living longer, healthier lives. |
+| [gitteromri-ux/blended-cpa-dashboard](https://github.com/gitteromri-ux/blended-cpa-dashboard) | 2026-05-23T18:03:55Z | no | Interactive blended-CPA cohort dashboard - DuckDB-WASM + ECharts |
+| [gitteromri-ux/brown-hotels-greece-briefing](https://github.com/gitteromri-ux/brown-hotels-greece-briefing) | 2026-08-17T02:48:18Z | no |  |
+| [gitteromri-ux/callcenter-kpi-dashboard](https://github.com/gitteromri-ux/callcenter-kpi-dashboard) | 2026-04-23T07:02:37Z | no | Call Center Intelligence: KPI Performance Analytics Dashboard |
+| [gitteromri-ux/campaign-intelligence-dashboard](https://github.com/gitteromri-ux/campaign-intelligence-dashboard) | 2026-04-16T13:24:40Z | no | Campaign Performance Intelligence Dashboard |
+| [gitteromri-ux/cartoon-circular-portraits-1783953556](https://github.com/gitteromri-ux/cartoon-circular-portraits-1783953556) | 2026-07-13T14:56:25Z | no |  |
+| [gitteromri-ux/ceo-performance-suite](https://github.com/gitteromri-ux/ceo-performance-suite) | 2026-06-23T12:42:21Z | no | CEO Performance Suite |
+| [gitteromri-ux/club-italia](https://github.com/gitteromri-ux/club-italia) | 2026-10-11T21:11:41Z | yes | Club Italia by eTeacher: live-online Italian language school (structural parity with FrenchAtelierLive) |
+| [gitteromri-ux/club-italia-preview](https://github.com/gitteromri-ux/club-italia-preview) | 2026-10-11T21:11:45Z | yes |  |
+| [gitteromri-ux/courtney-banners](https://github.com/gitteromri-ux/courtney-banners) | 2026-08-06T11:31:20Z | no |  |
+| [gitteromri-ux/courtney-lla-masterclass](https://github.com/gitteromri-ux/courtney-lla-masterclass) | 2026-07-13T10:13:18Z | no |  |
+| [gitteromri-ux/courtney-master-production](https://github.com/gitteromri-ux/courtney-master-production) | 2026-07-19T22:54:56Z | no | LLA · Courtney Master Production File: French Atelier deconstruction, clean script, 3 storyboards |
+| [gitteromri-ux/courtney-review](https://github.com/gitteromri-ux/courtney-review) | 2026-08-24T12:53:53Z | no | Courtney Donofrio: LLA review package: videos + banners |
+| [gitteromri-ux/cqi-sense-deck](https://github.com/gitteromri-ux/cqi-sense-deck) | 2026-06-02T07:33:36Z | no |  |
+| [gitteromri-ux/cultural-capsules-pack3](https://github.com/gitteromri-ux/cultural-capsules-pack3) | 2026-10-08T10:07:33Z | yes | French Atelier: Cultural Capsules Pack 3: Cinema & Music (10 decks) |
+| [gitteromri-ux/enneagram-8w7-4w3](https://github.com/gitteromri-ux/enneagram-8w7-4w3) | 2026-07-16T12:55:37Z | no |  |
+| [gitteromri-ux/eteacher-longevity](https://github.com/gitteromri-ux/eteacher-longevity) | 2026-07-07T06:23:49Z | no | eTeacher Longevity Course Landing Page |
+| [gitteromri-ux/eteacher-longevity-backup](https://github.com/gitteromri-ux/eteacher-longevity-backup) | 2026-04-13T06:24:10Z | no | eTeacher Longevity - Clean backup (no animated display elements) |
+| [gitteromri-ux/eteacher-longevity-pr-campaign](https://github.com/gitteromri-ux/eteacher-longevity-pr-campaign) | 2026-07-08T12:11:02Z | no |  |
+| [gitteromri-ux/eteacher-school-banners](https://github.com/gitteromri-ux/eteacher-school-banners) | 2026-06-25T13:15:05Z | no |  |
+| [gitteromri-ux/fa-capsules-launch](https://github.com/gitteromri-ux/fa-capsules-launch) | 2026-10-22T22:41:11Z | yes |  |
+| [gitteromri-ux/fa-capsules-review-public](https://github.com/gitteromri-ux/fa-capsules-review-public) | 2026-10-19T08:45:41Z | yes |  |
+| [gitteromri-ux/final-versions](https://github.com/gitteromri-ux/final-versions) | 2026-10-01T13:41:25Z | yes | Julie Masterclass UGC Ads · FINAL VERSIONS |
+| [gitteromri-ux/french-atelier](https://github.com/gitteromri-ux/french-atelier) | 2026-10-26T10:11:51Z | yes | The French Atelier by Acadomia: world-class French e-learning website |
+| [gitteromri-ux/french-atelier-acq-drip](https://github.com/gitteromri-ux/french-atelier-acq-drip) | 2026-08-05T14:34:49Z | yes | French Atelier - ACQ Drip Series Stage 3: 12 emails, 12 landing pages, quiz, promo claim page, 36 exact-size images |
+| [gitteromri-ux/french-atelier-capsules](https://github.com/gitteromri-ux/french-atelier-capsules) | 2026-10-23T01:40:43Z | yes |  |
+| [gitteromri-ux/french-atelier-ceo-deck](https://github.com/gitteromri-ux/french-atelier-ceo-deck) | 2026-07-14T20:02:00Z | no | French Atelier CEO Marketing Review · June 2026 |
+| [gitteromri-ux/french-atelier-client-demographics](https://github.com/gitteromri-ux/french-atelier-client-demographics) | 2026-08-06T11:59:23Z | no | The French Atelier by Acadomia: client demographics board briefing |
+| [gitteromri-ux/french-atelier-emails-gallery](https://github.com/gitteromri-ux/french-atelier-emails-gallery) | 2026-06-07T08:34:51Z | no | 30-email lifecycle gallery with full mockups |
+| [gitteromri-ux/french-atelier-june-results](https://github.com/gitteromri-ux/french-atelier-june-results) | 2026-09-22T10:56:32Z | no |  |
+| [gitteromri-ux/french-atelier-jv-deck](https://github.com/gitteromri-ux/french-atelier-jv-deck) | 2026-10-07T08:10:14Z | yes |  |
+| [gitteromri-ux/french-atelier-lifecycle-emails](https://github.com/gitteromri-ux/french-atelier-lifecycle-emails) | 2026-10-07T08:20:38Z | yes |  |
+| [gitteromri-ux/french-atelier-onboarding](https://github.com/gitteromri-ux/french-atelier-onboarding) | 2026-10-13T14:57:53Z | yes | French Atelier by Acadomia: complete onboarding & nurture package (8 emails, 2 landing pages, WhatsApp, 2 Typeform quizzes, hero imagery, mockups). Brand-aligned with Caitlin design system. |
+| [gitteromri-ux/french-atelier-social-deck](https://github.com/gitteromri-ux/french-atelier-social-deck) | 2026-06-25T04:43:04Z | no |  |
+| [gitteromri-ux/french-atelier-social-kickstart](https://github.com/gitteromri-ux/french-atelier-social-kickstart) | 2026-09-16T21:57:21Z | yes | French Atelier · Organic Social Kickstart · Sept and Oct 2026 |
+| [gitteromri-ux/french-atelier-v2](https://github.com/gitteromri-ux/french-atelier-v2) | 2026-06-29T11:13:10Z | no | French Atelier v2: Mapstr imagery + consistent teacher portraits |
+| [gitteromri-ux/french-atelier-wa-8-briefs](https://github.com/gitteromri-ux/french-atelier-wa-8-briefs) | 2026-09-15T08:47:36Z | no | French Atelier · WhatsApp Batch of 8 (Content brief WA-8-new-Briefs): 6 content + 2 promo, 1792x897 imagery, all CTAs to www.frenchatelierlive.com |
+| [gitteromri-ux/french-atelier-wa-batch-2](https://github.com/gitteromri-ux/french-atelier-wa-batch-2) | 2026-09-22T13:41:10Z | no | French Atelier by Acadomia - WhatsApp Batch 2: eight messages following the approved brief |
+| [gitteromri-ux/french-atelier-wa-ret-acq](https://github.com/gitteromri-ux/french-atelier-wa-ret-acq) | 2026-08-06T10:32:46Z | yes |  |
+| [gitteromri-ux/french-atelier-website](https://github.com/gitteromri-ux/french-atelier-website) | 2026-10-13T14:57:32Z | yes | French Atelier: full website mockup (CEO review June 2026) |
+| [gitteromri-ux/french-atelier-win-paris](https://github.com/gitteromri-ux/french-atelier-win-paris) | 2026-07-02T09:05:13Z | no | Win a Free Flight to Paris for Bastille Day: French Atelier contest landing page & terms |
+| [gitteromri-ux/frenchatelier-bastille-2026](https://github.com/gitteromri-ux/frenchatelier-bastille-2026) | 2026-06-27T20:29:03Z | no |  |
+| [gitteromri-ux/frenchatelier-paris](https://github.com/gitteromri-ux/frenchatelier-paris) | 2026-06-24T22:30:49Z | no | French Atelier: Win a Flight to Paris |
+| [gitteromri-ux/gita-cars](https://github.com/gitteromri-ux/gita-cars) | 2026-05-26T21:45:25Z | no | GITA CARS: Hebrew RTL premium car import consulting site |
+| [gitteromri-ux/gita-cars-44](https://github.com/gitteromri-ux/gita-cars-44) | 2026-05-24T06:17:17Z | no |  |
+| [gitteromri-ux/gita-finances](https://github.com/gitteromri-ux/gita-finances) | 2026-07-05T06:35:46Z | no |  |
+| [gitteromri-ux/gita-machine](https://github.com/gitteromri-ux/gita-machine) | 2026-09-17T17:31:33Z | yes | Gita Machine: organic reach at machine scale |
+| [gitteromri-ux/gitteromri-ux.github.io](https://github.com/gitteromri-ux/gitteromri-ux.github.io) | 2026-05-17T12:39:55Z | no | Employee rank & call allocation analysis dashboard |
+| [gitteromri-ux/hana](https://github.com/gitteromri-ux/hana) | 2026-07-23T16:43:46Z | yes | Hana: a professional 108-item Enneagram assessment with full type and wing analysis |
+| [gitteromri-ux/handover-instinct-grok](https://github.com/gitteromri-ux/handover-instinct-grok) | 2026-10-11T09:34:34Z | yes | Private master handover 2026-10-10 for Instinct / Grok Bot (Omri Gitter / Gita Agency) |
+| [gitteromri-ux/handover-master](https://github.com/gitteromri-ux/handover-master) | 2026-10-20T13:20:16Z | yes | MASTER HANDOVER: every active project, link, rule, and asset. Compiled 2026-09-01 for cross-subscription continuity. |
+| [gitteromri-ux/harel-brief](https://github.com/gitteromri-ux/harel-brief) | 2026-10-26T12:22:54Z | yes |  |
+| [gitteromri-ux/harel-weekly-oct26](https://github.com/gitteromri-ux/harel-weekly-oct26) | 2026-10-26T12:23:10Z | yes |  |
+| [gitteromri-ux/iching-reading](https://github.com/gitteromri-ux/iching-reading) | 2026-10-19T17:47:21Z | yes |  |
+| [gitteromri-ux/in-venture-programme](https://github.com/gitteromri-ux/in-venture-programme) | 2026-08-09T11:22:50Z | yes |  |
+| [gitteromri-ux/in-venture-website](https://github.com/gitteromri-ux/in-venture-website) | 2026-09-01T10:23:59Z | yes | IN Venture premium website rebuild by Gita Agency |
+| [gitteromri-ux/jgc-masterclass-deck](https://github.com/gitteromri-ux/jgc-masterclass-deck) | 2026-07-07T06:24:15Z | no |  |
+| [gitteromri-ux/julie-500-launch-plan](https://github.com/gitteromri-ux/julie-500-launch-plan) | 2026-10-19T23:12:42Z | yes |  |
+| [gitteromri-ux/julie-ads](https://github.com/gitteromri-ux/julie-ads) | 2026-10-16T14:57:36Z | yes |  |
+| [gitteromri-ux/julie-ceo-daily](https://github.com/gitteromri-ux/julie-ceo-daily) | 2026-10-26T12:24:13Z | yes |  |
+| [gitteromri-ux/julie-ceo-launch-report](https://github.com/gitteromri-ux/julie-ceo-launch-report) | 2026-10-22T16:03:17Z | yes |  |
+| [gitteromri-ux/julie-daily](https://github.com/gitteromri-ux/julie-daily) | 2026-10-11T14:07:18Z | yes |  |
+| [gitteromri-ux/julie-gibson-clark-review](https://github.com/gitteromri-ux/julie-gibson-clark-review) | 2026-07-07T07:35:27Z | no | Julie Gibson Clark - Founding Faculty review (separate repo) |
+| [gitteromri-ux/julie-gibson-plan](https://github.com/gitteromri-ux/julie-gibson-plan) | 2026-07-05T23:24:52Z | no |  |
+| [gitteromri-ux/julie-groups-uplift](https://github.com/gitteromri-ux/julie-groups-uplift) | 2026-09-30T12:40:17Z | yes |  |
+| [gitteromri-ux/julie-launch-review-20260923](https://github.com/gitteromri-ux/julie-launch-review-20260923) | 2026-09-24T11:09:14Z | yes |  |
+| [gitteromri-ux/julie-live-qa](https://github.com/gitteromri-ux/julie-live-qa) | 2026-10-26T13:29:41Z | yes | Julie Masterclass live moderator Q&A desk |
+| [gitteromri-ux/julie-masterclass-3tier](https://github.com/gitteromri-ux/julie-masterclass-3tier) | 2026-09-17T09:27:26Z | yes |  |
+| [gitteromri-ux/julie-masterclass-blast](https://github.com/gitteromri-ux/julie-masterclass-blast) | 2026-10-18T13:56:19Z | yes |  |
+| [gitteromri-ux/julie-masterclass-live](https://github.com/gitteromri-ux/julie-masterclass-live) | 2026-10-10T19:49:17Z | yes | Write mirror of Longevity-Academy/julie-masterclass: push here, the org repo syncs and deploys GitHub Pages |
+| [gitteromri-ux/julie-masterclass-social-posts](https://github.com/gitteromri-ux/julie-masterclass-social-posts) | 2026-10-22T09:28:00Z | yes |  |
+| [gitteromri-ux/julie-meta-banners](https://github.com/gitteromri-ux/julie-meta-banners) | 2026-08-05T06:36:44Z | no | Julie Gibson Clark · LLA Meta banner pack · every placement size, upload-ready |
+| [gitteromri-ux/julie-onset-banners](https://github.com/gitteromri-ux/julie-onset-banners) | 2026-07-28T11:24:46Z | no |  |
+| [gitteromri-ux/july-planning-longevity](https://github.com/gitteromri-ux/july-planning-longevity) | 2026-07-01T05:47:29Z | no |  |
+| [gitteromri-ux/kerenor-adoption-en](https://github.com/gitteromri-ux/kerenor-adoption-en) | 2026-07-14T10:08:52Z | yes | Keren Or Farm: English adoption page with 33 animal profiles |
+| [gitteromri-ux/latest-meta-ads](https://github.com/gitteromri-ux/latest-meta-ads) | 2026-10-20T17:53:09Z | yes |  |
+| [gitteromri-ux/lawsuit](https://github.com/gitteromri-ux/lawsuit) | 2026-10-26T10:29:39Z | yes | Service performance audit: documented ETA, scope, status-accuracy and compute-waste findings across Gita Agency engagements (Jun-Aug 2026) |
+| [gitteromri-ux/lla-90s-final](https://github.com/gitteromri-ux/lla-90s-final) | 2026-08-05T15:28:06Z | no | LLA 90s ad masters: Julie V24 + Courtney v18 with storyboards |
+| [gitteromri-ux/lla-90s-review](https://github.com/gitteromri-ux/lla-90s-review) | 2026-08-06T08:09:35Z | no | LLA 90s cuts - autoplay review |
+| [gitteromri-ux/lla-articles-deck](https://github.com/gitteromri-ux/lla-articles-deck) | 2026-07-19T20:57:15Z | no |  |
+| [gitteromri-ux/lla-blueprint-vip-preview](https://github.com/gitteromri-ux/lla-blueprint-vip-preview) | 2026-10-23T07:07:42Z | yes |  |
+| [gitteromri-ux/lla-campaign-chapters](https://github.com/gitteromri-ux/lla-campaign-chapters) | 2026-07-28T14:03:11Z | no |  |
+| [gitteromri-ux/lla-ceo-delivery](https://github.com/gitteromri-ux/lla-ceo-delivery) | 2026-08-05T08:22:07Z | no |  |
+| [gitteromri-ux/lla-chapter1-pr-coverage](https://github.com/gitteromri-ux/lla-chapter1-pr-coverage) | 2026-07-27T06:43:40Z | no | Chapter 1 PR: Live media coverage, Round 1 + Round 2, Longevity Life Academy by eTeacher Group |
+| [gitteromri-ux/lla-course-checkout](https://github.com/gitteromri-ux/lla-course-checkout) | 2026-10-27T22:37:40Z | yes | Longevity Life Academy e-commerce landing page + 3-step self-service checkout |
+| [gitteromri-ux/lla-courtney-cuts](https://github.com/gitteromri-ux/lla-courtney-cuts) | 2026-08-10T10:38:46Z | no |  |
+| [gitteromri-ux/lla-courtney-final](https://github.com/gitteromri-ux/lla-courtney-final) | 2026-08-08T22:18:40Z | no |  |
+| [gitteromri-ux/lla-delta-force](https://github.com/gitteromri-ux/lla-delta-force) | 2026-08-26T10:15:20Z | no | E-COMMERCE DELTA FORCE GO LIVE. Activation hub for Longevity Life Academy. |
+| [gitteromri-ux/lla-employee-referral](https://github.com/gitteromri-ux/lla-employee-referral) | 2026-07-30T09:06:13Z | no | Longevity Life Academy by eTeacher Group: Employee Referral Program (internal campaign) |
+| [gitteromri-ux/lla-favicons](https://github.com/gitteromri-ux/lla-favicons) | 2026-06-23T08:12:21Z | no |  |
+| [gitteromri-ux/lla-final-5-articles](https://github.com/gitteromri-ux/lla-final-5-articles) | 2026-07-22T09:22:15Z | no | LLA Final 5 approved articles: full text mockups for outlet assignment |
+| [gitteromri-ux/lla-funnel-analysis-sep14](https://github.com/gitteromri-ux/lla-funnel-analysis-sep14) | 2026-09-16T07:21:28Z | no |  |
+| [gitteromri-ux/lla-funnel-analysis-sep9-15](https://github.com/gitteromri-ux/lla-funnel-analysis-sep9-15) | 2026-09-15T23:42:33Z | no |  |
+| [gitteromri-ux/lla-funnel-deck](https://github.com/gitteromri-ux/lla-funnel-deck) | 2026-09-06T08:26:05Z | no | LLA ecommerce funnel performance Sep 3-6 2026 |
+| [gitteromri-ux/lla-gal-september-2026](https://github.com/gitteromri-ux/lla-gal-september-2026) | 2026-10-12T09:33:31Z | yes | LLA GAL board report September 2026 (Excel + PDF + sources) |
+| [gitteromri-ux/lla-growth-engine](https://github.com/gitteromri-ux/lla-growth-engine) | 2026-08-04T21:57:08Z | yes | LLA Growth Engine: full-funnel ecommerce marketing system for The Longevity Blueprint |
+| [gitteromri-ux/lla-handoff-pack](https://github.com/gitteromri-ux/lla-handoff-pack) | 2026-09-02T05:38:45Z | yes | Longevity Life Academy - ecommerce and Meta media handoff pack |
+| [gitteromri-ux/lla-homepage-demo](https://github.com/gitteromri-ux/lla-homepage-demo) | 2026-07-20T11:01:14Z | no |  |
+| [gitteromri-ux/lla-julie-animations](https://github.com/gitteromri-ux/lla-julie-animations) | 2026-08-07T13:18:05Z | no | Julie Gibson Clark data animations and opening buildup storyboard for Longevity Life Academy |
+| [gitteromri-ux/lla-julie-communications-plan](https://github.com/gitteromri-ux/lla-julie-communications-plan) | 2026-09-24T12:55:45Z | no |  |
+| [gitteromri-ux/lla-julie-communications-plan-v2](https://github.com/gitteromri-ux/lla-julie-communications-plan-v2) | 2026-09-01T09:52:33Z | no | Julie communications plan V2: the Longevity Masterclass launch |
+| [gitteromri-ux/lla-julie-cuts](https://github.com/gitteromri-ux/lla-julie-cuts) | 2026-08-10T07:36:13Z | no | LLA: Julie 90s / 60s / 45s launch cuts |
+| [gitteromri-ux/lla-julie-letter](https://github.com/gitteromri-ux/lla-julie-letter) | 2026-09-07T15:14:59Z | no | Communications plan letter for Julie · full public site |
+| [gitteromri-ux/lla-julie-masterclass](https://github.com/gitteromri-ux/lla-julie-masterclass) | 2026-09-02T11:01:15Z | yes |  |
+| [gitteromri-ux/lla-julie-pr-articles](https://github.com/gitteromri-ux/lla-julie-pr-articles) | 2026-08-07T12:38:54Z | no | Julie Gibson Clark PR article pack, 4K downloads, Longevity Life Academy |
+| [gitteromri-ux/lla-julie-review](https://github.com/gitteromri-ux/lla-julie-review) | 2026-07-09T16:32:46Z | no | LLA: Julie & Bryan chapters for review with Julie |
+| [gitteromri-ux/lla-julie-ugc-ads](https://github.com/gitteromri-ux/lla-julie-ugc-ads) | 2026-10-19T09:39:51Z | yes |  |
+| [gitteromri-ux/lla-julie-videos](https://github.com/gitteromri-ux/lla-julie-videos) | 2026-09-02T06:53:57Z | no |  |
+| [gitteromri-ux/lla-marketing-dashboard](https://github.com/gitteromri-ux/lla-marketing-dashboard) | 2026-10-07T04:28:13Z | yes |  |
+| [gitteromri-ux/lla-master-deck](https://github.com/gitteromri-ux/lla-master-deck) | 2026-07-21T13:31:55Z | no | LLA Press Release Master Deck: final approved articles + chosen Julie Gibson Clark stories |
+| [gitteromri-ux/lla-masterclass-assets](https://github.com/gitteromri-ux/lla-masterclass-assets) | 2026-10-27T09:59:37Z | yes | Longevity Life Academy Masterclass: final creative assets |
+| [gitteromri-ux/lla-masterclass-attendees](https://github.com/gitteromri-ux/lla-masterclass-attendees) | 2026-10-27T05:50:23Z | yes | Longevity Blueprint offer page for Julie Masterclass attendees (link-only, noindex). Clone of pages.dev funnel; production untouched. |
+| [gitteromri-ux/lla-masterclass-emails](https://github.com/gitteromri-ux/lla-masterclass-emails) | 2026-10-22T12:45:54Z | yes | LLA Julie Masterclass lifecycle emails |
+| [gitteromri-ux/lla-masterclass-emails-3tier](https://github.com/gitteromri-ux/lla-masterclass-emails-3tier) | 2026-09-24T13:25:52Z | yes | LLA Julie Masterclass lifecycle emails, 3-tier edition (Standard 9 / VIP 9 / Full Course + VIP free) |
+| [gitteromri-ux/lla-masterclass-film-series](https://github.com/gitteromri-ux/lla-masterclass-film-series) | 2026-07-09T16:31:04Z | no |  |
+| [gitteromri-ux/lla-masterclass-press](https://github.com/gitteromri-ux/lla-masterclass-press) | 2026-09-01T11:04:43Z | no | Round-three press articles for the Longevity Masterclass launch |
+| [gitteromri-ux/lla-masterclass-syllabus](https://github.com/gitteromri-ux/lla-masterclass-syllabus) | 2026-10-27T22:42:32Z | yes | The Longevity Masterclass one-hour syllabus, prepared for Julie Gibson Clark |
+| [gitteromri-ux/lla-meta-ad-sizes](https://github.com/gitteromri-ux/lla-meta-ad-sizes) | 2026-08-12T06:19:26Z | no | Longevity Life Academy Meta and Instagram paid ad sizes |
+| [gitteromri-ux/lla-meta-banners-gallery](https://github.com/gitteromri-ux/lla-meta-banners-gallery) | 2026-08-05T01:15:48Z | no | Longevity Life Academy: Meta &amp; Instagram ad banners across 3 versions, 4 sizes each. Ready for upload. |
+| [gitteromri-ux/lla-meta-ig-ad-sizes](https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes) | 2026-09-27T19:26:46Z | no | Longevity Life Academy: Meta & Instagram paid media master size pack: 2 banners x 5 exact accepted sizes, safe-zone verified, download-ready PNGs. |
+| [gitteromri-ux/lla-pr-article-ads](https://github.com/gitteromri-ux/lla-pr-article-ads) | 2026-07-30T09:36:02Z | no | LLA PR article ads: Meta and Instagram creative pack, 4 articles x 4 exact placement sizes with post copy |
+| [gitteromri-ux/lla-pr-kit](https://github.com/gitteromri-ux/lla-pr-kit) | 2026-07-21T13:27:33Z | no |  |
+| [gitteromri-ux/lla-privacy-policy](https://github.com/gitteromri-ux/lla-privacy-policy) | 2026-09-15T12:32:37Z | no | eTeacher / Longevity Life Academy privacy policy: verbatim original + Longevity Blueprint health-data update |
+| [gitteromri-ux/lla-promo-emails](https://github.com/gitteromri-ux/lla-promo-emails) | 2026-07-21T11:50:32Z | no | LLA campaign: LPs + 4 promo emails + brand assets (LGV) |
+| [gitteromri-ux/lla-redesign-deck](https://github.com/gitteromri-ux/lla-redesign-deck) | 2026-07-09T15:20:05Z | no |  |
+| [gitteromri-ux/lla-s09-s10-downloads](https://github.com/gitteromri-ux/lla-s09-s10-downloads) | 2026-08-07T08:45:03Z | yes | LLA Scripts 09/10: Courtney editing brief + full-frame video masters |
+| [gitteromri-ux/lla-site-live](https://github.com/gitteromri-ux/lla-site-live) | 2026-10-10T19:50:14Z | yes | Write mirror of Longevity-Academy/Longevity-Academy.github.io: push here, the org repo syncs and deploys GitHub Pages |
+| [gitteromri-ux/lla-social-golive](https://github.com/gitteromri-ux/lla-social-golive) | 2026-08-24T13:08:30Z | no | Longevity Life Academy: organic Facebook & Instagram go-live pack: 23 ready posts, exact platform sizes, full page info |
+| [gitteromri-ux/lla-thank-you](https://github.com/gitteromri-ux/lla-thank-you) | 2026-06-15T14:33:42Z | no | Standalone thank-you page for Longevity Life Academy form submissions |
+| [gitteromri-ux/lla-turnaround-plan](https://github.com/gitteromri-ux/lla-turnaround-plan) | 2026-07-20T11:07:11Z | no |  |
+| [gitteromri-ux/lla-v25-recut](https://github.com/gitteromri-ux/lla-v25-recut) | 2026-08-05T15:05:31Z | no | LLA Julie V25 / Courtney v17 corrected masters: download page |
+| [gitteromri-ux/lms-image-pack](https://github.com/gitteromri-ux/lms-image-pack) | 2026-07-28T08:32:50Z | no |  |
+| [gitteromri-ux/longevity-ads-presentation](https://github.com/gitteromri-ux/longevity-ads-presentation) | 2026-05-07T13:46:05Z | no |  |
+| [gitteromri-ux/longevity-assets](https://github.com/gitteromri-ux/longevity-assets) | 2026-08-05T06:56:54Z | yes |  |
+| [gitteromri-ux/longevity-banner](https://github.com/gitteromri-ux/longevity-banner) | 2026-05-04T11:21:43Z | no |  |
+| [gitteromri-ux/longevity-july-plan](https://github.com/gitteromri-ux/longevity-july-plan) | 2026-07-02T19:51:43Z | no |  |
+| [gitteromri-ux/longevity-life-academy](https://github.com/gitteromri-ux/longevity-life-academy) | 2026-08-25T04:55:46Z | yes | Longevity Life Academy by eTeacher Group |
+| [gitteromri-ux/longevity-life-academy-ads-deck](https://github.com/gitteromri-ux/longevity-life-academy-ads-deck) | 2026-05-07T14:59:20Z | no |  |
+| [gitteromri-ux/longevity-pilot-command](https://github.com/gitteromri-ux/longevity-pilot-command) | 2026-07-05T12:50:42Z | no | Longevity Pilot Command: interactive CEO planning dashboard |
+| [gitteromri-ux/longevity-productions-courtney-julie](https://github.com/gitteromri-ux/longevity-productions-courtney-julie) | 2026-07-09T09:49:46Z | no |  |
+| [gitteromri-ux/masterclass-rfp](https://github.com/gitteromri-ux/masterclass-rfp) | 2026-10-25T14:17:04Z | yes | Masterclass sales sprint RFP: Claude vs Grok vs Perplexity |
+| [gitteromri-ux/personalix](https://github.com/gitteromri-ux/personalix) | 2026-07-23T11:16:24Z | yes | Personalix: Candidate first. Designed for people. AI-powered, human-first recruitment platform. |
+| [gitteromri-ux/play-paros-redesign](https://github.com/gitteromri-ux/play-paros-redesign) | 2026-08-17T04:59:13Z | no | Premium editorial redesign of PLAY Paros (Brown Hotels, Cyclades): guest site + internal F&B strategy brief |
+| [gitteromri-ux/rank-lens-analysis](https://github.com/gitteromri-ux/rank-lens-analysis) | 2026-04-29T14:50:46Z | no | Rep Rank SOV Sweet-Spot Analysis: Hebrew + Biblical |
+| [gitteromri-ux/rosen-banners-review](https://github.com/gitteromri-ux/rosen-banners-review) | 2026-05-15T19:20:23Z | no |  |
+| [gitteromri-ux/serious-claims](https://github.com/gitteromri-ux/serious-claims) | 2026-09-30T14:12:47Z | yes | Documented cases: deliveries that did not match Omri's written request (evidence log) |
+| [gitteromri-ux/ugc-prod](https://github.com/gitteromri-ux/ugc-prod) | 2026-10-01T16:16:00Z | yes |  |
+| [gitteromri-ux/vj-magic-site](https://github.com/gitteromri-ux/vj-magic-site) | 2026-06-16T14:56:06Z | no | VJ Magic: prompt-driven event production. Premium WebGL marketing site. |
+| [gitteromri-ux/vj-magic-site-v2](https://github.com/gitteromri-ux/vj-magic-site-v2) | 2026-06-17T07:41:01Z | no | VJ Magic: V2 immersive award-winning redesign |
+| [gitteromri-ux/ziv-book-cover-directions](https://github.com/gitteromri-ux/ziv-book-cover-directions) | 2026-09-28T11:05:48Z | yes | כך נפלנו כך נקום: 10 split-screen cover background directions (private review) |
+
+
+
+# Date-ordered operating record
+
+These are retained daily records. Their open questions are historical at their stated date; later evidence may supersede them. Gaps in dates are missing daily records, not proof that no work happened.
+
+
+
+## Dream Learnings: 2026-09-30
+
+### Activity Summary
+
+Omri Gitter returned to PRNOW account access while the original credit-purchase receipt remained unresolved in the session evidence. (original session `595352b8-3a75-4932-956f-68633a201347`)
+
+- **Urgent account access:** On 2026-09-29, Omri requested the login details immediately. The assistant supplied them, but the available conversation does not establish that Omri subsequently logged in. (original session `595352b8-3a75-4932-956f-68633a201347`)
+- **Receipt recovery boundaries:** The earlier exchange distinguishes the original $399 wallet purchase from a $149 package invoice. Omri rejected email outreach and a substitute document; the assistant acknowledged that it had not recovered the requested receipt or verified the actual card descriptor. The renewed access request did not close those gaps. (original session `595352b8-3a75-4932-956f-68633a201347`)
+
+### Sessions Processed
+
+- 595352b8: Reprocessed the extended session through 2026-09-29; urgent PRNOW access details were supplied, without new receipt-recovery evidence. (original session `595352b8-3a75-4932-956f-68633a201347`)
+
+### Open Questions
+
 - Where is the original PRNOW $399 credit-purchase receipt from 2026-07-23, and what merchant descriptor identifies its card charge?
 - Was the “Remaining Invoice - PR Now” correspondence resolved with Keren Ziv, and do its attachments contain the original credit-purchase receipt? The connector messages lack canonical URLs; attachment contents were not inspected.
 - Did the LLA checkout complete the physical top-ten iOS and top-ten Android matrix and clear HOLD?
@@ -86,207 +286,4 @@ Omri Gitter focused on Julie masterclass acquisition, credible school-email invi
 - Deferred: source-less Gita Machine/design claims and note-only scaling/game-plan details lack claim-level support in the available turns; no new standing command or budget rule was inferred.
 
 ### Reconciliation Notes
-
-- Source review of the earlier school pilot establishes an unnamed third school, with French Atelier only a lead-generation comparator. Its page and links now use the neutral direct-ecommerce-school title; the original brief’s price, budget, duration, and unresolved optimization choice are preserved. (original session `65fa5ab2-d190-4705-9d33-816e87f723fb`)
-- Scoped wallet reconciliation: the main-site/Blueprint Card/PayPal-only change does not apply to Julie. Julie’s maintained payment contract includes both wallets; that configuration is not proof of success or the cause of abandonment. ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/blob/main/assets/julie-payment-safety.js)) ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io/commit/6b698eff26825a87c25a64a3a60c8a2fdf68dbb4))
-
-### Open Questions
-
-- Is Julie’s Apple Pay actually failing on current physical iPhones, and is any removal authorized? Maintained Julie source includes both wallets; the main-site Card/PayPal-only commit explicitly excludes Julie. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/blob/main/assets/julie-payment-safety.js)) ([recorded evidence](https://github.com/Longevity-Academy/Longevity-Academy.github.io/commit/6b698eff26825a87c25a64a3a60c8a2fdf68dbb4))
-- Where is the order-level CRM paid-order ↔ processor settlement/refund ↔ Meta ledger, including tests and upgrades? The 11-order session report is not settlement certification. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Did the latest mobile release pass the full physical top-ten iOS/Android matrix, authorized Standard/VIP/Blueprint Card/PayPal transactions, and visible PayPal initialization on every maintained surface?
-- Did modified-fbclid diagnostics and the duplicate-server-event investigation clear, and was Blueprint Ad Set 2 attribution proven? ([recorded evidence](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648))
-- Were QA orders `8030579`, `8030580`, `8030584`, `8030590`, `8030591`, `8030593`, `8030594`, `8030596`, `8032752`, and newer unpaid tests `8050691`, `8050693`, `8050702`, `8050810` voided or removed? (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Which CRM order identifies the reported 2026-09-21 sale, with amount and ecommerce/rep origin?
-- Were the eight invitation variants installed or sent, and what are the actual ActiveCampaign automation triggers, enrollment counts, and send results? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Does Set 01 have an order-reconciled result for the exact learning-window endpoint? Later daily reports show attributed events, not an hour-bounded settled outcome. ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-daily/commit/51211207c2494538f21968d2d66c97f34b128e7c))
-- Did subsequent readbacks confirm the inert value-rule substitution and desired 03/05 targeting without collateral changes? A generic approval is not evidence of the literal freeze-lift sentence. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
-- Which current dark Culture Capsule source matches the other account’s pricing/fold work, and was the French Atelier staging preview promoted and payment-tested? (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`) (original session `90701961-41f5-40dc-a674-a33926c9c165`)
-- Was the original PRNOW $399 top-up receipt found, what is its merchant descriptor, and was Keren Ziv’s invoice correspondence resolved? Compare the two R6LYD3K attachment contents before counting them twice. (original session `595352b8-3a75-4932-956f-68633a201347`)
-- Were French Atelier’s remaining publishing topics, exact-media schedules, and comment-to-DM test completed; were the French Atelier/LLA Sprout profiles restored; and which exports map to September, the relevant week, and July–August?
-- Were Morning invoice previews approved, authorization restored, and invoices issued?
-- Were rejected presenter takes replaced and accepted, and were Julie v6 cutdowns rendered and visually accepted?
-
-#### VIP course benefit
-
-You replaced the cross-product coupon pitch in the invitation emails, but the approved underlying VIP Blueprint benefit and redemption terms still need a single authoritative definition. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-- What Blueprint benefit and redemption terms should VIP buyers actually receive, separate from the automatic masterclass discount? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-
-### General Procedural Notes
-
-- Ten conversation files contain corrections but no preloaded tool trajectories; tool operations and completion claims in their summaries are therefore attributed to the assistant, not independently re-certified.
-- An HTTP response, repository commit, emulated checkout, or visible wallet button is not a paid settlement or real-device wallet test. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-
-
-## Dream Learnings: 2026-10-15
-
-### Activity Summary
-
-Omri Gitter worked on Julie masterclass acquisition, community-offer presentation and a speaker deck, alongside a personal lease renewal. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`) (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`) (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-- **Campaign decisions and buyer evidence:** Omri approved Canada excluding Quebec for Set 03, concentrated its creatives, and returned Set 05 to lowest-cost bidding after weak delivery. Readbacks support those changes, not the 20-sale goal. CRM recovery identified one order’s last-click ad, not settlement. He also requested removing two test rows from the VIP workbook. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `a572ab4f-2086-4f3c-b6cf-da71015aecb8`)
-- **Separate community experience:** Omri requested a hidden-link 72-hour offer and repeatedly rejected inadequate mobile pricing/design fixes. A separate clone and design handoff were reported; final visual acceptance and a subsequent approved port remain unestablished. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`) (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`)
-- **Julie’s teaching materials:** Omri approved removing supplements from the speaker deck and replacing that block with a daily-routine walkthrough. The assistant reported a revised 16-slide HTML deck using longevity imagery, not Julie photographs; publication and acceptance remain open. (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`)
-- **Lease renewal:** Omri narrowed contract edits, retained guaranty pages without emailing guarantors, and arranged tenant-first signatures. DocuSign readback confirms invitations sent, not completed signatures. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-### Sessions Processed
-
-- 219ddd45: extended campaign decisions, API readbacks and operating-handoff rules. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- 59596b49: recovered CRM last-click identity and corrected reporting/strategy assumptions. (original session `59596b49-4843-4756-b08f-17722a531c89`)
-- 5619952e: extended pause test and distinction between timestamps and learning evidence. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`)
-- d3d47d7a: deployed tracking coverage patch; accepted diagnostic events, not traffic-wide certification. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
-- adbe076f: separate community-offer clone and presentation revisions. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
-- 8a2c0e39: rejected mobile fixes, undeployed phone-guard branch and design-only handoff. (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`)
-- 15bf3163: corrected public-coupon history and production/clone identity. (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-- a572ab4f: final two-row removal and reported 27-person VIP workbook. (original session `a572ab4f-2086-4f3c-b6cf-da71015aecb8`)
-- 2c8c0ade: masterclass speaker deck and supplement exclusion. (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`)
-- e2f0868a: lease revisions and signature routing. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-- a1dcbba2: follow-up question; no new accepted video change or campaign execution. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- 52f19091: bare session link; no recoverable substantive task, summary skipped. (original session `52f19091-3d1d-460b-aafe-700433e3ed43`)
-- c894a65f: single coin-side clarification; summary skipped, no durable personal inference. (original session `c894a65f-6cb3-422b-b3a6-a97db07bcd46`)
-
-### Notes distilled
-
-- Reconciled historical Julie ad-set guardrails with later explicit configuration approvals → `projects/lla-julie-meta-pilot`. Prior rejections are not permanent prohibitions. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `59596b49-4843-4756-b08f-17722a531c89`)
-- Incorporated source-supported reporting, context-reuse and process-complaint observations through preference reconciliation; note-only interpretations were not admitted. (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-### Open Questions
-
-- Has the operating-agent handoff been installed, and were existing 05:00/13:00/16:45 automations coordinated? The strategy document does not prove automation deployment. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Does the deployed tracking patch have Events Manager and real-traffic coverage evidence, and was the literal item-specific freeze-lift requirement satisfied? Accepted test events do not settle these questions. (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) ([recorded evidence](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-tracking-freeze/README.md))
-- Is Julie Apple Pay successful on physical iPhones, and has the maintained mobile/Card/PayPal/wallet matrix passed? Julie wallet configuration and Linux WebKit tests are not physical-device payment certification. ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/julie-masterclass-handover-2026-10-09.md))
-- Where is the order-level CRM ↔ payment settlement/refund ↔ Meta ledger, including upgrades and test exclusions? Last-click order identification is not payment evidence. (original session `59596b49-4843-4756-b08f-17722a531c89`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Did modified-fbclid and duplicate-server diagnostics clear, and was Blueprint Ad Set 2 attribution proven? ([recorded evidence](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648))
-- Were QA orders 8030579, 8030580, 8030584, 8030590, 8030591, 8030593, 8030594, 8030596, 8032752 and unpaid tests 8050691, 8050693, 8050702, 8050810 voided or removed? (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Which CRM order establishes the reported September 21 sale, and does Set 01 have a settled result for its exact learning-window endpoint? ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-daily/commit/51211207c2494538f21968d2d66c97f34b128e7c))
-- Were the eight school invitations installed/sent, with actual automation triggers and enrollment/send counts? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Which dark Culture Capsule source matches the other account’s work, and was the staging preview promoted and payment-tested? (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`)
-- Was the original PRNOW $399 receipt recovered and Keren Ziv’s invoice thread resolved? Compare R6LYD3K attachment contents before counting twice. (original session `595352b8-3a75-4932-956f-68633a201347`)
-- Were French Atelier publishing/DM work, Sprout profile restoration and correctly scoped exports completed; were Morning invoice previews approved and issued; and were replacement presenter takes and Julie v6 cutdowns accepted?
-- Were the revised speaker deck and community page accepted/published, and did any approved design-only port preserve production checkout/tracking? (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`) (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`) (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`)
-- Did the lease complete tenant-first and Omri-second signatures, with guaranty pages handled separately? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-#### VIP course benefit
-
-You replaced the cross-product invitation pitch, but the underlying VIP Blueprint benefit still needs authoritative redemption terms. (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-- What benefit and redemption terms should VIP buyers receive, separate from the automatic masterclass discount? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-#### Lease wording
-
-You limited the lease to specific corrections, but the assistant’s final disclosure still included two unrequested appendix sentences. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-- Should those extra appendix sentences remain, and should Sandra Gitter be included as a co-lessor/signatory? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-### General Procedural Notes
-
-- A Meta daily budget is not a hard spend ceiling; `budget = spend + allowance` does not guarantee a stop at that allowance. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-- Distinguish API configuration, test-event acceptance, attributed events and settled orders; an unchanged learning timestamp does not prove preservation of a positive purchase counter. (original session `59596b49-4843-4756-b08f-17722a531c89`) (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`)
-- Read-only connector coverage was GitHub and Google Calendar/Gmail. Historical handovers were not treated as current campaign readbacks; mailbox results without canonical record URLs were not promoted to wiki claims.
-
-
-## Dream Learnings: 2026-10-16
-
-### Activity Summary
-
-Omri Gitter focused on Julie’s mobile checkout reliability and premium offer presentation while maintaining campaign oversight toward the 20-sale daily goal. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-- **Checkout recovery:** Omri supplied third-party iPhone retests and challenged broad completion claims. The isolated preview gained SDK retry, a real PayPal fallback and removal of the blank card box. The final relayed test found tappable PayPal on iPhone 16 Pro Max and card/Apple Pay rendering on iPhone 15; neither proves a completed payment. Production promotion is not established. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- **Presentation and scope:** Omri approved only the pricing cards, 72-hour strip and payment fix initially, then requested distinct tier colors, concrete benefit copy, larger logo and working direct-checkout buttons. The assistant reported those changes on the preview; the final visual revision still lacks acceptance. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- **Campaign oversight:** A scheduled read reported nine Meta-attributed purchases for the Israel reporting day, below the goal and not settlement-certified. The 05:00 automation actually ran and its prompt was changed to read-only; broader operating-agent installation remains unresolved. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Sessions Processed
-
-- a1dcbba2: extended checkout diagnosis, preview iterations, third-party device retests and offer/navigation corrections. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- 219ddd45: new terminal campaign read and verified read-only edit to the 05:00 automation; prior summaries retained for unchanged sessions. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Open Questions
-
-- Is the separate operating-agent handoff installed, and are the 13:00/16:45 jobs coordinated with the now-read-only 05:00 automation? (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Does the tracking coverage patch have Events Manager and real-traffic evidence, and was its item-specific freeze lift plus required guard satisfied? The merged PR and accepted diagnostic events do not answer those questions. ([recorded evidence](https://github.com/Longevity-Academy/julie-masterclass/pull/1)) (original session `d3d47d7a-62e6-4d27-adb4-03022ce4e75c`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/projects/julie-tracking-freeze/README.md))
-- Was the final checkout preview explicitly approved and promoted, and does the promoted build preserve protected tracking, attribution, payment-safety bytes and ActiveCampaign triggers? (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- Did real card, Apple Pay and PayPal payments pass the maintained device matrix? The final relayed BrowserStack test proves only iPhone 15 form/wallet rendering and iPhone 16 Pro Max PayPal fallback; the latter still cannot load Airwallex. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/julie-masterclass-handover-2026-10-09.md))
-- Where is the order-level CRM ↔ payment settlement/refund ↔ Meta ledger, including upgrades and test exclusions? Neither last-click identity nor Meta purchase counts establish settlement. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `59596b49-4843-4756-b08f-17722a531c89`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Did modified-fbclid and duplicate-server diagnostics clear in a fresh read, and was Blueprint Ad Set 2 attribution proven? ([recorded evidence](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648))
-- Were QA orders 8030579, 8030580, 8030584, 8030590, 8030591, 8030593, 8030594, 8030596, 8032752 and unpaid tests 8050691, 8050693, 8050702, 8050810 voided or removed? (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Which CRM order establishes the reported 2026-09-21 sale, and does Set 01 have a settled result for its exact learning-window endpoint? ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-daily/commit/51211207c2494538f21968d2d66c97f34b128e7c))
-- Were the eight school invitations installed/sent, with actual triggers and enrollment/send counts? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Which dark Culture Capsule source matches the other account’s work, and was the staging preview promoted and payment-tested? (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`)
-- Was the original PRNOW $399 receipt recovered and Keren Ziv’s invoice thread resolved, with R6LYD3K attachment contents compared before counting twice? (original session `595352b8-3a75-4932-956f-68633a201347`)
-- Were French Atelier publishing/DM work, Sprout restoration and correctly scoped exports completed; were Morning invoice previews approved/issued; and were replacement presenter takes and Julie v6 cutdowns accepted?
-- Were the speaker deck and separate community page accepted/published? The new checkout-recovery preview is not evidence of either acceptance. (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`) (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`) (original session `8a2c0e39-213b-40bc-8abd-ba31f17a5683`) (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- Did the lease complete tenant-first and Omri-second signatures, with guaranty pages handled separately? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-#### VIP course benefit
-
-You requested clearer course-benefit copy and rejected cash-back phrasing, but the $249 Blueprint credit still needs authoritative redemption terms. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-- What exact benefit, eligibility and redemption terms should VIP buyers receive, separate from the automatic masterclass discount and the full 18-week course? (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-#### Lease wording
-
-You limited the lease to specific corrections, but the extra appendix sentences and co-lessor wording still need a decision. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-- Should the extra appendix sentences remain, and should Sandra Gitter be included as co-lessor/signatory? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-
-## Dream Learnings: 2026-10-17
-
-### Activity Summary
-
-Omri Gitter concentrated on Julie’s checkout interruption, rollback evidence and campaign controls, repeatedly challenging conclusions that exceeded the available records. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) (original session `6850a0ab-974e-41db-82e5-f33e6fd752a2`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-- **Payment recovery and rollback:** Omri relayed passing forced-block guest-card and iPhone 15 rendering tests, authorized production release, then rejected further visual revisions. In a separate investigation they explicitly requested rollback to the 2026-10-15 build. The tests did not complete card, Apple Pay or PayPal payments, and rollback does not establish the cause of the interruption. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`)
-- **Forensic accountability:** Omri demanded a reverse audit after reporting five post-rollback sales. The assistant withdrew its zero-paid claims when checkout telemetry proved incomplete. They also challenged blanket “golden” tracking assurances: rollback retained the merged coverage patch, rather than restoring the frozen tag. (original session `6850a0ab-974e-41db-82e5-f33e6fd752a2`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- **Campaign and order controls:** Omri ordered exact budget-only changes, ending at $1,990 daily across five sets. They corrected unique-buyer comparisons and the assumption that repeat payments must be accidental. The latest scheduled report shows five Meta purchases for 2026-10-17, but no order-to-event or settlement reconciliation. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Sessions Processed
-
-- a1dcbba2: extended recovery tests, explicit go-live, rejected designs, campaign corrections and budget reductions. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`)
-- af49d9a8: investigation, evidence-limit correction and explicitly approved production rollback. (original session `af49d9a8-c905-408e-915b-9a22adc2934a`)
-- 6850a0ab: reverse audit, incomplete telemetry and withdrawn zero-paid conclusions; further device test attempted. (original session `6850a0ab-974e-41db-82e5-f33e6fd752a2`)
-- 219ddd45: extended budget execution, tracking review, purchase-count corrections and three read-only scheduled prompts. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-
-### Notes distilled
-
-- Reviewed payment ownership, payment-audit and device-evidence notes: ownership/reporting distinctions already covered by Julie subject pages; uncited device-gate wording was not admitted as new evidence. (original session `49da238d-ec07-4c74-85c2-42e13984b328`) (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-- Historical pricing-card rejection is scoped to its earlier build; the later white/light-blue production request and subsequent rollback govern recovery presentation. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`)
-- Historical-context and net-first reporting notes reinforce existing preference topics; recent order-count corrections are reconciled against direct session evidence rather than treating the notes as corroboration. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `59596b49-4843-4756-b08f-17722a531c89`)
-
-### Open Questions
-
-- Is the separate operating-agent handoff installed? The 05:00, 13:00 and 16:45 jobs now have actual wakes and read-only prompts in the trajectory, resolving the narrower schedule-existence gap. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Was the tracking coverage patch’s literal item-specific freeze lift granted, and did its required guard pass? What do Events Manager, real-traffic matching and deduplication show for the rollback build? PR merge and event acceptance alone do not answer these questions. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/projects/julie-tracking-freeze/README.md))
-- What caused the checkout interruption? Compare the exact changed build with rollback production on real iPhone Safari, and reconcile paid-order timing; absence from worker logs cannot prove no payment. (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) (original session `6850a0ab-974e-41db-82e5-f33e6fd752a2`)
-- Did real card, Apple Pay and PayPal payments pass the maintained device matrix? Forced-block guest-card opening and control-wallet rendering are not completed-payment evidence. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `6850a0ab-974e-41db-82e5-f33e6fd752a2`)
-- Where is the order-level CRM ↔ payment settlement/refund ↔ Meta ledger? Resolve six CRM-paid orders including test 8054067 versus five Meta events, without assuming which event belongs to which order or whether repeat ticket purchases were intentional. (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Were paid test 8054067 refunded and unpaid QA orders 8054068/8054071 removed? Prior QA backlog: 8030579, 8030580, 8030584, 8030590, 8030591, 8030593, 8030594, 8030596, 8032752, 8050691, 8050693, 8050702 and 8050810. Reporting exclusion is not refund or deletion. (original session `af49d9a8-c905-408e-915b-9a22adc2934a`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`)
-- Did modified-fbclid and duplicate-server diagnostics clear in a fresh read, and was Blueprint Ad Set 2 attribution proven? ([recorded evidence](https://github.com/gitteromri-ux/handover-master/commit/995c0f30f4bd7b34a8a181b63bac523801c28648))
-- Which CRM order establishes the reported 2026-09-21 sale, and does Set 01 have a settled result for its exact learning-window endpoint? ([recorded evidence](https://github.com/gitteromri-ux/julie-ceo-daily/commit/51211207c2494538f21968d2d66c97f34b128e7c))
-- Were eight school invitations installed/sent with verified triggers and counts? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) ([recorded evidence](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md))
-- Which dark Culture Capsule source matches the other account’s work, and was staging promoted and payment-tested? (original session `1f127955-24f1-4f23-84d9-91115b5a57b7`)
-- Was the original PRNOW $399 receipt recovered and Keren Ziv’s invoice thread resolved after comparing R6LYD3K attachments? (original session `595352b8-3a75-4932-956f-68633a201347`)
-- Were French Atelier publishing/DM work, Sprout restoration and correctly scoped exports completed; were Morning invoice previews approved/issued; and were replacement presenter takes and Julie v6 cutdowns accepted?
-- Were the speaker deck and separate community page accepted/published? Recovery-preview release and rollback do not establish either outcome. (original session `2c8c0ade-c92e-4617-931f-25b87258ae72`) (original session `adbe076f-a5b4-4b36-99ec-4bf8dc9119b6`)
-- Did the lease complete tenant-first and Omri-second signatures, with guaranty pages handled separately? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-#### VIP course benefit
-
-You requested clearer course-benefit copy and rejected cash-back phrasing, but the $249 Blueprint credit still needs authoritative redemption terms. (original session `a1dcbba2-93be-47ac-946a-6e2ae3b87d44`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-- What exact benefit, eligibility and redemption terms should VIP buyers receive, separate from the automatic masterclass discount and the full 18-week course? (original session `5619952e-b572-4412-9ea7-6df3c8e233b1`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
-
-#### Lease wording
-
-You limited the lease to specific corrections, but the extra appendix sentences and co-lessor wording still need a decision. (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-- Should the extra appendix sentences remain, and should Sandra Gitter be included as co-lessor/signatory? (original session `e2f0868a-6f06-45ea-8d21-3691f3a0555a`)
-
-
-## Dream Learnings: 2026-10-18
-
-### Activity Summary
-
-Omri Gitter focused on Julie’s campaign, community launch and rollback safety, alongside board reporting and Culture Capsules delivery. (original session `ad99e93f-fc49-4bda-be84-3501fced7806`) (original session `2b7e0eda-2e05-48cb-99bd-b0e4daa3c732`) (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) (original session `15bf3163-8820-48f6-b442-23f2bf174aaf`)
 
