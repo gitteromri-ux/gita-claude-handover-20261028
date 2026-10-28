@@ -1,3 +1,13 @@
+Gmail searches included date-bounded `Sandra`, `Chris`, and sent-masterclass queries for September 28–October 28, then `from:Sandra`, `to:Sandra`, `from:Chris`, `to:Chris`, `Kwiecien`, `"Launch email for Chris"`, `"LGV"` and `"masterclass"`. Evidence: current `gcal_search_email` receipts, October 28.
+
+**No relevant direct Sandra or eTeacher-Chris correspondence was returned by those searches.** The broad name query returned unrelated September 17 mail from Chris at 10words and TinyLaunch, which was excluded; therefore this is an evidence-coverage gap, not a claim that no correspondence exists. Evidence: current Gmail query results.
+
+The October 10 handover states that the eTeacher work mailbox `[email redacted for public handover]` had never been connected and that Sandra/other stakeholder WhatsApp history had not been accessible; those are dated access limitations, not a fresh test of those channels. [October 10 access gaps](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md)
+
+The October 18 original session also explicitly says the actual message to Chris could not be found in Gmail; its suggestion that it might have been sent via WhatsApp was speculation, not delivery evidence. Original October 18 correspondence record (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
+
+#### Sent-status ledger
+
 | Item | Evidence found | Safe status |
 |---|---|---|
 | Sandra package-approval message | September 24 original audit says **do not send** the proposed message and supplies a replacement hold message | Draft / proposed correspondence; not sent evidence. Original Sandra audit (original session `dd017f79-f19e-40e4-9b16-9092f70b5529`) |
@@ -285,8 +295,4 @@ The task's **Julie paused** premise and **Blueprint restart intent today, 2026-1
 | French Atelier main/older | `French Atelier`: `act_1188017096669618` | Distinct from v2. Older failed website-visitor lookalikes were found in the other FA account, not proof of a working purchaser audience in v2. [Account inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/french-atelier-ecommerce-handover-2026-10-20.md), October 22 original session (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`) |
 | Capsules operating account | `French Atelier v2`: `act_1358975119724184` | The two Capsules Sales campaigns and three selected launch sets are here; historical reporting currency USD, account reporting timezone Asia/Jerusalem. Original launch/monitoring sessions (original session `5f70d990-447e-43ce-9ade-7e29fbae7c02`), October 26–27 monitor (original session `219ddd45-d288-402e-b1fc-d82739bfd55b`) |
 | LLA | `Longevity Life Academy`: `act_1459085242361281` | Julie and Blueprint ecommerce; historical account JSON has currency `USD`, timezone name `Israel`, account_status `1`. That is a September snapshot, not today's status. [Historical account JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/account.json) |
-
-Historical business mapping: eTeacher Group business `1545475089051742`; French ecommerce dataset/pixel `4075596186030950`, NOT the separate “FA” dataset `4400286150281912`; LLA pixel `1440305917310328`. Do not cross-wire brands or infer business ownership from a similar display name. [French account/pixel inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/french-atelier-ecommerce-handover-2026-10-20.md), [LLA inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/HANDOVER-JULIE-BLUEPRINT-20260930.md)
-
-### Campaign registry: known exact identifiers versus unresolved fields
 

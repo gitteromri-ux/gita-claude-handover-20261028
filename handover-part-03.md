@@ -1,3 +1,7 @@
+Historical business mapping: eTeacher Group business `1545475089051742`; French ecommerce dataset/pixel `4075596186030950`, NOT the separate “FA” dataset `4400286150281912`; LLA pixel `1440305917310328`. Do not cross-wire brands or infer business ownership from a similar display name. [French account/pixel inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/french-atelier-ecommerce-handover-2026-10-20.md), [LLA inventory](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/HANDOVER-JULIE-BLUEPRINT-20260930.md)
+
+### Campaign registry: known exact identifiers versus unresolved fields
+
 | Product/campaign | Meta campaign ID | Exact name / recovered campaign label | Last evidence; current status |
 |---|---|---|---|
 | Julie masterclass | `52668266203628` | `LGV_EN_PPC_ecomm-02_2026-09-02_#118149` | Exact name/ID in historical JSON; October 27 original report confirms activity in its sets. Current campaign status unknown. [Campaign JSON](https://github.com/gitteromri-ux/handover-master/blob/main/projects/julie-meta-handover-20260930/data/campaigns.json), October 27 (original session `20d790c3-26c1-4a67-9c35-6c740d5ba5ae`) |
@@ -258,14 +262,4 @@ File counts include multiple inspected branches where present. A Git tree listin
 - **Top-level contents:** `assets`, `checkout.html`, `index.html`.
 
 ### Longevity-Academy/masterclass-72hours
-
-- **Repository:** [Longevity-Academy/masterclass-72hours](https://github.com/Longevity-Academy/masterclass-72hours); public/visibility not independently specified.
-- **Purpose:** Julie masterclass 72-hour community-offer LP (email blast). Separate duplicate; production julie-masterclass untouched.
-- **Branches inspected:** `main`, `phone-guard`.
-- **Inventory:** 234 file rows; recursive tree truncated: false.
-- **Default-branch latest commit:** `a68b6edaf2e238abf1871171c6c83fb543ec0eaf`; 2026-10-18T14:07:40Z; Set universal 72h campaign clock: Oct18 17:00 Israel to Oct21 17:00; never restart; resume catch-up.
-- **Pages configuration:** http://www.longevitylifeacademy.com/masterclass-72hours/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
-- **Top-level contents:** `assets`, `index.html`, `privacy.html`, `support`.
-
-### gitteromri-ux/club-italia
 

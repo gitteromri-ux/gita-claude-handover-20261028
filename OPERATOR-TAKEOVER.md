@@ -2,6 +2,18 @@
 
 Updated 28 October 2026. This is the first document the receiving Claude should read, followed by the complete handover parts. Omri is transferring operations immediately for a tool RFP; do not ask him to repeat the history or refer him back to the previous assistant.
 
+## RFP scope and existing ActiveCampaign connection: latest owner correction
+
+This is a read-only RFP evaluation, NOT a selected-tool takeover or authorization to operate. Earlier takeover wording describes the context being evaluated. Omri will choose the tool after reviewing its demonstrated capability.
+
+Omri states that the GiTA ActiveCampaign API token is already saved in the existing Perplexity connection and that he does not have an ActiveCampaign login password. Do not ask him to find a password, paste an API token, or start a new connector flow merely because a read failed. Discover and attempt the existing `activecampaign__pipedream` tools and available approved connection bindings first.
+
+Fresh checks in the originating session: `activecampaign__pipedream_activecampaign_list_campaigns({})` still returns `TypeError: Invalid URL`; `list_credentials` does not expose a separate ActiveCampaign host credential; connector discovery did not locate a relevant replacement/repair entry. These observations do not prove the token is missing, expired or invalid, nor establish the precise connector fault. No connector repair was achieved.
+
+Recorded account host: `eteachergroup.api-us1.com`; authentication header name: `Api-Token`. Inspect supported nonsecret account/base-URL configuration if your tools expose it. Do not scrape tokens from code, export secret bindings, or infer that a public handover grants secret access. If the saved connection cannot be used in your receiving session, identify it as an RFP integration blocker and record the exact tool failure instead of repeatedly shifting login work to Omri.
+
+The originating session recorded this connector malfunction with the platform diagnostic tool. That is an internal diagnostic report, not a completed repair or a promised support response. No additional connection prompt or credential request was sent to Omri during these checks.
+
 ## Mandatory: independently retrieve the past month of Meta history
 
 **This handover does NOT include a complete one-month Meta Ads history. Claude must retrieve and check it directly before making campaign decisions or changes.** The existing record contains partial dated snapshots and recovered instructions, not a complete Meta activity/change log or daily performance export.

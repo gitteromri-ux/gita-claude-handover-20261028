@@ -2,6 +2,18 @@
 
 Updated 28 October 2026. This is the first document the receiving Claude should read, followed by the complete handover parts. Omri is transferring operations immediately for a tool RFP; do not ask him to repeat the history or refer him back to the previous assistant.
 
+## RFP scope and existing ActiveCampaign connection: latest owner correction
+
+This is a read-only RFP evaluation, NOT a selected-tool takeover or authorization to operate. Earlier takeover wording describes the context being evaluated. Omri will choose the tool after reviewing its demonstrated capability.
+
+Omri states that the GiTA ActiveCampaign API token is already saved in the existing Perplexity connection and that he does not have an ActiveCampaign login password. Do not ask him to find a password, paste an API token, or start a new connector flow merely because a read failed. Discover and attempt the existing `activecampaign__pipedream` tools and available approved connection bindings first.
+
+Fresh checks in the originating session: `activecampaign__pipedream_activecampaign_list_campaigns({})` still returns `TypeError: Invalid URL`; `list_credentials` does not expose a separate ActiveCampaign host credential; connector discovery did not locate a relevant replacement/repair entry. These observations do not prove the token is missing, expired or invalid, nor establish the precise connector fault. No connector repair was achieved.
+
+Recorded account host: `eteachergroup.api-us1.com`; authentication header name: `Api-Token`. Inspect supported nonsecret account/base-URL configuration if your tools expose it. Do not scrape tokens from code, export secret bindings, or infer that a public handover grants secret access. If the saved connection cannot be used in your receiving session, identify it as an RFP integration blocker and record the exact tool failure instead of repeatedly shifting login work to Omri.
+
+The originating session recorded this connector malfunction with the platform diagnostic tool. That is an internal diagnostic report, not a completed repair or a promised support response. No additional connection prompt or credential request was sent to Omri during these checks.
+
 ## Mandatory: independently retrieve the past month of Meta history
 
 **This handover does NOT include a complete one-month Meta Ads history. Claude must retrieve and check it directly before making campaign decisions or changes.** The existing record contains partial dated snapshots and recovered instructions, not a complete Meta activity/change log or daily performance export.
@@ -341,14 +353,4 @@ This reproduces the failure documented in the original October 27 handoff-link i
 | eTeacher finance | Airwallex/PayPal settlement and refund verification | No complete order-to-processor settlement truth table was captured in the October 10 handover. [Data gaps](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md) |
 
 #### What was actually searched now
-
-Gmail searches included date-bounded `Sandra`, `Chris`, and sent-masterclass queries for September 28–October 28, then `from:Sandra`, `to:Sandra`, `from:Chris`, `to:Chris`, `Kwiecien`, `"Launch email for Chris"`, `"LGV"` and `"masterclass"`. Evidence: current `gcal_search_email` receipts, October 28.
-
-**No relevant direct Sandra or eTeacher-Chris correspondence was returned by those searches.** The broad name query returned unrelated September 17 mail from Chris at 10words and TinyLaunch, which was excluded; therefore this is an evidence-coverage gap, not a claim that no correspondence exists. Evidence: current Gmail query results.
-
-The October 10 handover states that the eTeacher work mailbox `[email redacted for public handover]` had never been connected and that Sandra/other stakeholder WhatsApp history had not been accessible; those are dated access limitations, not a fresh test of those channels. [October 10 access gaps](https://github.com/gitteromri-ux/handover-instinct-grok/blob/main/GAPS.md)
-
-The October 18 original session also explicitly says the actual message to Chris could not be found in Gmail; its suggestion that it might have been sent via WhatsApp was speculation, not delivery evidence. Original October 18 correspondence record (original session `ad99e93f-fc49-4bda-be84-3501fced7806`)
-
-#### Sent-status ledger
 

@@ -1,3 +1,13 @@
+- **Repository:** [Longevity-Academy/masterclass-72hours](https://github.com/Longevity-Academy/masterclass-72hours); public/visibility not independently specified.
+- **Purpose:** Julie masterclass 72-hour community-offer LP (email blast). Separate duplicate; production julie-masterclass untouched.
+- **Branches inspected:** `main`, `phone-guard`.
+- **Inventory:** 234 file rows; recursive tree truncated: false.
+- **Default-branch latest commit:** `a68b6edaf2e238abf1871171c6c83fb543ec0eaf`; 2026-10-18T14:07:40Z; Set universal 72h campaign clock: Oct18 17:00 Israel to Oct21 17:00; never restart; resume catch-up.
+- **Pages configuration:** http://www.longevitylifeacademy.com/masterclass-72hours/; build type `legacy`; source `{'branch': 'main', 'path': '/'}`. This is configuration, not a new payment/UI test.
+- **Top-level contents:** `assets`, `index.html`, `privacy.html`, `support`.
+
+### gitteromri-ux/club-italia
+
 - **Repository:** [gitteromri-ux/club-italia](https://github.com/gitteromri-ux/club-italia); public/visibility not independently specified.
 - **Purpose:** Club Italia by eTeacher: live-online Italian language school (structural parity with FrenchAtelierLive)
 - **Branches inspected:** `main`, `master`, `v17-redesign`.
